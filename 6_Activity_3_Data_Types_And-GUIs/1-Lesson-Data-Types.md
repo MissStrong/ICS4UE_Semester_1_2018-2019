@@ -70,7 +70,7 @@ int age;
 
 ```java
 int height, weight, age; // three declarations combined in one line
- ```
+```
  
 ### Naming Notations
 
