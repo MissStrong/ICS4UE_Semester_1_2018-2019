@@ -67,6 +67,7 @@ int height;  
 int weight; 
 int age;
 ```
+
 ```java
 int height, weight, age; // three declarations combined in one line
  ```
