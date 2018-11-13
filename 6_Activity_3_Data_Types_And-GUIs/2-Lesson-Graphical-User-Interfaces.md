@@ -31,8 +31,9 @@ A GUI builder screen has four major areas:
 > 3. Resize each box by dragging its sides until it is 80 pixels wide. 
 > * Button: "Calculate" & "Exit"    
 > 1. Drag two Button boxes onto the Design window.    
-> 2. Change the text.    
->     You should now have an application window that looks like the image above.     
+> 2. Change the text. 
+>    
+> You should now have an application window that looks like the image above.     
 > The next step is to create meaningful variable names for each of the components. In the Navigator, right click on each component and select Change Variable Name. Rename all the components according to the images below.    
 > Before    
 > After    
