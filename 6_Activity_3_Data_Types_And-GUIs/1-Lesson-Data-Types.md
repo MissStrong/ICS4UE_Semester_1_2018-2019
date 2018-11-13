@@ -113,10 +113,9 @@ These are all the examples of casting that can be done in Java:
 
 Let's try this out.
 
-```
+___
 Exercise 3-1
 Create a new project called CastingExamples. Under main, copy-paste the following code and run the program to see the effects of casting between variables.
-```
 
 ```java
 String aString = "100";
@@ -136,6 +135,7 @@ System.out.println("This is a Double from a casted Integer: " + cDouble);
 System.out.println("This is an Integer converted to a String: " + cString);
 System.out.println("This is a Double converted to a String: " + dString);
 ```
+___
 
 The other kind of type conversion is **implicit conversion** (a.k.a. **coercion**). This is done automatically by Java when a program is running. For example, when a value of one numeric type is assigned to a variable of a different numeric type, the numeric types are implicitly converted to the other numeric types.
 
@@ -169,9 +169,7 @@ The [Java Application Program Interface (API)](https://docs.oracle.com/javase/7/
 
 For example, under **All Classes**, you can find **Math**. Under **Methods Summary**, you can see all its built-in methods. One of the methods is `pow(double a, double b)`. This tells that if you want to evaluate 2<sup>3</sup>, you would use `Math.pow(2, 3)`. (This is an example of coercion, since 2 and 3 are actually integers, not doubles.)
 
-  
-
-```
+___
 Exercise 3-2
 Play around with the math operators to determine the following.
 1. Does Java follow BEDMAS, or does it read mathematical expression from left to right?
@@ -179,4 +177,4 @@ Play around with the math operators to determine the following.
 3. What happens when you use the operator / on a double? 
 4. Let `a` and `b` be integers of your choice. Let `c = (b / a)` and `d = (b % a)`. What is the result when you compute `c * a + d`? Why?
 See solution [here](Exercise_Solutions/Exercise-3-2.md).
-```
+___
