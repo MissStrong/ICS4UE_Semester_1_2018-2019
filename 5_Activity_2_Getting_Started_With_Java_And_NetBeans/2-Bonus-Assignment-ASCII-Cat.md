@@ -26,7 +26,8 @@ Why is this a Bonus Assignment, you ask? The " and \ symbols in the image cause 
 
 
 For convenience, here are the characters used in the cat:
-```.        .
+```
+.        .
 \'-"'"-'/
  } 6 6 {
  =. Y  ,=
@@ -34,3 +35,4 @@ For convenience, here are the characters used in the cat:
  /     \ ) 
  ( )-( )/ 
   "" ""
+  ```
