@@ -23,7 +23,7 @@ A GUI builder screen has four major areas:
 > Exercise 3-3: Part 2 
 >    
 > You will be designing a GUI that looks like this:   
-> ![](Images/DivMod_Form.png)
+> ![](Images/DivMod_Form.png)    
 > There are three kinds of Swing Controls used in this GUI: Label, Text Field, and Button.    
 >     
 > Labels: "Two Types of Division" & "Enter an integer" & "Enter another integer"    
@@ -54,7 +54,7 @@ A GUI builder screen has four major areas:
 > Now that you have created an application with a variety of components, you will need to make it do something.    
 > Components are event-driven. That means they do things when certain events take place. For example, when the user presses a button with their mouse (the event), the program displays the solutions.    
 >    
-> 1. Right-click on the Calculate button. Go to Events, Action, then actionPerformed. This will create an actionListener for the Calculate button. This means that the program will be "listening" for the actionPerformed event to occur, and if it does, it will run the set of instructions that you give it within that event. The actionPerformed event "listens" for the button to be pressed by either the mouse or the keyboard.    
+> 1. Right-click on the **Calculate** button. Go to **Events**, **Action**, then **actionPerformed**. This will create an **actionListener** for the **Calculate** button. This means that the program will be "listening" for the **actionPerformed** event to occur, and if it does, it will run the set of instructions that you give it within that event. The **actionPerformed** event "listens" for the button to be pressed by either the mouse or the keyboard.    
 > 2. Find the `CalculateActionPerformed` method and replace the `TODO` line with the following:    
 ```java
 String text1, text2; 
