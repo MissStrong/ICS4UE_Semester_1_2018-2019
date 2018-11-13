@@ -2,7 +2,7 @@
 
 1. Does Java follow BEDMAS, or does it read mathematical expression from left to right?
 
-It follows BEDMAS. For example `3+4*2` returns `11` (which is 3 + 8) instead of `14` (which is 7 * 2).
+It follows BEDMAS. For example `3 + 4 * 2` returns `11` (which is 3 + 8) instead of `14` (which is 7 * 2).
 <br></br>
 
 2. Do brackets work as expected in Java when writing a mathematical expression?
