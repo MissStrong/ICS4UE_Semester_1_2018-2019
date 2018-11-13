@@ -76,5 +76,5 @@ Output4.setText(int2 + "%" + int1 + "=" + int2%int1);
 System.exit(0);
 ```
 > You have now created a program that has a GUI. When you run the program, a new window should pop up where you can play with the GUI.    
-> While you don't need to know the background code that runs the GUI, you will need to understand the code that the program uses to define the output. Read through the line comments to understand what each line of code does.    
+> Although you don't need to know the background code that runs the GUI, you will need to understand the code that the program uses to define the output. Read through the line comments to understand what each line of code does.    
 > If your program did not work correctly, the DivMod program can be found [here](Exercise_Solutions/DivMod.zip).    
