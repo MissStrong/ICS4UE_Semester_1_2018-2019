@@ -15,7 +15,7 @@ In this assignment, you will write code that prints this cat to the output windo
 
 2. Write Bonus Assignment 1 - ASCII Cat as a comment at the top of the file. 
 
-3. Determine how to use System.out.println() in order to get this cat to print to the output window. 
+3. Determine how to use ```java System.out.println()``` in order to get this cat to print to the output window. 
 
 4. Zip the file and name it Bonus Assignment 1 - <insert your name here>.zip.
 
@@ -34,4 +34,3 @@ For convenience, here are the characters used in the cat:
  /     \ ) 
  ( )-( )/ 
   "" ""```
-
