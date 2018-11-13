@@ -115,25 +115,22 @@ Let's try this out.
 
 > Exercise 3-1    
 > Create a new project called CastingExamples. Under main, copy-paste the following code and run the program to see the effects of casting between variables.    
->`   
-> ```java String aString = "100"; ```
-> ```java String bString = "99.999"; ```
-> ```java double aDouble = 7.785; ```
-double bDouble = Double.parseDouble(bString);
-int aInteger = Integer.parseInt(aString);
-double cDouble = (double) aInteger; // This is a cast
-String cString = Integer.toString(aInteger);
-String dString = Double.toString(cDouble);
-System.out.println("This is the first String: " + aString);
-System.out.println("This is the second String: " + bString);
-System.out.println("This is the first Double: " + aDouble);
-System.out.println("This is a Double variable from the second String: " + bDouble);
-System.out.println("This is an Integer from the first String: " + aInteger);
-System.out.println("This is a Double from a casted Integer: " + cDouble);
-System.out.println("This is an Integer converted to a String: " + cString);
-System.out.println("This is a Double converted to a String: " + dString);
-```
->    
+> `String aString = "100";`
+> `String bString = "99.999";`
+> `double aDouble = 7.785; `
+> `double bDouble = Double.parseDouble(bString);`
+> `int aInteger = Integer.parseInt(aString);`
+> `double cDouble = (double) aInteger; // This is a cast`
+> `String cString = Integer.toString(aInteger);`
+> `String dString = Double.toString(cDouble);`
+> `System.out.println("This is the first String: " + aString);`
+> `System.out.println("This is the second String: " + bString);`
+> `System.out.println("This is the first Double: " + aDouble);`
+> `System.out.println("This is a Double variable from the second String: " + bDouble);`
+> `System.out.println("This is an Integer from the first String: " + aInteger);`
+> `System.out.println("This is a Double from a casted Integer: " + cDouble);`
+> `System.out.println("This is an Integer converted to a String: " + cString);`
+> `System.out.println("This is a Double converted to a String: " + dString);`    
 
 The other kind of type conversion is **implicit conversion** (a.k.a. **coercion**). This is done automatically by Java when a program is running. For example, when a value of one numeric type is assigned to a variable of a different numeric type, the numeric types are implicitly converted to the other numeric types.
 
