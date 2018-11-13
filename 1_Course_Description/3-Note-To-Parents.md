@@ -23,4 +23,4 @@ Regular attendance in the course makes the difference between success and failur
 
 Thank you for taking an interest in your child's education. Parental involvement increases the chances of your child doing well in school and in this course. Encourage your child to work on this course daily.
 
-Information about the teacher can be found on (Meet the Teacher)[../2_Student_Information/Meet-The-Teacher.md].
+Information about the teacher can be found on [Meet the Teacher](../2_Student_Information/Meet-The-Teacher.md).
