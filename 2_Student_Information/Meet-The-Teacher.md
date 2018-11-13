@@ -12,4 +12,4 @@ If there is an emergency, or if the D2L email system is down, you may reach me t
 
 If you prefer calling, you can reach me at 519-884-9590 ext 5626. This is the business department phone number, so I might not be the one to pick up the phone, but you can ask whether I'm in the room. 
 
-![](Images/2018_School_Picture.jpeg)
+[//]: # ![](Images/2018_School_Picture.jpeg)
