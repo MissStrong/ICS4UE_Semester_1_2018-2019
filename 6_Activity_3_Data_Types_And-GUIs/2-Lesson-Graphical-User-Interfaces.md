@@ -5,6 +5,7 @@ A **Graphical User Interface** (GUI, pronounced "gooey") is a way of interactin
 You will be learning how to create a GUI using Java.
 
 > Exercise 3-3: Part 1  
+>    
 > Open NetBeans and go to **File > New Project**.    
 > Under **Project**, click **Java Application**, then click **Next >**.    
 > Under **Project Name**, enter "DivMod". Uncheck the box beside Create Main Class, then click **Finish**.    
@@ -18,9 +19,11 @@ A GUI builder screen has four major areas:
 * The Palette (at the top-right of the screen) allows you to see a list of components that you can add to your application. To add a component to your application, you simply drag it from here onto your form in the Design Area.
 * The Properties Window (at the center-right of the screen) will show a list of all the properties of the component in your application that you currently have selected.
  
-> Exercise 3-3: Part 2  
+> Exercise 3-3: Part 2 
+>    
 > You will be designing a GUI that looks like this:    
 > There are three kinds of Swing Controls used in this GUI: Label, Text Field, and Button.    
+>     
 > Labels: "Two Types of Division" & "Enter an integer" & "Enter another integer"    
 > 1. Drag three Labels onto the Design window.    
 > 2. Double click on each box to change the text.    
@@ -37,6 +40,7 @@ A GUI builder screen has four major areas:
 >    
 > You should now have an application window that looks like the image above.     
 > The next step is to create meaningful variable names for each of the components. In the Navigator, right click on each component and select Change Variable Name. Rename all the components according to the images below.    
+>    
 > Before    
 > After    
 
