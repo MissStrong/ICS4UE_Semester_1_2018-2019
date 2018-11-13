@@ -4,10 +4,10 @@ You will be provided with numerous and varied opportunities to demonstrate the f
 
 As required by the Ministry of Education, you will be assessed in the four areas of the achievement chart. The breakdown for this course is as follows.
 
-25% Knowledge and Understanding
-25% Thinking and Inquiry
-25% Communication
-25% Application
+* 25% Knowledge and Understanding
+* 25% Thinking and Inquiry
+* 25% Communication
+* 25% Application
  
 
 ### Final Grade
