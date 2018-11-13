@@ -19,29 +19,29 @@ A GUI builder screen has four major areas:
 * The Properties Window (at the center-right of the screen) will show a list of all the properties of the component in your application that you currently have selected.
  
 > Exercise 3-3: Part 2  
-> You will be designing a GUI that looks like this:
-> There are three kinds of Swing Controls used in this GUI: Label, Text Field, and Button.
-> Labels: "Two Types of Division" & "Enter an integer" & "Enter another integer"
-> 1. Drag three Labels onto the Design window.
-> 2. Double click on each box to change the text.
-> 3. Adjust the fonts and the colours in the Properties window.
-> Text Fields
-> 1. Drag six Text Field boxes onto the Design window.
-> 2. Delete the text.
-> 3. Resize each box by dragging its sides until it is 80 pixels wide.
-> Button: "Calculate" & "Exit"
-> 1. Drag two Button boxes onto the Design window.
-> 2. Change the text.
-> You should now have an application window that looks like the image above. 
-> The next step is to create meaningful variable names for each of the components. In the Navigator, right click on each component and select Change Variable Name. Rename all the components according to the images below. 
-> Before
-> After
+> You will be designing a GUI that looks like this:    
+> There are three kinds of Swing Controls used in this GUI: Label, Text Field, and Button.    
+> Labels: "Two Types of Division" & "Enter an integer" & "Enter another integer"    
+> 1. Drag three Labels onto the Design window.    
+> 2. Double click on each box to change the text.    
+> 3. Adjust the fonts and the colours in the Properties window.    
+> Text Fields    
+> 1. Drag six Text Field boxes onto the Design window.    
+> 2. Delete the text.    
+> 3. Resize each box by dragging its sides until it is 80 pixels wide.    
+> Button: "Calculate" & "Exit"    
+> 1. Drag two Button boxes onto the Design window.    
+> 2. Change the text.    
+> You should now have an application window that looks like the image above.     
+> The next step is to create meaningful variable names for each of the components. In the Navigator, right click on each component and select Change Variable Name. Rename all the components according to the images below.    
+> Before    
+> After    
 
 > Exercise 3-3: Part 3  
-> Now that you have created an application with a variety of components, you will need to make it do something.
-> Components are event-driven. That means they do things when certain events take place. For example, when the user presses a button with their mouse (the event), the program displays the solutions.
-> Right-click on the Calculate button. Go to Events, Action, then actionPerformed. This will create an actionListener for the Calculate button. This means that the program will be "listening" for the actionPerformed event to occur, and if it does, it will run the set of instructions that you give it within that event. The actionPerformed event "listens" for the button to be pressed by either the mouse or the keyboard.
-> Find the CalculateActionPerformed method and replace the TODO line with the following:
+> Now that you have created an application with a variety of components, you will need to make it do something.    
+> Components are event-driven. That means they do things when certain events take place. For example, when the user presses a button with their mouse (the event), the program displays the solutions.    
+> Right-click on the Calculate button. Go to Events, Action, then actionPerformed. This will create an actionListener for the Calculate button. This means that the program will be "listening" for the actionPerformed event to occur, and if it does, it will run the set of instructions that you give it within that event. The actionPerformed event "listens" for the button to be pressed by either the mouse or the keyboard.    
+> Find the CalculateActionPerformed method and replace the TODO line with the following:    
 ```java
 String text1, text2; 
 int int1, int2; 
@@ -57,10 +57,10 @@ Output2.setText(int1 + "%" + int2 + "=" + int1%int2);
 Output3.setText(int2 + "/" + int1 + "=" + int2/int1);
 Output4.setText(int2 + "%" + int1 + "=" + int2%int1);
 ```
-> Now create an event for the Exit button. Right click on the Exit button, select Event, Action, actionPerformed. Replace the TODO line with the following.
+> Now create an event for the Exit button. Right click on the Exit button, select Event, Action, actionPerformed. Replace the TODO line with the following.    
 ```java
 System.exit(0);
 ```
-> You have now created a program that has a GUI. When you run the program, a new window should pop up where you can play with the GUI.
-> While you don't need to know the background code that runs the GUI, you will need to understand the code that the program uses to define the output. Read through the line comments to understand what each line of code does.
-> If your program did not work correctly, the DivMod program can be found [here](Exercise_Solutions/DivMod.zip).
+> You have now created a program that has a GUI. When you run the program, a new window should pop up where you can play with the GUI.    
+> While you don't need to know the background code that runs the GUI, you will need to understand the code that the program uses to define the output. Read through the line comments to understand what each line of code does.    
+> If your program did not work correctly, the DivMod program can be found [here](Exercise_Solutions/DivMod.zip).    
