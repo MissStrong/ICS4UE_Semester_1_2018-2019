@@ -23,7 +23,7 @@ A GUI builder screen has four major areas:
 > Exercise 3-3: Part 2 
 >    
 > You will be designing a GUI that looks like this:   
-> > ![](Images/DivMod_Form.png)
+> ![](Images/DivMod_Form.png)
 > There are three kinds of Swing Controls used in this GUI: Label, Text Field, and Button.    
 >     
 > Labels: "Two Types of Division" & "Enter an integer" & "Enter another integer"    
