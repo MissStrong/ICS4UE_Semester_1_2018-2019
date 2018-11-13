@@ -113,11 +113,10 @@ These are all the examples of casting that can be done in Java:
 
 Let's try this out.
 
-___
-Exercise 3-1
-Create a new project called CastingExamples. Under main, copy-paste the following code and run the program to see the effects of casting between variables.
-
-```java
+> Exercise 3-1    
+> Create a new project called CastingExamples. Under main, copy-paste the following code and run the program to see the effects of casting between variables.    
+>
+```java    
 String aString = "100";
 String bString = "99.999";
 double aDouble = 7.785;
@@ -135,7 +134,7 @@ System.out.println("This is a Double from a casted Integer: " + cDouble);
 System.out.println("This is an Integer converted to a String: " + cString);
 System.out.println("This is a Double converted to a String: " + dString);
 ```
-___
+>    
 
 The other kind of type conversion is **implicit conversion** (a.k.a. **coercion**). This is done automatically by Java when a program is running. For example, when a value of one numeric type is assigned to a variable of a different numeric type, the numeric types are implicitly converted to the other numeric types.
 
