@@ -169,6 +169,7 @@ The [Java Application Program Interface (API)](https://docs.oracle.com/javase/7/
 
 For example, under **All Classes**, you can find **Math**. Under **Methods Summary**, you can see all its built-in methods. One of the methods is `pow(double a, double b)`. This tells that if you want to evaluate 2<sup>3</sup>, you would use `Math.pow(2, 3)`. (This is an example of coercion, since 2 and 3 are actually integers, not doubles.)
 
+| |
 | ... |
 | Exercise 3-2 |
 Play around with the math operators to determine the following.
