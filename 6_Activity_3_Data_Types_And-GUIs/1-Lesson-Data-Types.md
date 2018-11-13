@@ -33,9 +33,9 @@ Here are all eight primitive data types in Java. 
 | Data Type | Explanation | Default Value |
 | --- | --- | --- |
 | `int` | Any integer between -2<sup>31</sup> and 2<sup>31</sup>–1 (inclusive). | `0` |
-| `byte` | Any integer between -2<sup>7</sup> and 2<sup>(7)</sup>–1 (inclusive).	| `0` |
-| `short` | Any integer between -2<sup>15</sup> and 2<sup>(15)</sup>–1 (inclusive).	| `0` |
-| `long` | Any integer between -2<sup>63</sup> and 2<sup>(63)</sup>–1 (inclusive).	| `0` |
+| `byte` | Any integer between -2<sup>7</sup> and 2<sup>7</sup>–1 (inclusive).	| `0` |
+| `short` | Any integer between -2<sup>15</sup> and 2<sup>15</sup>–1 (inclusive).	| `0` |
+| `long` | Any integer between -2<sup>63</sup> and 2<sup>63</sup>–1 (inclusive).	| `0` |
 | `float` | Any decimal number that can be represented in 32 bits using IEEE 754.	| `0.0f` |
 | `double` | Any decimal number that can be represented in 64 bits using IEEE 754.	| `0.0` |
 | `boolean` | The values `true` or `false`. | `false` |
@@ -114,6 +114,7 @@ These are all the examples of casting that can be done in Java:
 Let's try this out.
 
 > Exercise 3-1
+
 > Create a new project called CastingExamples. Under main, copy-paste the following code and run the program to see the effects of casting between variables.
 ```java
 String aString = "100";
@@ -141,7 +142,8 @@ The other kind of type conversion is **implicit conversion** (a.k.a. **coercion*
 
 Java has the following built-in mathematical operators. You can use them to manipulate and calculate numeric values.
 
-| Operator | Example |New Value of `score`|
+| Operator | Example | New Value of `score`|
+| --- | --- | --- |
 | `=` | `score = 10;` | Assigns 10 to the value of `score`. This only works when `score` has already been declared. |
 | `+` | `score = score + 2;` |	Adds 2 to the value of `score`. |
 | `-` | `score = score - 5;` | Subtracts 5 from the value of `score`. |
@@ -163,15 +165,20 @@ For other mathematical operators, you would need to use built-in methods from th
 
 The [Java Application Program Interface (API)](https://docs.oracle.com/javase/7/docs/api/) is a collection of prewritten packages, classes, and interfaces. You can use it to find out what packages, classes, and interfaces exist and how you can use them when you are writing code in Java.
 
-For example, under **All Classes**, you can find **Math**. Under **Methods Summary**, you can see all its built-in methods. One of the methods is `pow(double a, double b)`. This tells that if you want to evaluate 2^3, you would use `Math.pow(2, 3)`. (This is an example of coercion, since 2 and 3 are actually ints, not doubles.)
+For example, under **All Classes**, you can find **Math**. Under **Methods Summary**, you can see all its built-in methods. One of the methods is `pow(double a, double b)`. This tells that if you want to evaluate 2<sup>3</sup>, you would use `Math.pow(2, 3)`. (This is an example of coercion, since 2 and 3 are actually integers, not doubles.)
 
   
 
 > Exercise 3-2
+
 > Play around with the math operators to determine the following.
+
 > 1. Does Java follow BEDMAS, or does it read mathematical expression from left to right?
+
 > 2. Do brackets work as expected in Java when writing a mathematical expression?
+
 > 3. What happens when you use the operator / on a double? 
+
 > 4. Let `a` and `b` be integers of your choice. Let `c = (b / a)` and `d = (b % a)`. What is the result when you compute `c * a + d`? Why?
 
 See solution [here](Exercise_Solutions/Exercise-3-2.md).
