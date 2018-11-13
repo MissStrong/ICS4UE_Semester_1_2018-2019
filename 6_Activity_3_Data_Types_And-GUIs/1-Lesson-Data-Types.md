@@ -115,11 +115,10 @@ Let's try this out.
 
 > Exercise 3-1    
 > Create a new project called CastingExamples. Under main, copy-paste the following code and run the program to see the effects of casting between variables.    
->
-```java    
-String aString = "100";
-String bString = "99.999";
-double aDouble = 7.785;
+>`   
+> ```java String aString = "100"; ```
+> ```java String bString = "99.999"; ```
+> ```java double aDouble = 7.785; ```
 double bDouble = Double.parseDouble(bString);
 int aInteger = Integer.parseInt(aString);
 double cDouble = (double) aInteger; // This is a cast
