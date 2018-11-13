@@ -2,8 +2,6 @@
 
 Complete the following assignment and submit your work to the Ethical Computer Use Dropbox.
 
-
-### Instructions
 In this assignment, you will conduct research and prepare a report describing your findings. Your report should follow these guidelines:
 
 * 500-600 words
@@ -12,7 +10,7 @@ In this assignment, you will conduct research and prepare a report describing yo
 * bibliography and footnotes (or endnotes)
 * submitted as a PDF file
   
-
+### Instructions
 Complete the following steps.
 
 1. Investigate and analyze an ethical issue related to the use of computers. Here are some topic suggestions:
