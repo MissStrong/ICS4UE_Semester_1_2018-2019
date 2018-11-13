@@ -44,10 +44,10 @@ A GUI builder screen has four major areas:
 > The next step is to create meaningful variable names for each of the components. In the Navigator, right click on each component and select **Change Variable Name**. Rename all the components according to the images below.    
 >    
 > Before    
-> > ![](Images/DivMod_Default_Components.png)
+> ![](Images/DivMod_Default_Components.png)
 >    
 > After   
-> > ![](Images/DivMod_Components.png)
+> ![](Images/DivMod_Components.png)
 
 > Exercise 3-3: Part 3  
 >    
