@@ -74,13 +74,13 @@ Cyberbullying involves the use of the Internet or cell phones to send hurtful m
 * Decide whether you can handle the situation by yourself or if you should tell an adult.
 * If you attempt to solve the problem on your own and it does not work, be sure to get help from an adult.
 * Depending on how bad the cyberbullying, the steps you or a parent can take include:
-..* Calmly and strongly tell the cyberbully to stop and to remove any harmful material or risk further action.
-..* Ignore or block the communications.
-..* Send the posted material to the cyberbully's parents and ask them to make it stop.
-..* File a complaint with the website, ISP, or cell phone company.
-..* Get help from your school counsellor, principal, or resource officer.
-..* Contact an attorney.
-..* Contact the police if the cyberbullying includes any threats.
+  * Calmly and strongly tell the cyberbully to stop and to remove any harmful material or risk further action.
+  * Ignore or block the communications.
+  * Send the posted material to the cyberbully's parents and ask them to make it stop.
+  * File a complaint with the website, ISP, or cell phone company.
+  * Get help from your school counsellor, principal, or resource officer.
+  * Contact an attorney.
+  * Contact the police if the cyberbullying includes any threats.
 
 ### Identity Theft
 
