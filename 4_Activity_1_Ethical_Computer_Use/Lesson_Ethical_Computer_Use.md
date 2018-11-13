@@ -44,6 +44,8 @@ Many institutions (schools and employers) publish Acceptable Use Policies whic
 * do not share passwords or access another user's account
 * do not add, delete, or modify installed software.
 
+### Computer Monitorint
+
 Did you know that it is legal for employers to install software programs to monitor employee computer use?
 
 Hidden software can be used to watch everything users do while they are on a computer. This software monitors websites, e-mails sent and received, chats and instant messages, keystrokes typed, files transferred, documents printed, and applications run.
@@ -96,7 +98,7 @@ How to protect your identity?
 
 Many common Internet activities may not seem dangerous on the surface, but can result in threats to your personal safety.
 
-Members of the RCMP and Police forces from Canada's National Capital Region have worked together to create a website called Internet Safety to help youth remain safe while using the Internet.
+Members of the RCMP and Police forces from Canada's National Capital Region have worked together to create a website called [Internet Safety](http://www.rcmp-grc.gc.ca/is-si/) to help youth remain safe while using the Internet.
 
 On this website, you can find tips related to how to safely use the Internet. You can also view videos and learn about real-life Internet experiences of teenagers whose personal safety was at risk.
 
