@@ -27,7 +27,7 @@ Before you download NetBeans, you need to install Java.
 <br/><br/>
 ![](Images/NetBeans_Download_Started.png)
 5. Click on the file in the Downloads folder (or an equivalent of a Downloads folder). Follow the instructions that show up.
-6.Find NetBeans under Programs (or an equivalent of Programs), and open it.
+6. Find NetBeans under Programs (or an equivalent of Programs), and open it.
 7. If something like this shows up, you have succeeded!
 <br/><br/>
 ![](Images/NetBeans_Download_Open.png)
