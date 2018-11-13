@@ -113,9 +113,11 @@ These are all the examples of casting that can be done in Java:
 
 Let's try this out.
 
-> Exercise 3-1
+```
+Exercise 3-1
+Create a new project called CastingExamples. Under main, copy-paste the following code and run the program to see the effects of casting between variables.
+```
 
-> Create a new project called CastingExamples. Under main, copy-paste the following code and run the program to see the effects of casting between variables.
 ```java
 String aString = "100";
 String bString = "99.999";
@@ -169,16 +171,12 @@ For example, under **All Classes**, you can find **Math**. Under **Methods Summa
 
   
 
-> Exercise 3-2
-
-> Play around with the math operators to determine the following.
-
-> 1. Does Java follow BEDMAS, or does it read mathematical expression from left to right?
-
-> 2. Do brackets work as expected in Java when writing a mathematical expression?
-
-> 3. What happens when you use the operator / on a double? 
-
-> 4. Let `a` and `b` be integers of your choice. Let `c = (b / a)` and `d = (b % a)`. What is the result when you compute `c * a + d`? Why?
-
+```
+Exercise 3-2
+Play around with the math operators to determine the following.
+1. Does Java follow BEDMAS, or does it read mathematical expression from left to right?
+2. Do brackets work as expected in Java when writing a mathematical expression?
+3. What happens when you use the operator / on a double? 
+4. Let `a` and `b` be integers of your choice. Let `c = (b / a)` and `d = (b % a)`. What is the result when you compute `c * a + d`? Why?
 See solution [here](Exercise_Solutions/Exercise-3-2.md).
+```
