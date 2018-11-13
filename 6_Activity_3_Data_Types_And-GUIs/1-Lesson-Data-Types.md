@@ -169,14 +169,12 @@ The [Java Application Program Interface (API)](https://docs.oracle.com/javase/7/
 
 For example, under **All Classes**, you can find **Math**. Under **Methods Summary**, you can see all its built-in methods. One of the methods is `pow(double a, double b)`. This tells that if you want to evaluate 2<sup>3</sup>, you would use `Math.pow(2, 3)`. (This is an example of coercion, since 2 and 3 are actually integers, not doubles.)
 
-| |
-| ... |
-| Exercise 3-2 |
+___
+<span style="color:blue"> Exercise 3-2
 Play around with the math operators to determine the following.
 1. Does Java follow BEDMAS, or does it read mathematical expression from left to right?
 2. Do brackets work as expected in Java when writing a mathematical expression?
 3. What happens when you use the operator / on a double? 
 4. Let `a` and `b` be integers of your choice. Let `c = (b / a)` and `d = (b % a)`. What is the result when you compute `c * a + d`? Why?
-See solution [here](Exercise_Solutions/Exercise-3-2.md). |
-
+See solution [here](Exercise_Solutions/Exercise-3-2.md). </span>
 ___
