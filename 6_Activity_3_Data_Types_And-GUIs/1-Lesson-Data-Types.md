@@ -32,15 +32,14 @@ Here are all eight primitive data types in Java. 
 
 | Data Type | Explanation | Default Value |
 | --- | --- | --- |
-| `int` | Any integer between -2^31 and 2^(31)–1 (inclusive). | `0` |
-| `byte` | Any integer between -2^7 and 2^(7)–1 (inclusive).	| `0` |
-| `short` | Any integer between -2^15 and 2^(15)–1 (inclusive).	| `0` |
-| `long` | Any integer between -2^63 and 2^(63)–1 (inclusive).	| `0` |
+| `int` | Any integer between -2<sup>31</sup> and 2<sup>31</sup>–1 (inclusive). | `0` |
+| `byte` | Any integer between -2<sup>7</sup> and 2<sup>(7)</sup>–1 (inclusive).	| `0` |
+| `short` | Any integer between -2<sup>15</sup> and 2<sup>(15)</sup>–1 (inclusive).	| `0` |
+| `long` | Any integer between -2<sup>63</sup> and 2<sup>(63)</sup>–1 (inclusive).	| `0` |
 | `float` | Any decimal number that can be represented in 32 bits using IEEE 754.	| `0.0f` |
 | `double` | Any decimal number that can be represented in 64 bits using IEEE 754.	| `0.0` |
 | `boolean` | The values `true` or `false`. | `false` |
 | `char` | One Unicode character. It is enclosed in single quotation marks `'`. | `\u0000` |
- 
 
 When you are mentioning a variable or a constant for the first time, you **declare** it by writing its **data type** and choosing a name for the variable. You can choose to **assign** a value to the variable on the same line as the declaration, or you can choose to do this on a separate line.
 
@@ -153,7 +152,7 @@ Java has the following built-in mathematical operators. You can use them to man
 | `-=` | `score -= 2;` | Subtracts 2 from the value of `score`. Essentially equivalent to `score = score - 2;`. |
 | `*=` | `score *= 2;` |	Multiplies the value of `score` by 2. Essentially equivalent to `score = score * 2;`. |
 | `/=` |	`score /= 2;` |	Divides the value of `score` by 2 then takes the dividend. Essentially equivalent to `score = score / 2`;. |
-| `/%` |	`score %= 2;` |	Divides the value of `score` by 2 then takes the remainder. Essentially equivalent to score = score % 2;. |
+| `/%` |	`score %= 2;` |	Divides the value of `score` by 2 then takes the remainder. Essentially equivalent to `score = score % 2;.` |
 | `++` |	`score++;` |	Adds 1 to the value of `score`. Essentially equivalent to `score = score + 1;` and `score += 1;`. |
 | `--` | 	`score--;` | 	Subtracts 1 from the value of `score`. Essentially equivalent to `score = score - 1;` and `score -= 1;`. |
 
