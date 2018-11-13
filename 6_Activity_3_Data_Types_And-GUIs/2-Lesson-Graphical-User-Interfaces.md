@@ -21,15 +21,15 @@ A GUI builder screen has four major areas:
 > Exercise 3-3: Part 2  
 > You will be designing a GUI that looks like this:    
 > There are three kinds of Swing Controls used in this GUI: Label, Text Field, and Button.    
-> Labels: "Two Types of Division" & "Enter an integer" & "Enter another integer"    
+> * Labels: "Two Types of Division" & "Enter an integer" & "Enter another integer"    
 > 1. Drag three Labels onto the Design window.    
 > 2. Double click on each box to change the text.    
-> 3. Adjust the fonts and the colours in the Properties window.    
-> Text Fields    
+> 3. Adjust the fonts and the colours in the Properties window.  
+> * Text Fields    
 > 1. Drag six Text Field boxes onto the Design window.    
 > 2. Delete the text.    
-> 3. Resize each box by dragging its sides until it is 80 pixels wide.    
-> Button: "Calculate" & "Exit"    
+> 3. Resize each box by dragging its sides until it is 80 pixels wide. 
+> * Button: "Calculate" & "Exit"    
 > 1. Drag two Button boxes onto the Design window.    
 > 2. Change the text.    
 > You should now have an application window that looks like the image above.     
