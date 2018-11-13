@@ -10,7 +10,7 @@ Before you download NetBeans, you need to install Java.
 Go to http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
 
 Under Java SE Development Kit 8u181, click on the circle beside Accept License Agreement click the download link that matches your operating system.
-![](/Images/JDK_Download.png")
+![](Images/JDK_Download.png)
 
 Click on the file in the Downloads folder (or an equivalent of a Downloads folder). Follow the instructions that show up.
 
@@ -18,18 +18,18 @@ Click on the file in the Downloads folder (or an equivalent of a Downloads fol
 Go to https://netbeans.org/downloads/index.html.
 
 Make sure that the Platform matches your computer. If it doesn't use the drop-down menu to change it to the correct one.
-![](/Images/NetBeans_Download_Platform.png")
-![](/Images/NetBeans_Download_OS.png")
+![](Images/NetBeans_Download_Platform.png)
+![](Images/NetBeans_Download_OS.png)
 
 Press the download button under Java SE. SE stands for "Standard Edition", if you're wondering. 
-![](/Images/NetBeans_Download_Java_SE.png")
+![](Images/NetBeans_Download_Java_SE.png)
 
 You'll be redirected to a page that shows something like this. If the file doesn't download automatically, click on the download it here.
-![](/Images/NetBeans_Download_Started.png")
+![](Images/NetBeans_Download_Started.png)
 
 Click on the file in the Downloads folder (or an equivalent of a Downloads folder). Follow the instructions that show up.
 
 Find NetBeans under Programs (or an equivalent of Programs), and open it.
 
 If something like this shows up, you have succeeded!
-![](/Images/NetBeans_Download_Open.png")
+![](Images/NetBeans_Download_Open.png)
