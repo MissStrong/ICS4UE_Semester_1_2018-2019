@@ -3,7 +3,6 @@
 In this activity, you will:
 
 * Read about a variety of ethical issues related to the use of computers at school, at home, and in the workplace. Examine these issues using a multimedia approach.
-
 * Research and analyze an ethical issue of your choice, learn about the Code of Ethics for computer programmers, and then propose strategies to encourage ethical practices.
  
 ###  Due Date
