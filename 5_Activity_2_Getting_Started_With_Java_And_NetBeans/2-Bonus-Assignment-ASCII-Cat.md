@@ -25,7 +25,7 @@ In this assignment, you will write code that prints this cat to the output windo
 Why is this a Bonus Assignment, you ask? The " and \ symbols in the image cause complications that you'll have to figure out.
 
 
-For convenience, here are the characters used in the cat:
+For convenience, here are the characters used in the cat.
 ```
 .        .
 \'-"'"-'/
