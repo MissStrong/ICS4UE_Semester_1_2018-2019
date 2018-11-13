@@ -17,9 +17,9 @@ Before you download NetBeans, you need to install Java.
 1. Go to https://netbeans.org/downloads/index.html.
 2. Make sure that the Platform matches your computer. If it doesn't use the drop-down menu to change it to the correct one.
 <br/><br/>
-*![](Images/NetBeans_Download_Platform.png)
+![](Images/NetBeans_Download_Platform.png)
 <br/><br/>
-*![](Images/NetBeans_Download_OS.png)
+![](Images/NetBeans_Download_OS.png)
 3. Press the download button under Java SE. SE stands for "Standard Edition", if you're wondering. 
 <br/><br/>
 ![](Images/NetBeans_Download_Java_SE.png)
