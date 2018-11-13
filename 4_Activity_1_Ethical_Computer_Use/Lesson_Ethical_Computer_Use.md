@@ -130,3 +130,20 @@ The Association for Computing Machinery (ACM) is such an organization. Founded i
 The Institute of Electrical and Electronics Engineers (IEEE), dating back to 1884, is an organization composed of engineers, scientists, and students. The IEEE is best known for developing technical standards for the computer and electronics industry.
 
 Both of these organizations publish a Code of Ethics to be followed by their members.
+
+### Resources
+
+To learn more about social and ethical issues surrounding computer use, you may wish to visit the following sites.
+<ol>
+<li><a href="http://www.spector360.com/" target="_blank" rel="noopener">SpectorSort - Employee Monitoring Software</a></li>
+<li><a href="http://www.internet101.ca/en/truestories.php" target="_blank" rel="noopener">Internet Safety - True Stories</a></li>
+<li><a href="http://www.cyberbullying.org/" target="_blank" rel="noopener">Cyberbullying.org</a></li>
+<li><a href="http://www.casselsbrock.com/index.cfm?cm=Doc&amp;ce=details&amp;primaryKey=1566" target="_blank" rel="noopener">Business Law - How Well Protected Are Your Privacy Rights on the Web?</a></li>
+</ol>
+<p>To learn more about Computer Associations and their Codes of Ethics, you may wish to visit the following sites:</p>
+<ol>
+<li><a href="http://www.acm.org/" target="_blank" rel="noopener">Association for Computing Machinery (ACM)</a></li>
+<li><a href="http://www.acm.org/about/code-of-ethics?searchterm=ETHICS" target="_blank" rel="noopener">Code of Ethics ACM</a></li>
+<li><a href="http://www.ieee.org/" target="_blank" rel="noopener">Institute of Electrical and Electronics Engineers (IEEE)</a></li>
+<li><a href="http://www.ieee.org/portal/cms_docs/about/CoE_poster.pdf" target="_blank" rel="noopener">Code of Ethics IEEE</a></li>
+</ol>
