@@ -82,7 +82,7 @@ Cyberbullying involves the use of the Internet or cell phones to send hurtful m
 ..* Contact an attorney.
 ..* Contact the police if the cyberbullying includes any threats.
 
-### Identity theft
+### Identity Theft
 
 Identity theft is the use of your personal information (possibly stolen electronically) in order to make fraudulent purchases or loans. Identity theft is a growing crime affecting many ordinary citizens.
 
