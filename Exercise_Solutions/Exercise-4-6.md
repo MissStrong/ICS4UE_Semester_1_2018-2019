@@ -2,6 +2,7 @@
 
 Modify the *if* statement to match the *switch* statement. 
 
+**If Statement**
 ```java
 String dayName = "Thursday";
 int dayNum;
