@@ -3,7 +3,7 @@
 Insert the following code into the `main` method.
 ```java
 for (int i = 0; i <= 5; i++) {
-  System.out.println(i);
+	System.out.println(i);
 }
 ```
 When you run the program, it should print the integers from 0 to 5 in increasing order.
