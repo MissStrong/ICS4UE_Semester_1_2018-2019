@@ -52,7 +52,7 @@ officeArray[0] = "Michael";
 officeArray[1] = "Dwight";
 ⋮
 officeArray[10] = "Angela";
- ```
+```
 
 In the first example:
 * `String[]` indicates that every element in the array will be string
