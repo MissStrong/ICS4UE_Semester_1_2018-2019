@@ -35,12 +35,13 @@ public static int thouCount(String filename) throws IOException { ...
 public static void replaceWord(String oldFilename, String newFilename, String oldWord, String newWord) throws IOException { ...
 ```
 4. Test `thouCount()` by calling it several times under `main` and comparing the results to the numbers you get from using CTRL+F (or ⌘+F if you're using a Mac) on the files to search for the words.
-5. Test replaceWord by calling it several times under main and inspecting the content of the new files that are created.
+5. Test `replaceWord()` by calling it several times under main and inspecting the content of the new files that are created.
 6. When the program works, zip the file and name it **Assignment 6 - \<insert your name here>.zip**.
 7. Submit the following to the Dropbox:
   * A .zip file of the program.
   * A .txt file (or a .docx file or a .rtf file) containing all of the code in the .java file.
   * A self-evaluation using the rubric below. 
+
 
 ### Rubric
 
@@ -48,4 +49,9 @@ The following rubric will be used to evaluate your assignment. Each row counts f
 
 You can download the rubric [here](https://docs.google.com/document/d/1vQioLAY71q17v_1i62vbgRaQtkDutPZ6qX3zIZ5WXQo/edit?usp=sharing).
 
-TODO
+| Category | Level 4 | Level 3 | Level 2 | Level 1 | Below Level 1 |
+| --- | --- | --- | --- | --- | --- |
+| Knowledge and Understanding  | I demonstrated more than the expected amount of knowledge about file I/O in Java.  | I demonstrated the expected amount of knowledge about file I/O in Java.  | I demonstrated slightly less than the expected amount of knowledge about file I/O in Java.  | I demonstrated a small amount of knowledge about file I/O in Java.  | I demonstrated no knowledge about file I/O in Java. |
+| Thinking | I put more than the expected amount of thought and consideration into testing my program. | I put the expected amount of thought and consideration into testing my program. | I put slightly less than the expected amount of thought and consideration into testing my program. | I put a small amount of thought and consideration into testing my program. | I put no thought and consideration into the testing my program. |
+| Application | I followed all the instructions and there is a WOW factor. | I followed all the instructions but there is no WOW factor. | I followed most of the instructions. | I followed some of the instructions. | I followed none of the instructions. |
+| Communication | The readability and tidiness of my code were beyond the expected quality. | The readability and tidiness of my code met the expected quality. | The readability and tidiness of my code didn't quite meet the expected quality. | The readability and tidiness of my code were far below the expected quality. | My code was not readable nor tidy at all. |
