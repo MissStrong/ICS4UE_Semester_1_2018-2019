@@ -24,8 +24,8 @@ A *while loop* does the following.
 1. Checks to see whether the condition is met. If it isn't met, the block does not run.
 2. If the condition is met, it runs the block of code (the content within the curly braces).
 3. Repeats steps 1-2 repeatedly until the condition is no longer met in step 1.
-  
-     
+
+
 > Exercise 4-7
 >    
 > Insert the following code into the `main` method.
