@@ -78,10 +78,10 @@ In different programming languages, there are different rules for naming. Here a
 
 | Notation Name| Example | Explanation |
 | --- | --- | --- |
-| Camel Case | thisIsCamelCase | Every word begins with a capital, except for the first word. All other letters are lowercase.
-| Pascal Case | ThisIsPascalCase | Every word begins with a capital. All other letters are lowercase. |
-| Snake Case | this_is_snake_case | Every letter is lowercase. Words are separated with underscores. |
-| Caterpillar Case | this-is-caterpillar-case | Every letter is lowercase. Words are separated with hyphens. |
+| Camel Case | thisIsCamelCase | Every word begins with a capital, except for the first word.<br><br/>All other letters are lowercase.
+| Pascal Case | ThisIsPascalCase | Every word begins with a capital.<br><br/>All other letters are lowercase. |
+| Snake Case | this_is_snake_case | Every letter is lowercase.<br><br/>Words are separated with underscores. |
+| Caterpillar Case | this-is-caterpillar-case | Every letter is lowercase.<br><br/>Words are separated with hyphens. |
 
  
 ### Naming Conventions/Rules for Java
@@ -150,13 +150,13 @@ Java has the following built-in mathematical operators. You can use them to man
 | `*` | `score = score * 2;` | Multiplies the value of `score` by 2. |
 | `/` | `score = score / 5` | Divides the value of `score` by 5 then takes the dividend. |
 | `%` |	`score = score % 5;` | Divides the value of `score` by 5 then takes the remainder. |
-| `+=` | `score += 7;` | Adds 7 to the value of `score`. Essentially equivalent to `score = score + 7;`. |
-| `-=` | `score -= 2;` | Subtracts 2 from the value of `score`. Essentially equivalent to `score = score - 2;`. |
-| `*=` | `score *= 2;` |	Multiplies the value of `score` by 2. Essentially equivalent to `score = score * 2;`. |
-| `/=` |	`score /= 2;` |	Divides the value of `score` by 2 then takes the dividend. Essentially equivalent to `score = score / 2`;. |
-| `/%` |	`score %= 2;` |	Divides the value of `score` by 2 then takes the remainder. Essentially equivalent to `score = score % 2;.` |
-| `++` |	`score++;` |	Adds 1 to the value of `score`. Essentially equivalent to `score = score + 1;` and `score += 1;`. |
-| `--` | 	`score--;` | 	Subtracts 1 from the value of `score`. Essentially equivalent to `score = score - 1;` and `score -= 1;`. |
+| `+=` | `score += 7;` | Adds 7 to the value of `score`.<br><br/>Essentially equivalent to `score = score + 7;`. |
+| `-=` | `score -= 2;` | Subtracts 2 from the value of `score`.<br><br/>Essentially equivalent to `score = score - 2;`. |
+| `*=` | `score *= 2;` |	Multiplies the value of `score` by 2<br><br/> Essentially equivalent to `score = score * 2;`. |
+| `/=` |	`score /= 2;` |	Divides the value of `score` by 2 then takes the dividend.<br><br/>Essentially equivalent to `score = score / 2`;. |
+| `/%` |	`score %= 2;` |	Divides the value of `score` by 2 then takes the remainder.<br><br/>Essentially equivalent to `score = score % 2;.` |
+| `++` |	`score++;` |	Adds 1 to the value of `score`.<br><br/>Essentially equivalent to `score = score + 1;` and `score += 1;`. |
+| `--` | 	`score--;` | 	Subtracts 1 from the value of `score`.<br><br/>Essentially equivalent to `score = score - 1;` and `score -= 1;`. |
 
 For other mathematical operators, you would need to use built-in methods from the class called `Math`. 
 
