@@ -12,7 +12,7 @@ In this assignment, you will create a Sleep Calculator application that estimate
   * there are 365 days in each year
   
   Here is an example of what your GUI may look like.
-  ![](Images/Sleep_Calculator_Form.png)
+  ![](../Images/Sleep_Calculator_Form.png)
 
 2. Run the program and test it out to ensure that it works as expected.
 
