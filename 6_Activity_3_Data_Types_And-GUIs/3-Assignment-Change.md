@@ -5,12 +5,12 @@ Complete the following assignment and submit your work to the Change Dropbox.
 In this assignment, you will download a Java application, test it, and then modify the program files according to given specifications.
 
 ### Instructions 
-1. Download the [Change.zip](Assignment_Files/Change.zip) file and unzip it.
+1. Download the [Change.zip](../Java_Programs/Change.zip) file and unzip it.
 2. In NetBeans, go to **File > Open Project**, and load the Change file.
 3. Read the header to see what the program does.
 4. Run the program and play with the GUI. 
 5. Modify the program to include loonies and toonies. Here is an example of what your new GUI may look like.
-  ![](Images/Change_Exchange_Form.png)
+  ![](../Images/Change_Exchange_Form.png)
 6. Run the new program and test it out to ensure that it works as expected.
 7. When the program works, go to **File > Export Project > To ZIP**. Name the file Assignment 2 - <insert your name here>.zip.
 8. Submit the following to the Dropbox:
