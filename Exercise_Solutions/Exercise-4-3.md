@@ -1,4 +1,4 @@
-Exercise 4-3 Solutions
+## Exercise 4-3 Solutions
 
 Using Java, determine whether the following expressions evaluate to `true` or `false`.
 
