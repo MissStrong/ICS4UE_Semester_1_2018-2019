@@ -7,11 +7,11 @@ In this activity, you will:
 * Post your presentation to the Discussion Forums.
 * Respond to at least two of your classmates' presentations.
   
-###Due Date
+### Due Date
 
 ~October 12, 2018~ October 14, 2018
 
-###Learning Objectives###
+### Learning Objectives
 
 * Explain the impact of a variety of emerging technologies on various members of society and on societies and cultures around the world and on the economy.
 * Investigate an emerging technology and produce a report using an appropriate format.
