@@ -12,6 +12,7 @@ Group meetings and training can be accomplished over the Internet through web co
 
 There is no doubt that new technologies have had a huge effect on our modern business world; however, the benefits gained from latest technological advances are not limited to just business. Emerging technology has also affected the way individuals in society live.
 
+
 ### Medical Technologies
 
 Medical technology provides sophisticated equipment that is constantly improving, helping to save thousands of lives.
@@ -21,6 +22,7 @@ For example, there are special monitors and machines that allow doctors to perfo
 Medical technology has also helped many people manage their own care from their homes.
 
 In addition, technology has also helped to make many aspects of life safer and easier. Lost? Simply type in your destination to a GPS. Witness a crime? Report it immediately on your cell phone. Need cash? Use an ATM.
+
 
 ### Digital Divide
 
