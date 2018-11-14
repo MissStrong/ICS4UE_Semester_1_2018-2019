@@ -12,4 +12,4 @@ This assignment is the exact same as Sleep Calculator, except for two difference
 
 Include `Bonus Assignment 2 - Sleep Calculator Version 2` as a comment at the top of the file. 
 
-Name the zipped file Bonus Assignment 2 - <insert your name here>.zip.
+Name the zipped file Bonus Assignment 2 - \<insert your name here>.zip.
