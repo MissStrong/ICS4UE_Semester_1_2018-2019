@@ -36,7 +36,7 @@ The comparison operators can also be used with `char` values.  It compares the
 > 6. `'A' > 'a'`
 > 7. `'B' > 'a' `
 >    
-> See solutions [here](../Exercise_Solutions/Exercise-4-3.txt).
+> See solutions [here](../Exercise_Solutions/Exercise-4-3.md).
 
  
 ### Conditional Statements
