@@ -111,7 +111,7 @@ public static void findSmallestPrimeFactor(int n) {
   }
 }        
 ```
-> See solutions [here](../Exercise_Solutions/Exercise-4-4.txt).
+> See solutions [here](../Exercise_Solutions/Exercise-4-4.md).
 
    
 ### Switch Statements
@@ -183,7 +183,7 @@ It is convention to put `default` after all the other cases, since the Java comp
 > 2. What happens when you move the default statement (with the break) higher in the switch structure?
 > 3. What happens when you move the default statement (without the break) higher in the switch structure? 
 >    
-> See solutions [here](../Exercise_Solutions/Exercise-4-5.txt).
+> See solutions [here](../Exercise_Solutions/Exercise-4-5.md).
 
 > Exercise 4-6
 >    
@@ -234,4 +234,4 @@ switch(dayNum) {
     dayName = "Not a day number";
 }
 ```
-> See solutions [here](../Exercise_Solutions/Exercise-4-6.txt).
+> See solutions [here](../Exercise_Solutions/Exercise-4-6.md).
