@@ -17,7 +17,7 @@ In this assignment, you will write code that prints this cat to the output windo
 
 3. Determine how to use `System.out.println()` in order to get this cat to print to the output window. 
 
-4. Zip the file and name it Bonus Assignment 1 - <insert your name here>.zip.
+4. Zip the file and name it **Bonus Assignment 1 - \<insert your name here>.zip**.
 
 5. Submit both the .zip file and .java file separately to the Dropbox.
   
