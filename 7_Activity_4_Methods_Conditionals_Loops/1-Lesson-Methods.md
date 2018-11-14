@@ -40,7 +40,7 @@ Functions in computer science may look different to functions in math, but they 
 | Parameters (Independent Variables) | *x*, *y*, *z* | `x`, `y`, `z` |
 | Return Value (Value of Dependent Variable) | *4x + 2y - 1/z* | `4*x + 2*y - 1.0/z` |
 | Other Information | | `public static`: The method is accessible throughout the entire program. <br></br>`double` (before `foo`): The method returns a double.<br></br> `double` (before `x`, `y`, and `z`): The parameters `x`, `y`, and `z` are double values.
-| Example | *f(7, -3, 1) = 4(7) + 2(-3) - 1/1 = 28 - 6 - 1 = 21* | `double a = foo(7, -3, 1) // the value of a is initialized to 21.0` |
+| Example | *f(7, -3, 1) = 4(7) + 2(-3) - 1/1 = 28 - 6 - 1 = 21* | `double a = foo(7, -3, 1)`<br></br>`// the value of a is initialized to 21.0` |
 
 In math, *f*, *g*, and *h* are generic names for functions. In computer science, `foo`, `bar`, and `baz` are generic names for functions. You can also come up with your own dummy names for functions that aren't supposed to be meaningful. I'm quite fond of `bloop`.
 
@@ -51,7 +51,7 @@ Let's look at one more comparison. 
 
 | Math Example | Java Example |
 | --- | --- | 
-| *g(x, y) = ax<sup>2</sup> - by* | `public static double bloop(double x, double y) { return a*x*x - b*y;}` |
+| *g(x, y) = ax<sup>2</sup> - by* | `public static double bloop(double x, double y) {`<br></br>`  return a*x*x - b*y;`<br></br>}` |
 
 The *a* and *b* that appear here are are not independent variables, otherwise they would be in the parentheses.
 
