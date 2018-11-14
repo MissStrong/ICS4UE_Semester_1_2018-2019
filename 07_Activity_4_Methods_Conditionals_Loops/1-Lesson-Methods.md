@@ -143,7 +143,8 @@ If you don't want a method to be called from a class other than the one it is in
 ### Using Built-In Methods
 
 The following content was in Lesson -- Data Types.
-> The [Java Application Program Interface](https://docs.oracle.com/javase/7/docs/api/) (API) is a collection of prewritten packages, classes, and interfaces. You can use it to find out what packages, classes, and interfaces exist and how you can use them when you are writing code in Java.    
+> The [Java Application Program Interface](https://docs.oracle.com/javase/7/docs/api/) (API) is a collection of prewritten packages, classes, and interfaces. You can use it to find out what packages, classes, and interfaces exist and how you can use them when you are writing code in Java. 
+>     
 > For example, under **All Classes**, you can find **Math**. Under **Methods Summary**, you can see all its built-in methods. One of the methods is **pow(double a, double b)**. This tells that if you want to evaluate 2<sup>3</sup>, you would use `Math.pow(2, 3)`. (This is an example of coercion, since 2 and 3 are actually integers, not doubles.)
 
   
