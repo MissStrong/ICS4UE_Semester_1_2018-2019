@@ -1,6 +1,6 @@
-## Exercise 4-9 Solutions
+## Exercise 4-9 Solution
 
-1. What is the difference between `System.out.print` and `System.out.println`?
+What is the difference between `System.out.print` and `System.out.println`?
 
 `System.out.println` prints a line separator at the end, whereas `System.out.print` does not.
 
