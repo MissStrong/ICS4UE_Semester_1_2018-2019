@@ -1,5 +1,7 @@
 # Exercise 4-4 Solutions
 
+Modify the following code to make it work as expected.
+
 ```java
 /**
  * This method takes an integer and prints its smallest prime factor less than 8.
