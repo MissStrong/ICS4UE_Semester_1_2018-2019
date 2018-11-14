@@ -71,9 +71,9 @@ When declaring the array separately, you are allowed to put the `[]` before or 
 
 For example, the following individual lines of code all accomplish the same thing:
 
-`String[] arrayName = new String[10];`
-`String [] arrayName = new String[10];`
-`String arrayName[] = new String[10];`
+`String[] arrayName = new String[10];`    
+`String [] arrayName = new String[10];`    
+`String arrayName[] = new String[10];`    
 `String arrayName [] = new String[10];`
 
   
