@@ -98,7 +98,7 @@ for (int i = 0; i <= 5; i++) {
 > 2. The even integers from 4 to 10 in decreasing order.
 > 3. The integer 5 ten times.
 >    
-> Download solutions [here](Exercise_Solutions/Exercise-4-8.txt).
+> See solutions [here](Exercise_Solutions/Exercise-4-8.txt).
 
   
 ### Break and Continue
@@ -133,7 +133,7 @@ If you had a loop inside of a loop, which is already inside another loop, there 
 > Run the nested loop in the previous example to see what happens.    
 > What is the difference between System.out.print and System.out.println?
 >    
-> Download solution [here](Exercise_Solutions/Exercise-4-9.txt).
+> See solution [here](Exercise_Solutions/Exercise-4-9.txt).
 
   
 ### Infinite Loops
@@ -152,4 +152,4 @@ for (int i = 1; i != 10; i += 2) {
 > 2. the incrementation?
 > 3. the initialization?
 >
-> Download solution [here](Exercise_Solutions/Exercise-4-10.txt).
+> See solution [here](Exercise_Solutions/Exercise-4-10.txt).
