@@ -6,7 +6,7 @@ Submit your work to the ASCII Cat Dropbox.
 
 In this assignment, you will write code that prints this cat to the output window. This is an example of ASCII art. 
 
-![](Images/ASCII_Cat.png)
+![](../Images/ASCII_Cat.png)
 
 
 ### Instructions
