@@ -35,7 +35,9 @@ Functions in computer science may look different to functions in math, but they 
 
 | . | Math Example | Java Example |
 | --- | --- | --- |
-| Function | f(x, y, z) = 4x + 2y - 1/z | `public static double foo(double x, double y, double z) { return 4*x + 2*y - 1.0/z; }` |
+| Function | f(x, y, z) = 4x + 2y - 1/z | <script> public static double foo(double x, double y, double z) {
+    return 4*x + 2*y - 1.0/z; 
+  }` </script> |
 | Function name | *f* | `foo` |
 | Parameters (Independent Variables) | *x*, *y*, *z* | `x`, `y`, `z` |
 | Return Value (Value of Dependent Variable) | *4x + 2y - 1/z* | `4*x + 2*y - 1.0/z` |
