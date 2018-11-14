@@ -6,7 +6,7 @@ In this assignment, you will download a Java application and then modify the pr
 
 ### Instructions
 
-1. Download the [NumberLoops](Assignment_Files/NumberLoops.zip) program and unzip it.
+1. Download the [NumberLoops](../Java_Programs/NumberLoops.zip) program and unzip it.
 2. Load the NumberLoops program into NetBeans. It contains only one file.
 3. Read the documentation to see what the method are supposed to do. 
 4. Complete the program by filling in the lines of code.
