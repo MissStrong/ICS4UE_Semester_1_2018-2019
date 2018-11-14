@@ -17,4 +17,4 @@ Hint: You can use casting to determine the ASCII value of a character.
 
 Include `Bonus Assignment 3 - String Shift` as a comment at the top of the file. 
 
-Name the zipped file Bonus Assignment 3 - <insert your name here>.zip.
+Name the zipped file Bonus Assignment 3 - \<insert your name here>.zip.
