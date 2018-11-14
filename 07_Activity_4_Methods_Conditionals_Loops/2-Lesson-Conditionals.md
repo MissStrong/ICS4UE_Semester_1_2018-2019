@@ -172,24 +172,24 @@ switch(provinceName) {
 
 Notice how `provinceName.equals("BC")` is used instead of `provinceName == "BC"`. This is because the `==` operator for `String` values in Java checks whether they have the same address (i.e. they are the same object). To check whether the content of `provinceName` is `"BC"`, you need to use the `equals()` method.
 
-Notice how you don't need curly braces for each `case` in the *switch* example. This is because the entire switch block is run until it reaches a `break` or the end of the switch structure. You'll be seeing another use of the keyword `break` in the next lesson: *Lesson -- Loops*.
+Notice how you don't need curly braces for each `case` in the *switch* example. This is because the entire *switch* block is run until it reaches a `break` or the end of the *switch* structure. You'll be seeing another use of the keyword `break` in the next lesson: *Lesson -- Loops*.
 
-It is convention to put `default` after all the other cases, since the Java compiler reads it last anyway.
+It is convention to put `default` after all the other cases, since the Java runtime reads it last anyway.
 
 > Exercise 4-5
 >    
-> You can play around with the code for the switch statement example [here](../Java_Programs/SwitchExample.zip).
-> 1. What happens when you add a `break` in the default statement?
-> 2. What happens when you move the default statement (with the `break`) higher in the switch structure?
-> 3. What happens when you move the default statement (without the `break`) higher in the switch structure? 
+> You can play around with the code for the *switch* statement example [here](../Java_Programs/SwitchExample.zip).
+> 1. What happens when you add a `break` in the `default` statement?
+> 2. What happens when you move the `default` statement (with the `break`) higher in the *switch* structure?
+> 3. What happens when you move the `default` statement (without the `break`) higher in the *switch* structure? 
 >    
 > See solutions [here](../Exercise_Solutions/Exercise-4-5.md).
 
 > Exercise 4-6
 >    
-> Modify the if statement to match the switch statement.    
+> Modify the *if* statement to match the *switch* statement.    
 >    
-> **If Statement**
+> ***If*** **Statement**
 ```java
 String dayName = "Thursday";
 int dayNum;
@@ -203,7 +203,7 @@ if (dayName.equals("Monday")) dayNum = 0;
    */
 else dayNum = "Not a day number";
 ```
-> **Switch Statement**
+> ***Switch*** **Statement**
 ```java
 String dayName = "Thursday";
 int dayNum;
