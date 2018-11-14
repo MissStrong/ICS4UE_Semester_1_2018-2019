@@ -10,7 +10,7 @@ In this assignment, you will download a Java application, test it, and then mod
 3. Read the header to see what the program does.
 4. Run the program and play with the GUI. 
 5. Modify the program to include loonies and toonies. Here is an example of what your new GUI may look like.
-  ![](Images/Change_Form.png)
+  ![](Images/Change_Exchange_Form.png)
 6. Run the new program and test it out to ensure that it works as expected.
 7. When the program works, go to **File > Export Project > To ZIP**. Name the file Assignment 2 - <insert your name here>.zip.
 8. Submit the following to the Dropbox:
@@ -18,7 +18,7 @@ In this assignment, you will download a Java application, test it, and then mod
   * A .txt file that contains the Java code. You can do this by copy-pasting your code into a text editor, such as Notepad or Sublime.
   * A self-evaluation using the rubric below. 
 
-###Rubric
+### Rubric
 
 The following rubric will be used to evaluate your assignment. Each row counts for 4 points, for a total of 32 points. 
 
