@@ -5,7 +5,7 @@ Whenever you run a program that has errors, you may have noticed that NetBeans a
 
 For example, if you try to divide by zero, you get a message in the console saying that there was an **exception** called `java.lang.ArithmeticException`.
 
-![](Images/Arithmetic_Exception.png)
+![](../Images/Arithmetic_Exception.png)
 
 An exception is a problem that occurs while a program is running. When an exception occurs, the Java runtime "throws" it. When an exception is thrown and your program doesn't "catch" it (i.e. it doesn't handle it), the program terminates abruptly. There are more than 450 kinds of exceptions built into Java; you can view these all on the Java API documentation.
 
