@@ -164,9 +164,9 @@ public static int arraySearch(String[] array, String s) {
 }
 ```
 > How could you modify the method so that...
-> 1. It returns a boolean indicating whether s is an element in array?
-> 2. It takes an array of ints (instead of an array of Strings) and an int (instead of a String), but otherwise does the same thing as the original? 
-> 3. It is the same as 2., except it returns the number of ints that are less than or equal to the int?
+> 1. It returns a boolean indicating whether `s` is an element in `array`?
+> 2. It takes an array of integers (instead of an array of strings) and an integer (instead of a string), but otherwise does the same thing as the original? 
+> 3. It is the same as 2., except it returns the number of ints that are less than or equal to the integer?
 > 
 > See solutions [here](../Exercise_Solutions/Exercise-8-1).
 
