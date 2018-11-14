@@ -1,6 +1,6 @@
 ## Meet The Teacher
 
-![](Images/2018_School_Picture.jpeg)
+![](../Images/2018_School_Picture.jpeg)
 <br/><br/>
 Hello! I am Miss Strong and I am your teacher for this course. This is my first year with WRDSB and my second year of teaching overall. My teaching qualifications are in math and computer science, both of which I studied at the University of Waterloo.
 
