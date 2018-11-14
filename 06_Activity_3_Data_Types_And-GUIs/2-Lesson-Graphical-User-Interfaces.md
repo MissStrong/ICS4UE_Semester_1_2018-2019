@@ -12,7 +12,7 @@ You will be learning how to create a GUI using Java.
 > 4. On the left side of the screen, right click on **DivMod**, hover over **New**, then click on **JFrame Form**.    
 > 5. Under **Class Name**, type in "DivMod". Under **Package**, type in "divmod". Click **Finish**.    
 > 6. Your screen should now look something like this.
-> ![](Images/DivMod_Blank.png)
+> ![](../Images/DivMod_Blank.png)
 
 A GUI builder screen has four major areas:
 * **The Design Area** (in the center of the screen) is the main window for creating your GUI forms. A basic form will already be created for you when you start a new project. If you choose to resize the form, it can be done here. You can also use the Source and Design buttons in the top left corner of the Design Area to switch between the graphical view of your program and the code that runs it.
@@ -23,7 +23,7 @@ A GUI builder screen has four major areas:
 > Exercise 3-3: Part 2 
 >    
 > You will be designing a GUI that looks like this:   
-> ![](Images/DivMod_Form.png)    
+> ![](../Images/DivMod_Form.png)    
 > There are three kinds of Swing Controls used in this GUI: Label, Text Field, and Button.    
 >     
 > Labels: "Two Types of Division" & "Enter an integer" & "Enter another integer"    
@@ -44,10 +44,10 @@ A GUI builder screen has four major areas:
 > The next step is to create meaningful variable names for each of the components. In the Navigator, right click on each component and select **Change Variable Name**. Rename all the components according to the images below.    
 >    
 > Before    
-> ![](Images/DivMod_Default_Components.png)
+> ![](../Images/DivMod_Default_Components.png)
 >    
 > After   
-> ![](Images/DivMod_Components.png)
+> ![](../Images/DivMod_Components.png)
 
 > Exercise 3-3: Part 3  
 >    
@@ -79,4 +79,4 @@ System.exit(0);
 >     
 > Although you don't need to know the background code that runs the GUI, you will need to understand the code that the program uses to define the output. Read through the line comments to understand what each line of code does.
 >     
-> If your program did not work correctly, the DivMod program can be found [here](Exercise_Solutions/DivMod.zip).    
+> If your program did not work correctly, the DivMod program can be found [here](../Java_Programs/DivMod.zip).    
