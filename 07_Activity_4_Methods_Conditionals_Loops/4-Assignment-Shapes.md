@@ -6,7 +6,7 @@ In this assignment, you will download a Java application and then modify the pr
 
 ### Instructions 
 
-1. Download the [Shapes](Assignment_Files/Shapes.zip) program and unzip it.
+1. Download the [Shapes](../Java_Programs/Shapes.zip) program and unzip it.
 2. Load the Shapes program into NetBeans. You should see four files in the program.
 3 Complete the program by filling in the lines of code using the examples as guidelines.
 4. Run the new program and test it out to ensure that it works as expected.
