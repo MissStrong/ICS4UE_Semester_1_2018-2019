@@ -1,6 +1,6 @@
 Exercise 6-2 Solutions
 
-Download and open the (Buffered Writer Example)[../Java_Programs/BufferedWriterExample.zip] project. Read through the comment lines to learn what each unfamiliar line of code does.
+Download and open the [Buffered Writer Example](../Java_Programs/BufferedWriterExample.zip) project. Read through the comment lines to learn what each unfamiliar line of code does.
 
 To access the output.txt file, go to **Files** (on the same level as **Project** and **Services**) on the left side of the screen and open BufferWritingExample.
 
