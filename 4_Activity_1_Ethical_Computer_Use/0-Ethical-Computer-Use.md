@@ -1,4 +1,4 @@
-## Activity 1: Ethical Computer Use
+## Ethical Computer Use
 
 In this activity, you will:
 
