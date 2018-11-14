@@ -7,7 +7,7 @@ To access the input.txt file, go to **Files** (on the same level as **Project**
 How could you modify the program so that...
 
 1. Every line from the input is printed to the console twice per line? 
-  * Example: This is line 1. This is is line 1.
+  * Example: `This is line 1. This is is line 1.`
   
 ```java
 while (scanner.hasNextLine()) {
@@ -18,7 +18,7 @@ while (scanner.hasNextLine()) {
 ```
 
 2. Every word is printed to the console twice in a row? 
-  * Example: This This is is line line 1. 1.
+  * Example: `This This is is line line 1. 1.`
 
 ```java
 while (scanner.hasNextLine()) {
@@ -35,8 +35,8 @@ while (scanner.hasNextLine()) {
 ```
 
 3. Every character is printed to the console twice in a row?
-  * Example: TThhiiss iiss lliinnee 11..
-  * Hint: Consider using the atChar() method in the String class.
+  * Example: `TThhiiss iiss lliinnee 11..`
+  * Hint: Consider using the `atChar()` method in the `String` class.
 
 ```java
 while (scanner.hasNextLine()) {
@@ -53,7 +53,7 @@ while (scanner.hasNextLine()) {
 
 
 4. All space characters are not printed to the console?
-  * Example: Thisisline1.
+  * Example: `Thisisline1.`
 
 ```java
 while (scanner.hasNextLine()) {
@@ -68,7 +68,7 @@ while (scanner.hasNextLine()) {
 ```
 
 5. Every second word is not printed to the console?
-  * Example: This line
+  * Example: `This line`
 
 ```java
 while (scanner.hasNextLine()) {
