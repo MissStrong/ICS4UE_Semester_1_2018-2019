@@ -111,7 +111,7 @@ public static void findSmallestPrimeFactor(int n) {
   }
 }        
 ```
-> See solutions [here](../Exercise_Solutions/Exercize-4-4.txt).
+> See solutions [here](../Exercise_Solutions/Exercise-4-4.txt).
 
    
 ### Switch Statements
