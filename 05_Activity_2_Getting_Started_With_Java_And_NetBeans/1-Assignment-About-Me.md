@@ -20,6 +20,6 @@ System.out.println("My favourite TV show is _.".replace("_", tvShow));
 System.out.println("My favourite musician is _.".replace("_", musician));
 ```
 5. When you run the program, the output window should look something like this:
-![](Images/About_Me.png)
+![](../Images/About_Me.png)
 6. When the program works, go to **File > Export Project > To ZIP**. Name the file Assignment 1 - <insert your name here>.zip.
 7. Submit both the .zip file and .java file separately to the Dropbox.
