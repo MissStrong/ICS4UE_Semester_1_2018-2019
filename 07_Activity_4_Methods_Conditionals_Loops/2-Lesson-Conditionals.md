@@ -189,7 +189,7 @@ It is convention to put `default` after all the other cases, since the Java runt
 >    
 > Modify the *if* statement to match the *switch* statement.    
 >    
-> ***If*** **Statement**
+> **If Statement**
 ```java
 String dayName = "Thursday";
 int dayNum;
@@ -203,7 +203,7 @@ if (dayName.equals("Monday")) dayNum = 0;
    */
 else dayNum = "Not a day number";
 ```
-> ***Switch*** **Statement**
+> **Switch Statement**
 ```java
 String dayName = "Thursday";
 int dayNum;
