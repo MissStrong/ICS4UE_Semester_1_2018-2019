@@ -183,7 +183,7 @@ It is convention to put `default` after all the other cases, since the Java comp
 > 2. What happens when you move the default statement (with the break) higher in the switch structure?
 > 3. What happens when you move the default statement (without the break) higher in the switch structure? 
 >    
-> See solutions [here](../Example_Solutions/Exercise-4-5.txt).
+> See solutions [here](../Exercise_Solutions/Exercise-4-5.txt).
 
 > Exercise 4-6
 >    
