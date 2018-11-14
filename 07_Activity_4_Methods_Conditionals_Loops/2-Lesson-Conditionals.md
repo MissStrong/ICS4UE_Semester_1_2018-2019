@@ -36,7 +36,7 @@ The comparison operators can also be used with `char` values.  It compares the
 > 6. `'A' > 'a'`
 > 7. `'B' > 'a' `
 >    
-> See solutions [here](Exercise_Solutions/Exercize-4-3.txt).
+> See solutions [here](../Exercise_Solutions/Exercize-4-3.txt).
 
  
 ### Conditional Statements
@@ -111,7 +111,7 @@ public static void findSmallestPrimeFactor(int n) {
   }
 }        
 ```
-> See solutions [here](Exercise_Solutions/Exercize-4-4.txt).
+> See solutions [here](../Exercise_Solutions/Exercize-4-4.txt).
 
    
 ### Switch Statements
@@ -178,12 +178,12 @@ It is convention to put `default` after all the other cases, since the Java comp
 
 > Exercise 4-5
 >    
-> You can play around with the code for the Switch statement example [here](Exercise_Solutions/Switch_Example.zip).
+> You can play around with the code for the Switch statement example [here](../Java_Programs/Switch_Example.zip).
 > 1. What happens when you add a break in the default statement?
 > 2. What happens when you move the default statement (with the break) higher in the switch structure?
 > 3. What happens when you move the default statement (without the break) higher in the switch structure? 
 >    
-> See solutions [here](Example_Solutions/Exercise-4-5.txt).
+> See solutions [here](../Example_Solutions/Exercise-4-5.txt).
 
 > Exercise 4-6
 >    
@@ -234,4 +234,4 @@ switch(dayNum) {
     dayName = "Not a day number";
 }
 ```
-> See solutions [here](Exercise_Solutions/Exercise-4-6.txt).
+> See solutions [here](../Exercise_Solutions/Exercise-4-6.txt).
