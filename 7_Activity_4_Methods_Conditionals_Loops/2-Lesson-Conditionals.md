@@ -188,6 +188,7 @@ It is convention to put `default` after all the other cases, since the Java comp
 > Exercise 4-6
 >    
 > Modify the if statement to match the switch statement.    
+>    
 > **If Statement**
 ```java
 String dayName = "Thursday";
