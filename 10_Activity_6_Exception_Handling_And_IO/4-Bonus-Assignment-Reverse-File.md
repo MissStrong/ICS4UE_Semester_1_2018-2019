@@ -11,4 +11,4 @@ For example, if the content of `inputFilename` is `Hello World!`, the new conten
 
 Include `Bonus Assignment 4 - Reverse File` as a comment at the top of the file. 
 
-Name the zipped file ** Bonus Assignment 4 - \<insert your name here>.zip**.
+Name the zipped file **Bonus Assignment 4 - \<insert your name here>.zip**.
