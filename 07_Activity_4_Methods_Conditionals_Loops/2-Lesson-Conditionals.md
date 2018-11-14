@@ -178,8 +178,8 @@ It is convention to put `default` after all the other cases, since the Java comp
 
 > Exercise 4-5
 >    
-> You can play around with the code for the Switch statement example [here](../Java_Programs/SwitchExample.zip).
-> 1. What happens when you add a break in the default statement?
+> You can play around with the code for the switch statement example [here](../Java_Programs/SwitchExample.zip).
+> 1. What happens when you add a `break` in the default statement?
 > 2. What happens when you move the default statement (with the break) higher in the switch structure?
 > 3. What happens when you move the default statement (without the break) higher in the switch structure? 
 >    
