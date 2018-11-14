@@ -1,19 +1,19 @@
 ## Lesson:  Methods
 
-###Review
+### Review
 The following content was in Lesson -- Getting Started With Java And NetBeans.
 
 > You would have learned about functions in your Grade 11 computer science course. Functions in Java are called methods. A method is a function contained in a class. Since every function in Java is contained in a class, every function in Java is a method.    
 >    
 > When defining a method, you would write the following, in order.    
-1. `public`, `private`, or `protected` (or leave it blank for package-private)    
-2. `static` (or leave it blank if it's non-static)    
-3. the return type (e.g. `int`, `String`, etc.) (or write `void` if the method doesn't return anything)    
-4. the name of the method    
-5. the parameters of the method enclosed in parentheses    
-6. a left curly brace `{`    
-7. the content of the method    
-8. a right curly brace `}`    
+> 1. `public`, `private`, or `protected` (or leave it blank for package-private)    
+> 2. `static` (or leave it blank if it's non-static)    
+> 3. the return type (e.g. `int`, `String`, etc.) (or write `void` if the method doesn't return anything)    
+> 4. the name of the method    
+> 5. the parameters of the method enclosed in parentheses    
+> 6. a left curly brace `{`    
+> 7. the content of the method    
+> 8. a right curly brace `}`    
 > At least one class in a package should contain a `main` method. The content of a main method is run when you run your program. In Java, the main method must be `public`, `static`, and return a `void` value. The `main` method has the parameter `String[] args` (we'll get to what this means later).    
 >    
 > `System.out.println` is a built-in method that takes whatever is in the parentheses and prints it (followed by a line separator) to the output window. In this example, you are calling the method (i.e. telling it to run). All methods that are being called belong inside another method, such as the `main` method. All methods that are being defined belong outside the main method.    
@@ -32,8 +32,8 @@ Functions can have more than one independent variable. For example, *f(x, y, z) 
 
 Functions in computer science may look different to functions in math, but they are fundamentally similar.
 
- 
-| | Math Example | Java Example |
+//TODO
+| . | Math Example | Java Example |
 | --- | --- | --- |
 | Function | f(x, y, z) = 4x + 2y - 1/z | `public static double foo(double x, double y, double z) { return 4*x + 2*y - 1.0/z; }` |
 | Function name | *f* | `foo` |
@@ -42,8 +42,7 @@ Functions in computer science may look different to functions in math, but they 
 | Other Information | | `public static`: The method is accessible throughout the entire program. `double` (before `foo`): The method returns a double. `double` (before x, y, and z): The parameters x, y, and z are iouble values.
 | Example | *f(7, -3, 1) = 4(7) + 2(-3) - 1/1 = 28 - 6 - 1 = 21* | `double a = foo(7, -3, 1) // the value of a is initialized to 21.0` |
 
- 
-In math, *f*, *g*, and h are generic names for functions. In computer science, `foo`, `bar`, and `baz` are generic names for functions. You can also come up with your own dummy names for functions that aren't supposed to be meaningful. I'm quite fond of `bloop`.
+In math, *f*, *g*, and *h* are generic names for functions. In computer science, `foo`, `bar`, and `baz` are generic names for functions. You can also come up with your own dummy names for functions that aren't supposed to be meaningful. I'm quite fond of `bloop`.
 
 In computer science, **parameters** are the variable names used in a method. **Arguments** are the values of the parameters you use when you are calling a method. In the example at the bottom of the previous table, the parameters are x, y, and z, and the arguments are 7, -3, and 1.
 
@@ -52,7 +51,7 @@ Let's look at one more comparison. 
 
 | Math Example | Java Example |
 | --- | --- | 
-| *g(x, y) = ax2 - by* | `public static double bloop(double x, double y) { return a*x*x - b*y;}` |
+| *g(x, y) = ax<sup>2</sup> - by* | `public static double bloop(double x, double y) { return a*x*x - b*y;}` |
 
 The *a* and *b* that appear here are are not independent variables, otherwise they would be in the parentheses.
 
@@ -81,7 +80,7 @@ You may have been wondering what these default lines of code in NetBeans are for
 ```java
 /**
  * @param args the command line arguments
-*/
+ */
 ```
 
 This is the documentation for the `main` method, which is placed directly above the first line of the `main` method. It tells the user that `main` is a method that has one parameter, called `args`, and it represents the command line arguments. 
@@ -99,6 +98,7 @@ When we create our own methods, we should document them, too.
  * @param w the width of the rectangle
  * @return the area of the rectangle with length l and width w
  */
+``` 
 > Now, your file should look something like this
 > ![](Images/Shapes_Documentation.png)
 
@@ -126,10 +126,10 @@ When you are documenting a method, the following information should be stated:
 }
 ```    
 > Now, let's try to use this custom method.
-> Go back to your first file. Under `main`, replace your first custom method with your newest custom method. There should now be a red squiggly line underneath it. Hover over it to see what the issue is.
+> Go back to your first file. Under `main`, replace your first custom method with your newest custom method. There should now be a red squiggly line underneath it. Hover over it to see what the issue is.    
 > Here is what mine looks like:
-> ![](Images/Shapes_Error.png)
->  The issue is that the Java compiler can't find the newest custom method since it's not in the same class as `main`. You have to tell it what class it is in. To do this, put the class name in front of the method, separated by a dot. 
+> ![](Images/Shapes_Error.png)    
+>  The issue is that the Java compiler can't find the newest custom method since it's not in the same class as `main`. You have to tell it what class it is in. To do this, put the class name in front of the method, separated by a dot.     
 > Replace `perimeter` with `Triangle.perimeter` and run the program again. It should now print 79.1, which is the sum of 17.1, 48.4, and 13.6. 
 
 If you don't want a method to be called from a class other than the one it is in, you can use the modifier `private` instead of `public` when you're defining the method.
