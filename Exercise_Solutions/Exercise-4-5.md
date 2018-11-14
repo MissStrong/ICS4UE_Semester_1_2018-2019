@@ -1,9 +1,8 @@
-Exercise 4-5 Solutions
+### Exercise 4-5 Solutions
 
-You can play around with the code for the Switch statement example [here](download link).
+You can play around with the code for the switch statement example [here](../Java_Programs/SwitchExample.zip).
 
-
-1. What happens when you add a break in the default statement?
+1. What happens when you add a `break` in the default statement?
 
 Nothing changes. The default statement is read last, so the runtime is about to break out of the structure anyway.
 
