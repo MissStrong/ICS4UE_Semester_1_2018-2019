@@ -1,8 +1,10 @@
-Exercise 4-10 Solutions
+### Exercise 4-10 Solutions
 
-    for (int i = 1; i != 10; i += 2) {
-        doSomething();
-    }
+  ```java
+for (int i = 1; i != 10; i += 2) {
+    doSomething();
+}
+```
 
 How could prevent the loop above from running indefinitely by modifying only...
 
@@ -19,4 +21,3 @@ You can change the incrementation to i++.
 3. the initialization?
 
 You can change the initialization so that i is any even number less than 10.
-
