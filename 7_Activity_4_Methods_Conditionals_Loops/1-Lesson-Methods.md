@@ -103,7 +103,7 @@ Let's add the documentation for the custom method you just used.
 ``` 
 > Now, your file should look something like this
 >    
-> ![](Images/Shapes_Documentation.png)
+> ![](../Images/Shapes_Documentation.png)
 
 When you are documenting a method, the following information should be stated:
 * A brief description of what the method is for.
@@ -133,7 +133,7 @@ When you are documenting a method, the following information should be stated:
 > Go back to your first file. Under `main`, replace your first custom method with your newest custom method. There should now be a red squiggly line underneath it. Hover over it to see what the issue is.        
 > Here is what mine looks like:
 >    
-> ![](Images/Shapes_Error.png)    
+> ![](../Images/Shapes_Error.png)    
 >  The issue is that the Java compiler can't find the newest custom method since it's not in the same class as `main`. You have to tell it what class it is in. To do this, put the class name in front of the method, separated by a dot.     
 > Replace `perimeter` with `Triangle.perimeter` and run the program again. It should now print 79.1, which is the sum of 17.1, 48.4, and 13.6. 
 
