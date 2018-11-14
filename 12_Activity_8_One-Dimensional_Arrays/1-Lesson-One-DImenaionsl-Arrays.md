@@ -14,7 +14,7 @@ Here is a summary of what lists and arrays are called to in various languages.
 | Language | List | Array |
 | --- | --- | --- |
 | C | linked list | array |
-| Turing | linked list	array |
+| Turing | linked list |	array |
 | C++ | list | array |
 | C# | list | array |
 | Python | list | tuple (pronounced "too-pull") |
