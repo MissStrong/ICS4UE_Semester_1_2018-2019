@@ -22,16 +22,16 @@ In the `Scanner` class, you can use the `hasNext()` and `next()` methods for rea
 >    
 > How could you modify the program so that...
 > 1. Every line from the input is printed to the console twice per line? 
->   * Example: This is line 1. This is is line 1.
+>   * Example: `This is line 1. This is is line 1.`
 > 2. Every word is printed to the console twice in a row? 
->   * Example: This This is is line line 1. 1.
+>   * Example: `This This is is line line 1. 1.`
 > 3. Every character is printed to the console twice in a row?
->   * Example: TThhiiss iiss lliinnee 11..
+>   * Example: `TThhiiss iiss lliinnee 11..`
 >   * Hint: Consider using the atChar() method in the String class.
 > 4. All space characters are not printed to the console?
->   * Example: Thisisline1.
+>   * Example: `Thisisline1.`
 > 5. Every second word is not printed to the console?
->   * Example: This line
+>   * Example: `This line`
 >    
 > Edit: Some of these modifications are tricky without using arrays, which hasn't been taught in this course yet. I didn't realize this until I made the solutions. Sorry about that!
 >    
