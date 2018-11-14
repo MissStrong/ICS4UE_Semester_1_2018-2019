@@ -5,6 +5,7 @@ Once you have completed the Shapes and Number Loops assignments, you may try t
 Submit your work to the String Shift Dropbox.
 
  ### Instructions
+ 
 Create a method called `stringShift` that takes a string `s` and an integer `n` and returns a string that is similar to `s`, except all of its characters' ASCII values are shifted forward `n` places. If `n` is negative, every character's ASCII value is shifted to backwards `Math.abs(n)` places.
 
 Examples:
