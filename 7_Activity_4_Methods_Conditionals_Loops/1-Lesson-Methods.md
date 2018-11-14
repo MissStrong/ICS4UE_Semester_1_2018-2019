@@ -87,9 +87,10 @@ This is the documentation for the `main` method, which is placed directly above
 
 When we create our own methods, we should document them, too.
 
+Let's add the documentation for the custom method you just used.  
+
 > Exercise 4-1 Part 2    
->    
-> Let's add the documentation for the custom method you just used.    
+>   
 > Add following documentation directly above the custom method. 
 ```java
 /**
@@ -100,6 +101,7 @@ When we create our own methods, we should document them, too.
  */
 ``` 
 > Now, your file should look something like this
+>    
 > ![](Images/Shapes_Documentation.png)
 
 When you are documenting a method, the following information should be stated:
@@ -110,7 +112,8 @@ When you are documenting a method, the following information should be stated:
  
 > Exercise 4-2
 >    
-> Let's do one more example.    
+> Let's do one more example.  
+>    
 > This time, our program will consist of two classes.
 > Within the same project, open a new file and call it Triangle. Copy-paste the following into the new class.
 ```java
@@ -125,9 +128,10 @@ When you are documenting a method, the following information should be stated:
   return a + b + c;
 }
 ```    
-> Now, let's try to use this custom method.
-> Go back to your first file. Under `main`, replace your first custom method with your newest custom method. There should now be a red squiggly line underneath it. Hover over it to see what the issue is.    
+> Now, let's try to use this custom method.    
+> Go back to your first file. Under `main`, replace your first custom method with your newest custom method. There should now be a red squiggly line underneath it. Hover over it to see what the issue is.        
 > Here is what mine looks like:
+>    
 > ![](Images/Shapes_Error.png)    
 >  The issue is that the Java compiler can't find the newest custom method since it's not in the same class as `main`. You have to tell it what class it is in. To do this, put the class name in front of the method, separated by a dot.     
 > Replace `perimeter` with `Triangle.perimeter` and run the program again. It should now print 79.1, which is the sum of 17.1, 48.4, and 13.6. 
