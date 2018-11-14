@@ -51,7 +51,7 @@ Let's look at one more comparison. 
 
 | Math Example | Java Example |
 | --- | --- | 
-| *g(x, y) = ax<sup>2</sup> - by* | `public static double bloop(double x, double y) {`<br></br>`  return a*x*x - b*y;`<br></br>}` |
+| *g(x, y) = ax<sup>2</sup> - by* | `public static double bloop(double x, double y) {`<br></br>`  return a*x*x - b*y;`<br></br>`}` |
 
 The *a* and *b* that appear here are are not independent variables, otherwise they would be in the parentheses.
 
@@ -72,6 +72,7 @@ public static double area(double l, double w) {
 System.out.println(area(<insert an int value>, <insert another int value>));
 ```
 > Run the program and see what gets printed. It should be the value of `l` multiplied by `w`.
+
 
 ### Documenting Methods
 
@@ -137,6 +138,7 @@ When you are documenting a method, the following information should be stated:
 > Replace `perimeter` with `Triangle.perimeter` and run the program again. It should now print 79.1, which is the sum of 17.1, 48.4, and 13.6. 
 
 If you don't want a method to be called from a class other than the one it is in, you can use the modifier `private` instead of `public` when you're defining the method.
+
 
 ### Using Built-In Methods
 
