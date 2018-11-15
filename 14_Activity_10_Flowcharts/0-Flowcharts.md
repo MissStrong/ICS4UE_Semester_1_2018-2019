@@ -1,9 +1,8 @@
 ## Flowcharts
 
 In this activity, you will:
-
-Learn about how to represent an algorithm using a flowchart.
-Create your own flowchart.
+1. Learn about how to represent an algorithm using a flowchart.
+2. Create your own flowchart.
   
 ### Due Date
 
