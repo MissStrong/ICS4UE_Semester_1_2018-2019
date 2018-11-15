@@ -24,7 +24,7 @@ However, ``println()`` is designed to print one line at a time, so it is prefera
 System.out.println("This is Line 1");
 System.out.println("This is Line 2");
 ```
- 
+
 The backslash is called an **escape character**, since it "escapes" the next character.
 
 You can also use the escape character to create strings that contain double quotation marks and characters that contain a single quotation mark.
