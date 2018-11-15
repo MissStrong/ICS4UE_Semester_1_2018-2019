@@ -2,12 +2,12 @@
 
 In this activity, you will:
 
-* Learn about variables, data types, objects, declaration, naming conventions, type conversion, and mathematical operators.
-* Use the [Java API](https://docs.oracle.com/javase/7/docs/api/) to look up methods that belong to built-in classes.
-* Create a GUI that uses mathematical operators.
-* Design your own GUI.
-* Take a quiz about the lessons.
-* Participate in the Discussion Forums.
+1. Learn about variables, data types, objects, declaration, naming conventions, type conversion, and mathematical operators.
+2. Use the [Java API](https://docs.oracle.com/javase/7/docs/api/) to look up methods that belong to built-in classes.
+3. Create a GUI that uses mathematical operators.
+4. Design your own GUI.
+5. Take a quiz about the lessons.
+6. Participate in the Discussion Forums.
  
 ### Due Date
 September 28, 2018
