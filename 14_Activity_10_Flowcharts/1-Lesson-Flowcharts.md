@@ -21,10 +21,10 @@ There are over 20 standard symbols used in flowcharts, but you only need to knew
 
 | Symbol | Description |
 | --- | --- |
-| ![](../Images/Oval.png)<br><\br>Oval | A start or end point. |
-| ![](../Images/Diamond.png)<br><\br>Diamond | A question being asked. |
-| ![](../Images/Rectangle.png)<br><\br>Rectangle | An action or process. |
-| | ![](../Images/Arrow.png)<br><\br>Arrow | Shows what shape to go to next.<br><\br>Can be accompanied by text. |
+| ![](../Images/Oval.png)<br>Oval | A start or end point. |
+| ![](../Images/Diamond.png)<br>Diamond | A question being asked. |
+| ![](../Images/Rectangle.png)<br>Rectangle | An action or process. |
+| ![](../Images/Arrow.png)<br>Arrow | Shows what shape to go to next.<br><\br>Can be accompanied by text. |
 
  
 ### Creating Flowcharts 
