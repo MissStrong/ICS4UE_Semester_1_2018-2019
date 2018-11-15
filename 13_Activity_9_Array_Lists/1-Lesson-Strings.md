@@ -84,7 +84,6 @@ for (String word : words) {
 
 The `split()` method in the `String` class splits a string based on a pattern and puts the individual parts into an array. The pattern `"\\s+"` represents all whitespace (e.g. space, tab, etc.), so the new array `words` is `{"The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"}`.
 
- 
 There are several methods in the `String` class that are useful for analyzing the characters that are in it.
 
 N.B.: Always assume that strings are case-sensitive when using any programming language.
