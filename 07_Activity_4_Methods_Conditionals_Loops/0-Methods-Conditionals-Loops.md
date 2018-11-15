@@ -1,11 +1,11 @@
 ## Methods, Conditionals, and Loops
 
 In this activity, you will:
-* Learn about methods, conditionals, and loops. 
-* Practice creating methods that span across multiple files in a program.
-* Practice creating loops using appropriate conditional statements.
-* Take a quiz about the lessons.
-* Participate in the Discussion Forums.
+1. Learn about methods, conditionals, and loops. 
+2. Practice creating methods that span across multiple files in a program.
+3. Practice creating loops using appropriate conditional statements.
+4. Take a quiz about the lessons.
+5. Participate in the Discussion Forums.
  
 ### Due Date
 October 5, 2018
