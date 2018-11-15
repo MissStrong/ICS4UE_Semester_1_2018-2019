@@ -2,8 +2,8 @@
 
 In this activity, you will:
 
-1. Learn more about the String class.
-2. Learn about the ArrayList class.
+1. Learn more about the `String` class.
+2. Learn about the `ArrayList` class.
 3. Learn more about GUI features.
 4. Take a quiz about the lessons.
 5. Practice using array lists and strings to create a GUI.
