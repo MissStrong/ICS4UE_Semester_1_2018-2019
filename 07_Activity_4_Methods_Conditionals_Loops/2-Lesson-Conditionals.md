@@ -51,17 +51,17 @@ There are two kinds of conditional statements in Java: the *if* statement and th
 Here is the general structure of an *if* statement.
 ```java
 if (<condition>) {
-  <statement>;
-  ⋮
-  <statement>;
+    <statement>;
+    ⋮
+    <statement>;
 } else if {
-  <statement>;
-  ⋮
-  <statement>;
+    <statement>;
+    ⋮
+    <statement>;
 } else {
-  <statement>;
-  ⋮
-  <statement>;
+    <statement>;
+    ⋮
+    <statement>;
 }
 ```
 The keywords `if`, `else if`, and `else` are hopefully self-explanatory.
@@ -80,7 +80,7 @@ For example, the following two pieces of code perform essentially the same thing
 
 ```java
 if (y < 10) {
-  y++;
+    y++;
 }
 ```
 
@@ -98,17 +98,17 @@ if (y < 10) y++;
  * @param n a positive integer
  */
 public static void findSmallestPrimeFactor(int n) {
-  if (n % 2 == 0) {
-    System.out.println("2 is the smallest prime factor of " + Integer.toString(n));
-  } else if (n % 3 == 0) {
-    // Figure out what goes here
-  } else if (/* Figure out what goes here */){ 
-    // Figure out what goes here
-  } else if (/* Figure out what goes here */){ 
-    // Figure out what goes here
-  } else {
-    System.out.println(Integer.toString(n) + " has no prime factors between 2 and 8.");
-  }
+    if (n % 2 == 0) {
+        System.out.println("2 is the smallest prime factor of " + Integer.toString(n));
+    } else if (n % 3 == 0) {
+        // Figure out what goes here
+    } else if (/* Figure out what goes here */){ 
+      // Figure out what goes here
+    } else if (/* Figure out what goes here */){ 
+        // Figure out what goes here
+    } else {
+       System.out.println(Integer.toString(n) + " has no prime factors between 2 and 8.");
+    }
 }        
 ```
 > See solutions [here](../Exercise_Solutions/Exercise-4-4.md).
@@ -144,29 +144,29 @@ String provinceName = "BC";
 String regionName;
 
 switch(provinceName) {
-  case "BC":
-  case "AB":
-  case "SK":
-  case "MB":
-    regionName = "Western Canada";
-    break;
-  case "ON":
-  case "QC":
-    regionName = "Central Canada";
-    break;
-  case "NB":
-  case "PE":
-  case "NS":
-  case "NL":
-    regionName = "Atlantic Canada";
-    break; 
-  case "YT":
-  case "NT":
-  case "NU":
-    regionName = "Northern Canada";
-    break;
-  default:
-    regionName = "Not a region in Canada";
+    case "BC":
+    case "AB":
+    case "SK":
+    case "MB":
+        regionName = "Western Canada";
+        break;
+    case "ON":
+    case "QC":
+        regionName = "Central Canada";
+        break;
+    case "NB":
+    case "PE":
+    case "NS":
+    case "NL":
+        regionName = "Atlantic Canada";
+        break; 
+    case "YT":
+    case "NT":
+    case "NU":
+        regionName = "Northern Canada";
+        break;
+    default:
+        regionName = "Not a region in Canada";
 }
 ```
 
@@ -195,12 +195,12 @@ String dayName = "Thursday";
 int dayNum;
 
 if (dayName.equals("Monday")) dayNum = 0;
-  /*
-   *
-   * Figure out what goes here
-   *
-   *
-   */
+    /*
+     *
+     * Figure out what goes here
+     *
+     *
+     */
 else dayNum = "Not a day number";
 ```
 > **Switch Statement**
@@ -209,29 +209,29 @@ String dayName = "Thursday";
 int dayNum;
 
 switch(dayNum) {
-  case "Monday":
-    dayNum = 0;
-    break;
-  case "Tuesday":
-    dayNum = 1;
-    break;
-  case "Wednesday":
-    dayNum = 2;
-    break;
-  case "Thursday":
-    dayNum = 3;
-    break;
-  case "Friday":
-    dayNum = 4;
-    break;
-  case "Saturday":
-    dayNum = 5;
-    break;
-  case "Sunday":
-    dayNum = 6;
-    break;
-  default: 
-    dayName = "Not a day number";
+    case "Monday":
+        dayNum = 0;
+        break;
+    case "Tuesday":
+        dayNum = 1;
+        break;
+    case "Wednesday":
+        dayNum = 2;
+        break;
+    case "Thursday":
+        dayNum = 3;
+        break;
+    case "Friday":
+        dayNum = 4;
+        break;
+    case "Saturday":
+        dayNum = 5;
+        break;
+    case "Sunday":
+        dayNum = 6;
+        break;
+    default: 
+        dayName = "Not a day number";
 }
 ```
 > See solutions [here](../Exercise_Solutions/Exercise-4-6.md).
