@@ -16,14 +16,14 @@ Here is an example of a method that handles a division by zero error.
 
 ```java
 public static int divideThreeInts(int a, int b, int c) {
-  try {
-    return a/b/c;
-  } catch(ArithmeticException exception) {
-    if (b == 0) System.out.println("Error. B cannot be zero.");
-    if (c == 0) System.out.println("Error. C cannot be zero.");
-    System.exit(0);
-    return 0;
-  }
+    try {
+        return a/b/c;
+    } catch(ArithmeticException exception) {
+        if (b == 0) System.out.println("Error. B cannot be zero.");
+        if (c == 0) System.out.println("Error. C cannot be zero.");
+        System.exit(0);
+        return 0;
+    }
 }
 ```
 
