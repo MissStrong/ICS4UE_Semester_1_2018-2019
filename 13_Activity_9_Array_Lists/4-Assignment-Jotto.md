@@ -23,16 +23,13 @@ Your GUI should have the following at minimum.
  
 Here is a text file of all the 5-letter Jotto words that can be used in the game: [jottoWords.txt](../Java_Programs/jottoWords.txt).
 
-  
 This is a challenging task that combines several concepts:
 * Reading from a text file that contains all the 5-letter Jotto words, and placing them into an array or array list.
 * Creating a GUI.
 * Creating helper methods that analyze words and support the GUI.
  
-
 When the program works, zip the file and name it **Assignment 8 - \<insert your name here>.zip**.
 
- 
 Submit the following to the Dropbox:
 * A .zip file of the program
 * A .txt file (or .docx or .rtf file) that contains the Java code. You can do this by copy-pasting your code into a text editor, such as Notepad or Sublime.
