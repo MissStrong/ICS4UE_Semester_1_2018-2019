@@ -10,7 +10,7 @@ In this assignment, you will download a Java application and then modify the pr
 2. Complete the program by filling in the bodies of the methods.
 3. Run the new program and test it out to ensure that it works as expected.
 4. When the program works, zip the file and name it Assignment 7 - <insert your name here>.zip.
-5. Submit the following to the Dropbox:
+5. Submit the following to the Dropbox.
   * A .zip file of the program.
   * A .txt file (or a .docx file or a .rtf file) containing all of the code in the .java file.
   * A self-evaluation using the rubric below. 
