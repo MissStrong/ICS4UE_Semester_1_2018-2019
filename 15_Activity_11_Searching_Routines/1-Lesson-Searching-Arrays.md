@@ -39,7 +39,8 @@ When humans look through a sorted grid to look for a specific item, they tend to
 So, how would a computer efficiently search through a sorted array in order to find an item as fast as possible?
 
 ~The following grid has 49 words in alphabetical order (the first 7 are in the far left column). The text is white so that you cannot see them. (Spoiler tags aren't built into D2L.) How many words did you check until you found "sushi"? Check one word at a time by highlighting the cells in any order you wish.~
- 
+
+
 | same | sequence | shop | since | sloth | sock | stump |
 | --- | --- | --- | --- | --- | --- | --- |
 | scandal | shade | shore | sine | small | socket | summer |
@@ -54,6 +55,7 @@ Note: Markdown does not support white text, so this exercise cannot be done in t
 A computer would use an algorithm called binary searching to search for an item in a sorted array. It would check the middle item, and if it isn't the item it's looking for, it would make a binary decision: keep checking in the first half or keep checking in the second half. It would then check the middle item of the "half" it chose, and continue this process until it finds the item. This is the most efficient way that a computer can search for an item in a sorted array.
 
 ~Try a binary search on this grid with white text. How many words did you check until you found "purple"? If the algorithm is performed correctly, it should take no more than 6 guesses to find any given word (or determine that it isn't there) in array of 64 item.~
+
 
 | amaranth | blue | cerulean | gold | lilac | orchid | raspberry | silver |
 | --- | --- | --- | --- | --- | --- | --- |
