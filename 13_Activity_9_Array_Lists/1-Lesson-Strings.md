@@ -7,7 +7,7 @@ Strings are made up of characters, which are typically letters, numbers, and spa
 Special characters begin with a backslash `\`.
 
 | Special Character | Code |
-| --- | --- | --- |
+| --- | --- |
 | tabspace | `\t` |
 | backspace | `\b` |
 | carriage return (i.e. enter or return) | `\r` |
