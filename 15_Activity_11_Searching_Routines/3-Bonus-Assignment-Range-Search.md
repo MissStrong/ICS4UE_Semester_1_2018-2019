@@ -12,9 +12,9 @@ Examples:
 
 `int[] arrayA = {-4, -1, 5, 29, 31};`
 
-`rangeSearch(arrayA, -1, 20)` => `{-1, 5}`
-`rangeSearch(arrayA, 6, 31)` => `{29, 31}`
-`rangeSearch(arrayA, 0, 4)` => `{}`
+`rangeSearch(arrayA, -1, 20)` => `{-1, 5}`    
+`rangeSearch(arrayA, 6, 31)` => `{29, 31}`    
+`rangeSearch(arrayA, 0, 4)` => `{}`    
  
 
 Include `Bonus Assignment 7 - Range Search` as a comment at the top of the file. 
