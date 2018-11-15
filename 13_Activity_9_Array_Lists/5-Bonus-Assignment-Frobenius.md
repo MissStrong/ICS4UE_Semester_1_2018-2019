@@ -9,7 +9,7 @@ Submit your work to the Frobenius Dropbox.
 
 This assignment is about **Frobenius numbers**. One of the most well known example of a Frobenius number is 43, also known as the McNugget number.
 
-Suppose that McDonald's only sells Chicken McNuggets in packs of 6, 9, and 20. You could get 15 McNuggets (one pack of 6 and one pack of 9), you could get 32 McNuggets (two packs of 6 and one pack of 20), but you cannot get exactly 43 McNuggets. In fact, 43 is the largest number of McNuggets that you cannot buy with those pack sizes. Watch the Numberphile video below to learn more about this problem: [43 Chicken McNuggets](https://www.youtube.com/watch?v=vNTSugyS038).
+Suppose that McDonald's only sells Chicken McNuggets in packs of 6, 9, and 20. You could get 15 McNuggets (one pack of 6 and one pack of 9), you could get 32 McNuggets (two packs of 6 and one pack of 20), but you cannot get exactly 43 McNuggets. In fact, 43 is the largest number of McNuggets that you cannot buy with those pack sizes. Watch the Numberphile video below to learn more about this problem: [How To Order 43 Chicken McNuggets](https://www.youtube.com/watch?v=vNTSugyS038).
 
 A Frobenius number is a generalized version of this McNugget problem. Given a finite set of integers, the Frobenius number is the largest integer that cannot be formed by adding combinations of the integers in the set.
 
