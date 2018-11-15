@@ -51,7 +51,7 @@ Let's look at one more comparison. 
 
 | Math Example | Java Example |
 | --- | --- | 
-| *g(x, y) = ax<sup>2</sup> - by* | `public static double bloop(double x, double y) {`<br></br>`  return a*x*x - b*y;`<br></br>`}` |
+| *g(x, y) = ax<sup>2</sup> - by* | `public static double bloop(double x, double y) {`<br></br>&nbsp;&nbsp;`return a*x*x - b*y;`<br></br>`}` |
 
 The *a* and *b* that appear here are are not independent variables, otherwise they would be in the parentheses.
 
