@@ -103,7 +103,7 @@ public static void findSmallestPrimeFactor(int n) {
     } else if (n % 3 == 0) {
         // Figure out what goes here
     } else if (/* Figure out what goes here */){ 
-      // Figure out what goes here
+       // Figure out what goes here
     } else if (/* Figure out what goes here */){ 
         // Figure out what goes here
     } else {
