@@ -114,6 +114,7 @@ These are all the examples of casting that can be done in Java:
 Let's try this out.
 
 > Exercise 3-1    
+>    
 > Create a new project called CastingExamples. Under `main`, copy-paste the following code.
 ```java 
 String aString = "100";
