@@ -167,10 +167,10 @@ The `%s` is a placeholder for `String`. There are placeholders for other data t
 
 | Data Type | Placeholder |
 | --- | --- |
-| char | %c |
-| int, byte, short, long | %d |
-| float | %e for scientific notation<br></br>%f |
-| String	| %s |
+| `char` | `%c` |
+| `int`, `byte`, `short`, `long` | `%d` |
+| `float` | `%e` for scientific notation<br></br>%`f` |
+| `String` | `%s` |
 
 You can use multiple placeholders in the same string. The arguments are placed in order that their placeholders appear.
 
