@@ -248,12 +248,4 @@ This may seem unimportant, but when an array consists of objects, it is often de
 
 | Stable Sorting Algorithms | Unstable Sorting Algorithms |
 | --- | --- |
-| * Gnome Sort
- * Bubble Sort
- * Shaker Sort
- * Insertion Sort
- * Merge Sort | * Selection Sort
-* Shell Sort
-* Comb Sort
-* Bogo Sort
-* Quick Sort |
+| <ul><li>Gnome Sort</li><li>Bubble Sort</li><li>Shaker Sort</li><li>Insertion Sort</li><li>Merge Sort</li></ol> | <ul><li>Selection Sort</li><li>Shell Sort</li><li>Comb Sort</li><li>Bogo Sort</li><li>Quick Sort</li></ol> |
