@@ -64,7 +64,7 @@ Let's create a custom method. 
 > Create a new project and write the following method inside of the class and outside of main.
 ```java
 public static double area(double l, double w) {
-  return l*w;
+    return l*w;
 }
 ```
 > Under `main`, write the following using two intefer values of your choice.
@@ -125,8 +125,8 @@ When you are documenting a method, the following information should be stated:
  * @param c the third side length of the triangle
  * @return the perimeter of the triangle with side lengths a, b, and c
  */ 
- public static double perimeter(double a, double b, double c) {
-  return a + b + c;
+public static double perimeter(double a, double b, double c) {
+    return a + b + c;
 }
 ```    
 > Now, let's try to use this custom method.    
