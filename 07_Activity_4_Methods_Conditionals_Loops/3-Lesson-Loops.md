@@ -14,9 +14,9 @@ You would generally use a *while loop* when you know how to tell when the block
 Here is the general structure of a *while loop*.
 ```java
 while (<condition>) {
-  <statement>;
-  ⋮
-  <statement>;
+    <statement>;
+    ⋮
+    <statement>;
 }
 ```
 
@@ -38,10 +38,10 @@ int myGuess = 0;
 
 // This loop will test my guesses one-by-one until it is correct
 while (myGuess != randomInt) {
- // This tells me that my current guess is wrong
- System.out.println(Integer.toString(myGuess) + " is incorrect. Try again.");
- // This changes my guess to be one integer higher
- myGuess++;
+   // This tells me that my current guess is wrong
+   System.out.println(Integer.toString(myGuess) + " is incorrect. Try again.");
+   // This changes my guess to be one integer higher
+   myGuess++;
 }
 // This tells me what randomInt is after I've guessed it
 System.out.println(Integer.toString(myGuess) + " is correct!");
@@ -56,9 +56,9 @@ A *while loop* checks the condition before running the block of code. If you wan
 Here is the general structure of a *do while loop*.
 ```java
 do {
-  <statement>;
-  ⋮
-  <statement>;
+    <statement>;
+    ⋮
+    <statement>;
 } while (<condition>);
 ```
 
@@ -70,9 +70,9 @@ You would generally use a *for loop* when you know how many times you want the
 Here is the general structure of a *for loop.
 ```java
 for (<initialization>; <condition>; <incrementation>) {
-  <statement>;
-  ⋮
-  <statement>;
+    <statement>;
+    ⋮
+    <statement>;
 }
 ```
 
@@ -89,7 +89,7 @@ A *for loop* does the following:
 > Insert the following code into the `main` method.
 ```java
 for (int i = 0; i <= 5; i++) {
-  System.out.println(i);
+    System.out.println(i);
 }
 ```
 > When you run the program, it should print the integers from 0 to 5 in increasing order.
@@ -116,14 +116,14 @@ A loop that is placed inside another loop is called a **nested loop**.
 Here is an example of a nested loop.
 ```java
 for (int i = 0; i <= 9; i++) {
-  for (int j = 0; j <=9; j++) {
-    System.out.print(i);
-    System.out.println(j);
-  }
+    for (int j = 0; j <=9; j++) {
+        System.out.print(i);
+        System.out.println(j);
+    }
 }
 ```
 
-In this example, the for loop that iterates on i would be referred to as the **outer loop**, and the for loop that iterates on j would be referred to as the **inner loop**.
+In this example, the for loop that iterates on `i` would be referred to as the **outer loop**, and the for loop that iterates on `j` would be referred to as the **inner loop**.
 
 If you had a loop inside of a loop, which is already inside another loop, there would be two levels of inner loops.
 
