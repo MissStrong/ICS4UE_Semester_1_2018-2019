@@ -49,8 +49,8 @@ You can iterate through a string character by character using something like thi
 
 ```java
 String word;
-
 /* Initialize word here */
+
 for (int i = 0; i < word.length(); i++) {
     /* Do something with word.charAt(i), which is the character at index i */
 }
@@ -145,7 +145,7 @@ For characters in other languages (e.g. letters with accents or characters in di
 > 
 > 3. A string contains at least two characters that are numbers.
 > 
-> See solutions here.
+> See solutions [here](../Exercise_Solutions/Exercise-9-1.md). 
 
  
 
