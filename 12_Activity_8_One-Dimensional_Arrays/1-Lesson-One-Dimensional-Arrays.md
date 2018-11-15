@@ -109,7 +109,7 @@ It would look something like this.
 
 ```java
 for (int i = 0; i < arrayName.length; i++) {
-  // do something with arrayName[i]
+    // do something with arrayName[i]
 }
 ```
 
@@ -126,7 +126,7 @@ It would look something like this for an array of Strings:
 
 ```java
 for (String elem : array) {
-  // do something with elem
+    // do something with elem
 }
 ```
 
@@ -136,7 +136,7 @@ For example, it would look something like this for an array of booleans:
 
 ```java
 for (boolean elem : array) {
-  // do something with elem
+    // do something with elem
 }
 ```
  
@@ -154,13 +154,13 @@ for (boolean elem : array) {
  * @return the number of times s appears in array
  */
 public static int arraySearch(String[] array, String s) {
-  int count = 0;
+    int count = 0;
   
-  for (String elem : array) {
-    if (s.equals(elem)) count++;
-  }
+    for (String elem : array) {
+        if (s.equals(elem)) count++;
+    }
   
-  return count;
+    return count;
 }
 ```
 > How could you modify the method so that...
@@ -169,4 +169,3 @@ public static int arraySearch(String[] array, String s) {
 > 3. It is the same as 2., except it returns the number of ints that are less than or equal to the integer?
 > 
 > See solutions [here](../Exercise_Solutions/Exercise-8-1).
-
