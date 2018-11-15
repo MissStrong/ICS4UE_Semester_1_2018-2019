@@ -165,8 +165,8 @@ String.format("My name is %s.", name);
 
 The `%s` is a placeholder for `String`. There are placeholders for other data types, too.
 
-| Data | Type | Placeholder |
-| --- | --- | --- |
+| Data Type | Placeholder |
+| --- | --- |
 | char | %c |
 | int, byte, short, long | %d |
 | float | %e for scientific notation<br></br>%f |
