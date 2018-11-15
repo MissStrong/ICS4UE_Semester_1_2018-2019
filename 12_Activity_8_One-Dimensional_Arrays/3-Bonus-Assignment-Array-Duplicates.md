@@ -9,8 +9,9 @@ Create a method called `removeDuplicates()` that takes an array of strings and
 
 Examples:
 * `removeDuplicates(["how", "now", "cow", "now", "wow"])` => `["how", "now", "cow", "wow"]`
-* `removeDuplicates(["bat", "mat", "bat", "vat", "pat", "pat", "bat"])` => `["bat", "mat", "vat", "pat"]`  
- 
+* `removeDuplicates(["bat", "mat", "bat", "vat", "pat", "pat", "bat"])` => `["bat", "mat", "vat", "pat"]`
+
+
 Include `Bonus Assignment 5 - Array Duplicates` as a comment at the top of the file. 
 
 Name the zipped file **Bonus Assignment 5 - \<insert your name here>.zip**.
