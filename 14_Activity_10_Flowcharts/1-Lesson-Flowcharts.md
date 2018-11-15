@@ -2,15 +2,15 @@
 
 **Flowcharts** are diagrams that visually demonstrate an algorithm involving decision-making. Here are some great examples.
 
-![](../Images/Pictionary_Flowchart.png)
+![](../Images/Pictionary_Flowchart.jpg)
 
 Source: Doghouse Diaries
 
-![](../Images/Hacking_Flowchart.png)
+![](../Images/Hacking_Flowchart.jpg)
 
 Source: College Humor
 
-![](../Images/Laundry_Flowchart.png)
+![](../Images/Laundry_Flowchart.jpg)
 
 Source: Inconsequential Dilemas
 
