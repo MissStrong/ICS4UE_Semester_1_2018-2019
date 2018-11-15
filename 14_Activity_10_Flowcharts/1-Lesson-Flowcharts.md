@@ -15,6 +15,7 @@ Source: College Humor
 Source: Inconsequential Dilemas
 
 
+
 ### Flowchart Symbols
 
 There are over 20 standard symbols used in flowcharts, but you only need to knew these four for this activity.
@@ -25,6 +26,7 @@ There are over 20 standard symbols used in flowcharts, but you only need to knew
 | ![](../Images/Diamond.png)<br>Diamond | A question being asked. |
 | ![](../Images/Rectangle.png)<br>Rectangle | An action or process. |
 | ![](../Images/Arrow.png)<br>Arrow | Shows what shape to go to next.<br><\br>Can be accompanied by text. |
+
 
  
 ### Creating Flowcharts 
