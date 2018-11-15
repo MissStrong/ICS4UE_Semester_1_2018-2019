@@ -95,7 +95,7 @@ N.B.: Always assume that strings are case-sensitive when using any programming l
 | `startsWith()` | `"monkey".startsWith("mo"); // true` | Checks whether `"monkey"` begins with `"mo"`. |
 | `endWith()` | `"monkey".endsWith("oy"); // false` | Checks whether `"monkey"` ends with `"oy"`. |
 | `contains()` | `"monkey".contains("onk"); // true` | Checks whether `"monkey"` contains `"onk"`. |
- 
+
 
 There are also several methods in the `String` class that are useful for modifying strings.
 
