@@ -9,8 +9,8 @@ In this assignment, you'll be creating a GUI that allows a user to play Jotto ag
 
 ### Instructions
 
-Here is a demonstration of how it should work: [https://share.vidyard.com/watch/oeS8vax32CkzbMz5XxKcVU?](https://share.vidyard.com/watch/oeS8vax32CkzbMz5XxKcVU?).
-  
+Here is a demonstration of how it should work: [https://share.vidyard.com/watch/oeS8vax32CkzbMz5XxKcVU?](https://share.vidyard.com/watch/oeS8vax32CkzbMz5XxKcVU?).    
+ 
 Your GUI should have the following at minimum.
 * A textbox where the user can guess a Jotto word.
 * A textbox that displays the results of the words that have been guessed so far in the game.
