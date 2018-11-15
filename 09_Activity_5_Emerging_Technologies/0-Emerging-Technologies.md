@@ -1,11 +1,11 @@
 ## Emerging Technologies
 
 In this activity, you will:
-* Read about modern technology and digital divide.
-* Research an emerging technology of your choice.
-* Create a presentation about your emerging technology and upload it to the Dropbox.
-* Post your presentation to the Discussion Forums.
-* Respond to at least two of your classmates' presentations.
+1. Read about modern technology and digital divide.
+2. Research an emerging technology of your choice.
+3. Create a presentation about your emerging technology and upload it to the Dropbox.
+4. Post your presentation to the Discussion Forums.
+5. Respond to at least two of your classmates' presentations.
   
 ### Due Date
 
