@@ -108,7 +108,7 @@ There are also several methods in the `String` class that are useful for modifyi
 | `toCharArray()` | `"monkey".toCharArray(); // {'m', 'o', 'n', 'k', 'e', 'y'}` | Creates a char array of the chars in the string. |
 | `replace()` | `"abcabc".replace("a", "ef"); //"efbcefbc"` | Replaces all occurrences of "a" with "e". |
 | `replaceFirst()` |	`"abcabc".replaceFirst("a", "ef"); //"efbcabc"` | Replaces the first occurrence of "a" with "e". |
- 
+
 
 It is sometimes useful to convert characters to integers (their ASCII value) to check whether they are a certain type of character (e.g. lower case letter, punctuation mark, whitespace, etc.).
 
