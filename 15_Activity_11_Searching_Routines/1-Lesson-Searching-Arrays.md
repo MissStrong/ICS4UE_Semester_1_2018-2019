@@ -58,7 +58,7 @@ A computer would use an algorithm called binary searching to search for an item
 
 
 | amaranth | blue | cerulean | gold | lilac | orchid | raspberry | silver |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |  --- |
 | amber | blush | coffee | grey | lime | peach | red | tan |
 | amethyst | bronze | copper | green | magenta | pear | rose | teal |
 | apricot | brown | coral | indigo | maroon | periwinkle | ruby | turquoise |
