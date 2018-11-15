@@ -169,6 +169,7 @@ For example, under **All Classes**, you can find **Math**. Under **Methods Summa
 
 
 > Exercise 3-2    
+>    
 > Play around with the math operators to determine the following.    
 > 1. Does Java follow BEDMAS, or does it read mathematical expression from left to right?    
 > 2. Do brackets work as expected in Java when writing a mathematical expression?    
