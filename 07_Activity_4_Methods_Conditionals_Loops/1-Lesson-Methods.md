@@ -62,13 +62,11 @@ Let's create a custom method. 
 > Exercise 4-1 Part 1    
 >    
 > Create a new project and write the following method inside of the class and outside of main.
-<blockquote>
 ```java
 public static double area(double l, double w) {
   return l*w;
 }
 ```
-</blockquote>
 > Under `main`, write the following using two intefer values of your choice.
 ```java
 System.out.println(area(<insert an int value>, <insert another int value>));
