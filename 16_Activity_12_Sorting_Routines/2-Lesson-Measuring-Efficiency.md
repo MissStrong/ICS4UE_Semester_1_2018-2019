@@ -36,8 +36,8 @@ To write an algorithm's efficiency in Big O notation:
 | Gnome Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n2) |
 | Bubble Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n2) |
 | Shaker Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n2) |
-| Insertion Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/ | n<sup>2</sup> | O(n2) |
-| Selection Sort | n/2 | n | n | O(n) |
+| Insertion Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n2) |
+| Selection Sort | n-1 | n | n | O(n) |
 | Shell Sort | n-1 | n | n | O(n) |
 | Comb Sort | n-1 | n | n | O(n) |
 
