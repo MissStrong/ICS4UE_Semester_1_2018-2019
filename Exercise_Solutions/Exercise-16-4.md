@@ -18,4 +18,4 @@ What is the result when you run the following lines of code? What can you deduce
 
 `0`
 
-Since `Integer.MAX_VALUE + 1 == Integer.MIN_VALUE` and `Integer.MIN_VALUE - 1 == Integer.MAX_VALUE`, it can be inferred that the integerss continues at the other end of the domain when it extends one end. There is no overflow or underflow exception by default.
+Since `Integer.MAX_VALUE + 1 == Integer.MIN_VALUE` and `Integer.MIN_VALUE - 1 == Integer.MAX_VALUE`, it can be inferred that the integers continue at the other end of the domain when it extends one end. There is no overflow or underflow exception by default.
