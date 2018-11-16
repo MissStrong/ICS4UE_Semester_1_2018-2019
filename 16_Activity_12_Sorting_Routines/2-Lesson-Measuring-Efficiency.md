@@ -6,13 +6,13 @@ The following are the number of swaps each sorting algorithm (same versions as t
 
 | | Worst Case Description | Worst Case's Number of Swaps |
 | --- | --- | --- |
-| Gnome Sort | array is in descending order | n(n-1)/2 |
-| Bubble Sort | array is in descending order | n(n-1)/2 |
-| Shaker Sort | array is in descending order | n(n-1)/2 |
-| Insertion Sort | array is in descending order | n(n-1)/2 |
-| Selection Sort | array is one cycle long | n-1 |
-| Shell Sort | array is one cycle long | n-1 |
-| Comb Sort | array is one cycle long | n-1 |
+| Gnome Sort | array is in descending order | *n(n-1)/2* |
+| Bubble Sort | array is in descending order | *n(n-1)/2* |
+| Shaker Sort | array is in descending order | *n(n-1)/2* |
+| Insertion Sort | array is in descending order | *n(n-1)/2* |
+| Selection Sort | array is one cycle long | *n-1* |
+| Shell Sort | array is one cycle long | *n-1* |
+| Comb Sort | array is one cycle long | *n-1* |
 
 As you can see, some of these comparison-based sorting algorithms are more efficient than others when it comes to the maximum number of swaps performed.
 
@@ -33,13 +33,13 @@ To write an algorithm's efficiency in Big O notation:
 
 | | Worst Case's Number of Swaps | Most influential term | Coefficient Removed | Complexity in Big O Notation |
 | --- | --- | --- | --- | --- |
-| Gnome Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n<sup>2</sup>) |
-| Bubble Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n<sup>2</sup>) |
-| Shaker Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n<sup>2</sup>) |
-| Insertion Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n<sup>2</sup>) |
-| Selection Sort | n-1 | n | n | O(n) |
-| Shell Sort | n-1 | n | n | O(n) |
-| Comb Sort | n-1 | n | n | O(n) |
+| Gnome Sort | *n(n-1)/2 = n<sup>2</sup>/2 - n/2* | *n<sup>2</sup>/2* | *n<sup>2</sup>* | *O(n<sup>2</sup>)* |
+| Bubble Sort | *n(n-1)/2 = n<sup>2</sup>/2 - n/2* | *n<sup>2</sup>/2* | *n<sup>2</sup>* | *O(n<sup>2</sup>)* |
+| Shaker Sort | *n(n-1)/2 = n<sup>2</sup>/2 - n/2* | *n<sup>2</sup>/2* | *n<sup>2</sup>*| *O(n<sup>2</sup>)* |
+| Insertion Sort | *n(n-1)/2 = n<sup>2</sup>/2 - n/2* | *n<sup>2</sup>/2* | *n<sup>2</sup>* | *O(n<sup>2</sup>)* |
+| Selection Sort | *n-1* | *n* | *n* | *O(n) |
+| Shell Sort | *n-1* | *n* | *n* | *O(n) |
+| Comb Sort | *n-1* | *n* | *n* | *O(n) |
 
 There is typically a high degree of variance among algorithms that have the same complexity. Regardless, Big O is commonly used to measure efficiency.
 
@@ -49,16 +49,16 @@ These are the efficiencies that are most commonly referred to for these sorting 
 
 | | Best Case | Average Case | Worst Case |
 | --- | --- | --- | --- |
-| Gnome Sort | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) |
-| Bubble Sort | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) |
-| Shaker Sort | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) |
-| Insertion Sort | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) |
-| Selection Sort | Ω(n2) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>)|
-| Shell Sort | Ω(nlogn) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) |
-| Comb Sort | Ω(nlogn) | Θ(n<sup>4/3</sup>) | O(n<sup>4/3</sup>) |
-| Bogo Sort | Ω(n) | Θ(n<sup>n</sup>) | unbounded |
-| Merge Sort | Ω(nlogn) | Θ(nlogn) | O(nlogn) |
-| Quick Sort | Ω(nlogn) | Θ(nlogn) | O(n<sup>2</sup>) |
+| Gnome Sort | *Ω(n)* | *Θ(n<sup>2</sup>)* | *O(n<sup>2</sup>)* |
+| Bubble Sort | *Ω(n)* | *Θ(n<sup>2</sup>)* | *O(n<sup>2</sup>)* |
+| Shaker Sort | *Ω(n)* | *Θ(n<sup>2</sup>)* | *O(n<sup>2</sup>)* |
+| Insertion Sort | *Ω(n)* | *Θ(n<sup>2</sup>)* | *O(n<sup>2</sup>)* |
+| Selection Sort | *Ω(n<sup>2</sup>*) | *Θ(n<sup>2</sup>)* | *O(n<sup>2</sup>)*|
+| Shell Sort | *Ω(nlogn)* | *Θ(n<sup>2</sup>)* | *O(n<sup>2</sup>)* |
+| Comb Sort | *Ω(nlogn)* | *Θ(n<sup>4/3</sup>)* | *O(n<sup>4/3</sup>)* |
+| Bogo Sort | *Ω(n)* | *Θ(n<sup>n</sup>)* | unbounded |
+| Merge Sort | *Ω(nlogn)* | *Θ(nlogn)* | *O(nlogn) |
+| Quick Sort | *Ω(nlogn)* | *Θ(nlogn)* | *O(n<sup>2</sup>)* |
 
 
 There are five letters used in asymptotic notation:
@@ -75,11 +75,11 @@ Their formal definitions are quite mathy, so you don't need to worry about them 
 
 The following are ranked from most efficient to least efficient.
 
-O(1) < O(logn) < O(n) < O(nlogn) 
+*O(1)* < *O(logn)* < *O(n)* < *O(nlogn)*
 
 When comparing polynomial-time efficiencies, the lower the degree, the more efficient it is.
 
-For example, O(n) < O(nsup>4/3</sup>) < O(nsup>3</sup>) < O(nsup>4</sup>) < O(nsup>7</sup>)
+For example, *O(n)* < *O(nsup>4/3</sup>)* < *O(nsup>3</sup>)* < *O(nsup>4</sup>)* < *O(nsup>7</sup>)*
 
  
 ### Logarithms 
@@ -106,5 +106,5 @@ These are the efficiencies that are most commonly referred to for these searchin
 
 | | Best Case | Average Case | Worst Case |
 | --- | --- | --- | --- |
-| Linear Search | Ω(1) | Θ(n) | O(n) |
-| Binary Search | Ω(1) | Θ(logn) | O(logn) |
+| Linear Search | *Ω(1)* | *Θ(n)* | *O(n)* |
+| Binary Search | *Ω(1)* | *Θ(logn)* | *O(logn)* |
