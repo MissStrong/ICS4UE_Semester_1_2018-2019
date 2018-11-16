@@ -59,7 +59,7 @@ These are the efficiencies that are most commonly referred to for these sorting 
 | Bogo Sort | Ω(n) | Θ(nn) | unbounded |
 | Merge Sort | Ω(nlogn) | Θ(nlogn) | O(nlogn) |
 | Quick Sort | Ω(nlogn) | Θ(nlogn) | O(n<sup>2</sup>) |
- 
+
 
 There are five letters used in asymptotic notation:
 * capital O (big O notation)
