@@ -96,7 +96,7 @@ You could write a method to calculate the GCF of two numbers like this:
  */
 public static int gcf(int n, int m) {
     if (m == 0) return -1;
-    else return gcf(m, n%m);
+    else return gcf(m, n % m);
 }
 ```
 
