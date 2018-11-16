@@ -107,14 +107,14 @@ A fractal is a geometrical pattern that repeats indefinitely and in which every 
 
 | Sierpinski Triangle | Koch Snowflake | Mandelbrot Set |
 | --- | --- | --- |
-| ![](../Images/Sierpinski.png) |![](../Images/Koch_Snowflake.png) |![](../Images/Mandelbrot_Set.png) |
+| ![](../Images/Sierpinski_Triangle.png) |![](../Images/Koch_Snowflake.png) |![](../Images/Mandelbrot_Set.png) |
 
 
 > Exercise 16-3
 > 
 > 1. Why are fractals an example of recursion?
 > 
-> The Tower of Hanoi is a game that involves placing disks on pegs. You can play it here: http://www.dynamicdrive.com/dynamicindex12/towerhanoi.htm
+> The Tower of Hanoi is a game that involves placing disks on pegs. You can play it [here](http://www.dynamicdrive.com/dynamicindex12/towerhanoi.htm).
 > 
 > 2. Why is this game an example of recursion?
 > 
