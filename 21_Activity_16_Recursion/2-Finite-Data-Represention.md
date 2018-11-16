@@ -31,3 +31,10 @@ You may have noticed from the Change assignment that sometimes the result is sli
 This inaccuracy is due to rounding errors when dividing using finite data representation. Only 93.1% of the values from 0.00 to 9.99 are actually accurate in the Change assignment, unless you modified the structure of the algorithm.
 
 Inaccuracy caused by finite data representation is often frustrating. Be aware that if a calculation in any of your programs seems to be off, it might be that your algorithm may be fine and the Java simply can't accurately perform the calculation.
+
+> Exercise 16-5
+> 
+> Create a program that uses a loop to determine which of the monetary values inclusively between 0.00 and 9.99 are inaccurate in the Change assignment.
+> 
+> See solution [here](../Exercise_Examples/Exercise-16-5.md).
+
