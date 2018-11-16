@@ -28,7 +28,7 @@ To write an algorithm's efficiency in Big O notation:
 2. Expand the expression.
 3; Look the term that has the most influence on the shape of the graph (if it's a polynomial, it'll be the term with the highest degree).
 4. Remove the coefficient on that term. If the term is a constant, change it to 1. If the term contains a logarithm, remove the base.
-4. Put that term in parentheses and put a capital "O" in front of the left parenthesis.
+5. Put that term in parentheses and put a capital "O" in front of the left parenthesis.
  
 
 | | Worst Case's Number of Swaps | Most influential term | Coefficient Removed | Complexity in Big O Notation |
@@ -48,6 +48,7 @@ The tables above use the number of swaps as the measure of how efficient a sorti
 These are the efficiencies that are most commonly referred to for these sorting algorithms. A capital omega Ω is used for best case, and a capital theta Θ is used for the average case.
 
 | | Best Case | Average Case | Worst Case |
+| --- | --- | --- | --- |
 | Gnome Sort | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) |
 | Bubble Sort | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) |
 | Shaker Sort | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) |
@@ -104,5 +105,6 @@ The blue curve is *f(x)=2<sup>x</sup>* and the red curve is *f<sup>-1</sup>(x)=
 These are the efficiencies that are most commonly referred to for these searching algorithms. 
 
 | | Best Case | Average Case | Worst Case |
+| --- | --- | --- | --- |
 | Linear Search | Ω(1) | Θ(n) | O(n) |
 | Binary Search | Ω(1) | Θ(logn) | O(logn) |
