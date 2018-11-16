@@ -36,8 +36,8 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 | Activity 14: Computer Science Research | November 23 |
 | Activity 15: Post-Secondary Opportunities | November 23 |
 | Activity 16: Recursion | November 30 |
-| Activity 17: Object-Oriented Programming - Part 1 of 2 | December 7 |
-| Activity 18: Object-Oriented Programming - Part 2 of 2 | December 14 |
+| Activity 17: Abstract Data Types | December 7 |
+| Activity 18: Object-Oriented Programming | December 14 |
 | Activity 19: Software Development Life Cycle | December 21 |
 
 ### Unit 4: Culminating Task
