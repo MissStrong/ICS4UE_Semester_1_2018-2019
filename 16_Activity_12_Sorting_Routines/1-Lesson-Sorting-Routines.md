@@ -69,6 +69,7 @@ Do the following until the array is sorted:
 
 Shaker Sort is Bubble Sort with a twist. Once the bubble reaches the end of the array, it heads backwards until it reaches the start of the array. It keeps heading forwards and backwards until the array is sorted.
 
+
 **Insertion Sort**
 
 ```
@@ -179,7 +180,8 @@ This is the true "Stupid Sort". Bogo Sort is intended to be a joke. It is imprac
 
 So far, all of the sorting algorithms are classified as inefficient. They are relatively simple to understand, but they do more comparisons and/or swaps than necessary. Merge Sort and Quick Sort are among the most efficient sorting algorithms, but they are more difficult to code.
 
- 
+
+ 
 **Merge Sort**
 
 ```
