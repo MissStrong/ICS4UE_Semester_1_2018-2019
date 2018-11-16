@@ -47,7 +47,7 @@ System.out.println(Arrays.toString(row2));
 > 
 > 2. Create a method that returns the result from reversing the columns of a 2D array.
 > 
-> Download solutions [here](../Java_Programs/GridExampleSolutions.zip).
+> Download solutions [here](../Java_Programs/GridExampleSolution.zip).
 
  
 ### 2D Arrays in Games
