@@ -8,7 +8,7 @@ In computer science, a **recursive method** is a method that calls itself within
 
 > Exercise 16-1
 > 
-> Search the word Recursion on Google. What happens?
+> Search the word *recursion* on Google. What happens?
 > 
 > [See image](../Images/Recursion.md).
 
