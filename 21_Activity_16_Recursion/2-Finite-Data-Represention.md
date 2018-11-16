@@ -26,7 +26,7 @@ Fun fact: The Ariane 5 rocket launch in 1996 failed due to an integer overflow 
 
 You may have noticed from the Change assignment that sometimes the result is slightly off even though the math checks out.
 
-![](../Images/Change_987) ![](../Images/Change_995)
+![](../Images/Change_987.png) ![](../Images/Change_995.png)
 
 This inaccuracy is due to rounding errors when dividing using finite data representation. Only 93.1% of the values from 0.00 to 9.99 are actually accurate in the Change assignment, unless you modified the structure of the algorithm.
 
