@@ -159,10 +159,10 @@ Comb Sort is the same as Shell sort, except the gap starts at the length of the 
 > * Selection Sort
 >    
 > Solutions:
-> * [Gnome Sort](../Images/Gnome_Sort_Flowchart.png).
-> * [Bubble Sort](../Images/Bubble_Sort_Flowchart.png).
-> * [Insertion Sort](../Images/Insertion_Sort_Flowchart.png).
-> * [Selection Sort](../Images/Selection_Sort_Flowchart.png).
+> * [Gnome Sort](../Images/Gnome_Sort_Flowchart.png)
+> * [Bubble Sort](../Images/Bubble_Sort_Flowchart.png)
+> * [Insertion Sort](../Images/Insertion_Sort_Flowchart.png)
+> * [Selection Sort](../Images/Selection_Sort_Flowchart.png)
 
   
 **Bogo Sort**
