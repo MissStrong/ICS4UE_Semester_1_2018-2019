@@ -4,7 +4,7 @@
 
 All computers use a fixed number of bits to represent data. This means that there are limits as to what integers a program can use.  
 
-Java uses 64-bit data representation: the lowest integer it can store is -2<sup>31</sup? and the highest integer it can store is 2<sup>31</sup> - 1. You can use `Integer.MAX_VALUE` and `Integer.MIN_VALUE` to obtain these values.
+Java uses 64-bit data representation: the lowest integer it can store is -2<sup>31</sup> and the highest integer it can store is 2<sup>31</sup> - 1. You can use `Integer.MAX_VALUE` and `Integer.MIN_VALUE` to obtain these values.
 
 When you try to compute a value beyond of this domain, it is called **integer overflow** (beyond `Integer.MAX_VALUE`) or **integer underflow** (beyond `Integer.MIN_VALUE`).
 
@@ -30,4 +30,4 @@ You may have noticed from the Change assignment that sometimes the result is sli
 
 This inaccuracy is due to rounding errors when dividing using finite data representation. Only 93.1% of the values from 0.00 to 9.99 are actually accurate in the Change assignment, unless you modified the structure of the algorithm.
 
-Inaccuracy caused by finite data representation is often frustrating. Be aware that if a calculation in any of your programs seems to be off, it might be that your algorithm may be fine and the Java simply can't accurately perform a calculated.
+Inaccuracy caused by finite data representation is often frustrating. Be aware that if a calculation in any of your programs seems to be off, it might be that your algorithm may be fine and the Java simply can't accurately perform the calculation.
