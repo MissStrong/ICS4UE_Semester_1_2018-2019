@@ -16,29 +16,28 @@ ImageIcon icon = new ImageIcon("src/icon.jpg");
 
 If the image is not in the src folder, you can replace src/ with the appropriate relative file path. Avoid using absolute file paths (e.g. "/Users/Sarah/Desktop/icon.jpg"). Using an absolute file path may cause your program to not work as expected on other computers.
 
- 
 To place this image onto `JButton` object, called `buttonName`, use the following code.
 
 ```java
 buttonName.setIcon(icon);
 ```
- 
+
 If your button and image are the same dimensions, it should fit perfectly. There are apparently some issues images that are partially transparent, in which case you'll want the button to be slightly larger than the dimensions of the image.
 
- 
+
 To retrieve the current icon on a button, you can use this.
 
 ```java
 buttonName.getIcon();
 ```
- 
+
 
 To remove an image from a button, you can use this.
 
 ```java
 buttonName.setIcon(null);
 ```
- 
+
 If you'd like a button to begin with an image already displayed on it, right click on the button and go to **Properties**. There will be a property called **icon**, with a dropdown menu of all the images played in the src folder.
 
 ![](../Images/Icon.png)
