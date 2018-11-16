@@ -71,6 +71,7 @@ There are five letters used in asymptotic notation:
 Their formal definitions are quite mathy, so you don't need to worry about them for this course. All you should know is that big O notation is used for the worst case, big omega notation is used for the best case, and big theta notation is used for the average case.
 
 
+
 ### Comparing Efficiencies
 
 The following are ranked from most efficient to least efficient.
