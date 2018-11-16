@@ -33,10 +33,10 @@ To write an algorithm's efficiency in Big O notation:
 
 | | Worst Case's Number of Swaps | Most influential term | Coefficient Removed | Complexity in Big O Notation |
 | --- | --- | --- | --- | --- |
-| Gnome Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n2) |
-| Bubble Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n2) |
-| Shaker Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n2) |
-| Insertion Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n2) |
+| Gnome Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n<sup>2</sup>) |
+| Bubble Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n<sup>2</sup>) |
+| Shaker Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n<sup>2</sup>) |
+| Insertion Sort | n(n-1)/2 = n<sup>2</sup>/2 - n/2 | n<sup>2</sup>/2 | n<sup>2</sup> | O(n<sup>2</sup>) |
 | Selection Sort | n-1 | n | n | O(n) |
 | Shell Sort | n-1 | n | n | O(n) |
 | Comb Sort | n-1 | n | n | O(n) |
