@@ -6,7 +6,14 @@ In this activity, you will:
         1. Read about recursion.
            1. Read about recursion.
                1. Read about recursion.
-                  ...
+                   1. Read about recursion.
+                       1. Read about recursion.
+                           1. Read about recursion..
+                               1. Read about recursion.
+                                   1. Read about recursion.
+                                       1. Read about recursion.
+                                           1. Read about recursion.
+                                              ...
 2. Read about finite data representation.
 3. Create a program that uses recursion and handles integer overflow.
 4. Post to the Discussion Forum.
