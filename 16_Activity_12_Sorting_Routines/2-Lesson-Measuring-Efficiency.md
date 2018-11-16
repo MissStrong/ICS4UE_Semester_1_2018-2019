@@ -37,9 +37,9 @@ To write an algorithm's efficiency in Big O notation:
 | Bubble Sort | *n(n-1)/2 = n<sup>2</sup>/2 - n/2* | *n<sup>2</sup>/2* | *n<sup>2</sup>* | *O(n<sup>2</sup>)* |
 | Shaker Sort | *n(n-1)/2 = n<sup>2</sup>/2 - n/2* | *n<sup>2</sup>/2* | *n<sup>2</sup>*| *O(n<sup>2</sup>)* |
 | Insertion Sort | *n(n-1)/2 = n<sup>2</sup>/2 - n/2* | *n<sup>2</sup>/2* | *n<sup>2</sup>* | *O(n<sup>2</sup>)* |
-| Selection Sort | *n-1* | *n* | *n* | *O(n) |
-| Shell Sort | *n-1* | *n* | *n* | *O(n) |
-| Comb Sort | *n-1* | *n* | *n* | *O(n) |
+| Selection Sort | *n-1* | *n* | *n* | *O(n)* |
+| Shell Sort | *n-1* | *n* | *n* | *O(n)* |
+| Comb Sort | *n-1* | *n* | *n* | *O(n)* |
 
 There is typically a high degree of variance among algorithms that have the same complexity. Regardless, Big O is commonly used to measure efficiency.
 
@@ -57,7 +57,7 @@ These are the efficiencies that are most commonly referred to for these sorting 
 | Shell Sort | *Ω(nlogn)* | *Θ(n<sup>2</sup>)* | *O(n<sup>2</sup>)* |
 | Comb Sort | *Ω(nlogn)* | *Θ(n<sup>4/3</sup>)* | *O(n<sup>4/3</sup>)* |
 | Bogo Sort | *Ω(n)* | *Θ(n<sup>n</sup>)* | unbounded |
-| Merge Sort | *Ω(nlogn)* | *Θ(nlogn)* | *O(nlogn) |
+| Merge Sort | *Ω(nlogn)* | *Θ(nlogn)* | *O(nlogn)* |
 | Quick Sort | *Ω(nlogn)* | *Θ(nlogn)* | *O(n<sup>2</sup>)* |
 
 
@@ -79,7 +79,7 @@ The following are ranked from most efficient to least efficient.
 
 When comparing polynomial-time efficiencies, the lower the degree, the more efficient it is.
 
-For example, *O(n)* < *O(nsup>4/3</sup>)* < *O(nsup>3</sup>)* < *O(nsup>4</sup>)* < *O(nsup>7</sup>)*
+For example, *O(n)* < *O(n<sup>4/3</sup>)* < *O(n<sup>3</sup>)* < *O(n<sup>4</sup>)* < *O(n<sup>7</sup>)*
 
  
 ### Logarithms 
