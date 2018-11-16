@@ -115,6 +115,7 @@ A fractal is a geometrical pattern that repeats indefinitely and in which every 
 > 1. Why are fractals an example of recursion?
 > 
 > The Tower of Hanoi is a game that involves placing disks on pegs. You can play it here: http://www.dynamicdrive.com/dynamicindex12/towerhanoi.htm
+> 
 > 2. Why is this game an example of recursion?
 > 
 > See solutions [here](../Exercise_Solutions/Exercise-16-3). 
