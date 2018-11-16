@@ -55,7 +55,7 @@ These are the efficiencies that are most commonly referred to for these sorting 
 | Insertion Sort | Ω(n) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) |
 | Selection Sort | Ω(n2) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>)|
 | Shell Sort | Ω(nlogn) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) |
-| Comb Sort | Ω(nlogn) | Θ(n<sup>4/3</sup>) | O(nsup>4/3</sup>) |
+| Comb Sort | Ω(nlogn) | Θ(n<sup>4/3</sup>) | O(n<sup>4/3</sup>) |
 | Bogo Sort | Ω(n) | Θ(nn) | unbounded |
 | Merge Sort | Ω(nlogn) | Θ(nlogn) | O(nlogn) |
 | Quick Sort | Ω(nlogn) | Θ(nlogn) | O(nsup>2</sup>) |
