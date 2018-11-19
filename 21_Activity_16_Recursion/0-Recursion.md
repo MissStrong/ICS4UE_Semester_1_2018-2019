@@ -13,8 +13,9 @@ In this activity, you will:
                                    1. Read about recursion.
                                       ...
 2. Read about finite data representation.
-3. Create a program that uses recursion and handles integer overflow.
-4. Post to the Discussion Forum.
+3. Take a quiz about the lessons. 
+4. Create a program that uses recursion and handles integer overflow.
+5. Post to the Discussion Forum.
   
 
 ### Due Date
