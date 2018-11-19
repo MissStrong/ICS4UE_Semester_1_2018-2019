@@ -163,73 +163,26 @@ These are some the typical operations of a set ADT. You don't need to know the s
 | --- | --- | --- | --- |
 | check whether an element is in the set | "element of", "belongs to", "in" |	∈ (an element of)</br>∉ (not an element of) |1 ∈ {1, 2, 3}</br>0 ∉ {1, 2, 3} |
 | insert an element into a set | | | |
+| create a new set that is the combination of all the elements of two sets | "union" | ∪  |{1, 2, 3} ∪ {2, 3, 4} = {1, 2, 3, 4} |
+| create a new set that is the combination of all the elements that are common between two sets | "intersection" | ∩ | {1, 2, 3} ∩ {2, 3, 4} = {2, 3} |
+| create a new set that contains all the elements of a particular set, excluding the elements that are common between another particular set | "difference", "relative component" | – | {1, 2, 3} – {2, 3, 4} = {1} |
+| check whether all the elements of a set are contained in another set | "subset", "proper subset" | ⊂ (subset)</br>⊆ (proper subset)</br>⊄ (not a subset)</br>⊈ or ⊊ (not a proper subset) |
+| {1, 2, 3} ⊂ {1, 2, 3, 4}</br>{1, 2, 3} ⊆ {1, 2, 3, 4}</br>{1, 2, 3} ⊄ {3, 4, 5}</br>{1, 2, 3} ⊈ {1, 2, 3}</br>{1, 2, 3} ⊊ {1, 2, 3} |
+| check whether all the elements of another set are contained in a set | "superset", "proper superset" | ⊃ (superset)</br>⊇ (proper superset)</br>⊅ (not a superset)</br>⊉ or ⊋ (not a proper superset) | {1, 2, 3, 4} ⊃ {1, 2, 3}</br>{1, 2, 3, 4} ⊇ {1, 2, 3}</br>{1, 2, 3} ⊅ {3, 4, 5}</br>{1, 2, 3} ⊉ {1, 2, 3}</br>{1, 2, 3} ⊋ {1, 2, 3} |
+| return the number of elements in the set | "cardinality", "size" | \| set \| | \|{1, 2, 3}\| = 3 |
 
-create a new set that is the combination of all the elements of two sets 
-
-"union"	∪ 	{1, 2, 3} ∪ {2, 3, 4} = {1, 2, 3, 4}
-create a new set that is the combination of all the elements that are common between two sets
-
-"intersection"	∩	{1, 2, 3} ∩ {2, 3, 4} = {2, 3}
-create a new set that contains all the elements of a particular set, excluding the elements that are common between another particular set
-
-"difference", "relative component"	–	{1, 2, 3} – {2, 3, 4} = {1}
-check whether all the elements of a set are contained in another set	"subset", "proper subset"	
-⊂ (subset)
-
-⊆ (proper subset)
-
-⊄ (not a subset)
-
-⊈ or ⊊ (not a proper subset)
-
-{1, 2, 3} ⊂ {1, 2, 3, 4}
-{1, 2, 3} ⊆ {1, 2, 3, 4}
-
-{1, 2, 3} ⊄ {3, 4, 5}
-
-{1, 2, 3} ⊈ {1, 2, 3}
-
-{1, 2, 3} ⊊ {1, 2, 3}
-
-check whether all the elements of another set are contained in a set (the ⊃ "superset" operation in set theory)
-
-"superset", "proper superset"	
-⊃ (superset)
-
-⊇ (proper superset)
-
-⊅ (not a superset)
-
-⊉ or ⊋ (not a proper superset)
-
-{1, 2, 3, 4} ⊃ {1, 2, 3}
-
-{1, 2, 3, 4} ⊇ {1, 2, 3}
-
-{1, 2, 3} ⊅ {3, 4, 5}
-
-{1, 2, 3} ⊉ {1, 2, 3}
-
-{1, 2, 3} ⊋ {1, 2, 3}
-
-return the number of elements in the set	"cardinality", "size"	| set | 	|{1, 2, 3}| = 3
-Java has an interface called Set. The HashSet class, among others, implements Set. You need to import java.util.Set in order to use these classes. Here are some of their methods you can use. 
+Java has an interface called `Set`. The `HashSet` class, among others, implements `Set`. You need to import `java.util.Set` in order to use these classes. Here are some of the methods you can use. 
 
 
 | Method | Explanation | Example | Explanation |
 | --- | --- | --- | --- |
-| HashSet()	Creates a new (empty) set.	| HashSet<Double> hashSetExample = new HashSet(); |
-Creates a new set called hashMapExample that will contain Double values.
-add()	Adds a element into the set.	
-hashSetExample.add(92.1);
-hashSetExample.add(86.4);
-
-Adds the elements 92.1 and 86.4 to hashMapExample.
-contains()	Returns true if the set contains the element, and false otherwise.	hashSetExample.contains(71.9);	Returns false.
-remove()	Removes the element from the set.	hashSetExample.remove(92.1);	Removes the element 92.1 from hashMapExample.
-clear()	Removes all of the elements from the set.	hashSetExample.clear();	Removes all the elements from hashMapExample. Now, it is an empty set.
-size()	Returns the number of elements in the set.	hashSetExample.size();	Returns 0, since hashMapExample is empty.
-isEmpty()	Returns true is the set is empty, and false otherwise.	hashSetExample.isEmpty();	Returns true, since hashMapExample is empty.
+| `HashSet()` | Creates a new (empty) set.| `HashSet<Double> hashSetExample = new HashSet();` | Creates a new set called `hashMapExample` that will contain `Double` values. |
+| `add()` | Adds a element into the set. | `hashSetExample.add(92.1);</br>hashSetExample.add(86.4);` | Adds the elements `92.1` and `86.4` to `hashMapExample`. |
+| `contains()` | Returns `true` if the set contains the element, and `false` otherwise. | `hashSetExample.contains(71.9);` | Returns `false`. |
+| `remove()` | Removes the element from the set. | `hashSetExample.remove(92.1);` | Removes the element `92.1` from `hashMapExample`. |
+| `clear()` | Removes all of the elements from the set. | `hashSetExample.clear();` | Removes all the elements from `hashMapExample`. Now, it is an empty set. |
+| `size()` | Returns the number of elements in the set. | `hashSetExample.size();` | Returns `0`, since `hashMapExample` is empty. |
+| `isEmpty()` | Returns `true` is the set is empty, and `false` otherwise. | `hashSetExample.isEmpty();` | Returns `true`, since `hashMapExample` is `empty`. |
  
 
 ### Hash
@@ -242,5 +195,3 @@ The number sign # (a.k.a pound sign/key, if you're referring to a telephone) is 
 > Exercise 17-1
 > 
 > Download and run the [Abstract Data Types Example](../Java_Programs/AbstractDataTypesExamples.zip) project to see how `Stack`, `PriorityQueue`, `HashMap`, and `HashSet` work.
-
-    
