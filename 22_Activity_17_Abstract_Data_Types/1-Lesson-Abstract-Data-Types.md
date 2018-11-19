@@ -124,6 +124,7 @@ You need to import `java.util.Deque` in order to use these classes. Here are so
 | `peekFirst()` | | `peek()` |
 
 
+
 ### Dictionary ADT
 
 The **dictionary** ADT (also called a **map**, **hash map**, **associative array**, or **hash table**), is an collection of key-value pairs. A value can be quickly retrieved using its corresponding key. Keys are unique and are similar to the idea of an ID in a database. Values do not have to be unique.
@@ -132,20 +133,22 @@ These are some the typical operations of a dictionary ADT.
 * look up the value of a particular key in the dictionary
 * insert a new key-value pair into the dictionary
 * remove a key-value pair from the dictionary
-* Dictionaries have many applications. As its name implies, they can be used as dictionary of words and their definitions. They can also be used to store values that correspond to different traits of an item. For example, your dictionary can contain the key-value pairs `"Name"="Alice"`, `"Gender"="F"`, and `"Age"="40"`, which all correspond to a particular human.
+
+Dictionaries have many applications. As its name implies, they can be used as dictionary of words and their definitions. They can also be used to store values that correspond to different traits of an item. For example, your dictionary can contain the key-value pairs `"Name"="Alice"`, `"Gender"="F"`, and `"Age"="40"`, which all correspond to a particular human.
 
 Java has two dictionary ADTs: the `hashMap` class and the `hashtable` class. This example will be using `hashMap`. You need to import `java.util.HashMap` in order to use this class. Here are some of its methods you can use. 
 
 | Method | Explanation | Example | Explanation |
 | --- | --- | --- | --- |
-| HashMap() |	Creates a new (empty) dictionary.	| HashMap<String, Integer> hashMapExample = new HashMap(); | Creates a new dictionaries called hashMapExample in which the keys are strings and the values are integers. |
-| put() | Adds a new key-value pair into the dictionary. | hashMapExample.put("a", 1);</br>hashMapExample.put("b", 2); | Adds the key-value pairs "a"=1 and "b"=2 to hashMapExample. |
-| get()	Returns the value corresponding to the key, or null if the key is not in the dictionary.	hashMapExample.get("a");	Returns 1, which is the value that corresponds to the key "a". |
-| remove()	Removes the key-value pair from the dictionary.	hashMapExample.remove("a");	Removes the key-value pair "a"=1 from hashMapExample. |
-| clear()	Removes all key-value pairs from the dictionary.	hashMapExample.clear();	Removes all the key-value pairs from hashMapExample. Now, it is an empty dictionary. |
-| size()	Returns the number of key-value pairs in the dictionary.	hashMapExample.size();	Returns 0, since hashMapExample is empty. |
-| isEmpty()	Returns true is the dictionary is empty, and false otherwise.	hashMapExample.isEmpty();	Returns true, since hashMapExample is empty. |
-| containsKey()	Returns true if the dictionary contains the key, and false otherwise.	hashMapExample.containsKey("a");	Returns false, since hashMapExample is empty.containsValue()	Returns true if the dictionary contains the value, and false otherwise.	hashMapExample.containsValue(3);	Returns false, since hashMapExample is empty. |
+| `HashMap()` |	Creates a new (empty) dictionary.	| `HashMap<String, Integer> hashMapExample = new HashMap();` | Creates a new dictionaries called `hashMapExample` in which the keys are strings and the values are integers. |
+| `put()` | Adds a new key-value pair into the dictionary. | `hashMapExample.put("a", 1);</br>hashMapExample.put("b", 2);` | Adds the key-value pairs `"a"=1` and `"b"=2` to `hashMapExample`. |
+| `get()` | Returns the value corresponding to the key, or `null` if the key is not in the dictionary. | `hashMapExample.get("a");` | Returns `1`, which is the value that corresponds to the key `"a"`. |
+| `remove()` | Removes the key-value pair from the dictionary. | `hashMapExample.remove("a");` | Removes the key-value pair `"a"=1` from `hashMapExample`. |
+| `clear()` | Removes all key-value pairs from the dictionary. | `hashMapExample.clear();` | Removes all the key-value pairs from `hashMapExample`. Now, it is an empty dictionary. |
+| `size()` | Returns the number of key-value pairs in the dictionary. | `hashMapExample.size();` | Returns `0`, since `hashMapExample` is empty. |
+| `isEmpty()` | Returns `true` is the dictionary is empty, and `false` otherwise. | `hashMapExample.isEmpty();` | Returns `true`, since `hashMapExample` is empty. |
+| `containsKey()` | Returns `true` if the dictionary contains the key, and `false` otherwise. | `hashMapExample.containsKey("a");` | Returns `false`, since `hashMapExample` is empty. |
+| `containsValue()` | Returns `true` if the dictionary contains the value, and `false` otherwise. | `hashMapExample.containsValue(3)` | Returns `false`, since `hashMapExample` is empty. |
 
 N.B.: In some other programming languages, such as Python, the keys in dictionaries must be immutable data types, which excludes lists. This is not the case for Java; a key can be any data type as long as it isn't primitive.
 
@@ -156,19 +159,10 @@ The **set** ADT is similar to a mathematical set (or a dictionary with no values
 
 These are some the typical operations of a set ADT. You don't need to know the symbols, although many of you have seen most of them before from a math course, so I've included them for reference.
 
-Operation	Name in Set Theory	Symbols in Set Theory	Example
-check whether an element is in the set
-
-"element of", "belongs to", "in"	
-∈ (an element of)
-
-∉ (not an element of)
-
-1 ∈ {1, 2, 3}
-
-0 ∉ {1, 2, 3}
-
-insert an element into a set
+| Operation | Name in Set Theory | Symbols in Set Theory | Example |
+| --- | --- | --- | --- |
+| check whether an element is in the set | "element of", "belongs to", "in" |	∈ (an element of)</br>∉ (not an element of) |1 ∈ {1, 2, 3}</br>0 ∉ {1, 2, 3} |
+| insert an element into a set | | | |
 
 create a new set that is the combination of all the elements of two sets 
 
