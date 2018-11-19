@@ -7,6 +7,7 @@ An **abstract data type** (ADT) is a composite data type that is used to store 
 Choosing the right ADT is an important part of program design. Choosing the right ADT allows your code to be easy to read and efficient; choosing the wrong ADT can be frustrating. Depending on your program, you may not need an ADT at all, or you may want to combine various ADTs.
 
 
+
 ### Sequence ADT
 The **sequence** ADT is an ordered list of elements that can be retrieved and modified. 
 
@@ -20,6 +21,7 @@ These are some the typical operations of a sequence ADT.
 If these operations sound familiar, that is because one of the sequence ADTs used in Java is the `ArrayList` class.
 
 Another sequence ADT used in Java is the `Vector` class, which is similar to `ArrayList`, but has some key differences. One of the differences is that the elements of a vector don't have to all be the same data type, and they can include primitive data types. You don't need to use `Vector` in this course, but you may find it useful to know a bit about them, since other ADTs are implemented using `Vector`.
+
 
 
 ### Stack ADT
@@ -39,12 +41,13 @@ Java has a class called `Stack`. You need to import `java.util.Stack` in order 
 | Method | Explanation | Example | Explanation |
 | --- | --- | --- | --- |
 | `Stack()` | Creates a new (empty) stack. | `Stack stackExample = new Stack();` | Creates a new stack called `stackExample`. It is initialized to the empty stack. |
-| `empty()` | Returns true if the stack is empty, and false otherwise. | `stackExample.empty()` | Returns true, since `stackExample` is currently empty. |
-| `push()` | Adds an elements to the top of the stack. Throws `EmptyStackException` if the stack is empty. | `stackExample.push(1234)` | Adds 1234 to the top of `stackExample`. |
-| `peek()` | Returns the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.peek()` | Returns  1234. |
+| `empty()` | Returns `true` if the stack is empty, and `false` otherwise. | `stackExample.empty()` | Returns `true`, since `stackExample` is currently empty. |
+| `push()` | Adds an elements to the top of the stack. Throws `EmptyStackException` if the stack is empty. | `stackExample.push(1234)` | Adds `1234` to the top of `stackExample`. |
+| `peek()` | Returns the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.peek()` | Returns  `1234`. |
 | `pop()` | Removes the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.pop()` | Removes the top element. Now `stackExample` is empty again. |
 
 The `Stack` class is integrated using the `Vector` class, so you can also use any methods from `Vector` on a `Stack` object. Also, the elements of a stack can belong to different data types, just like a vector. For example, your stack could be `[1234, "potato", true, {99}]`. You can print a stack using `System.out.println(stackExample);`.
+
 
 
 ### Queue ADT
@@ -65,15 +68,14 @@ You need to import `java.util.Queue` in order to use these classes. Here are so
 
 | Method | Explanation | Example | Explanation |
 | --- | --- | --- | --- |
-| `PriorityQueue()` | Creates a new (empty) priority queue. | Queue<Integer> queueExample = new PriorityQueue(); | Creates a new priority queue of integers called queueExample. It is initialized to the empty queue. |
-| `add()` | Adds an element to the queue, if possible. Returns true or throws IllegalStateException.	queueExample.add(1234);	Adds 1234 to the top of queueExample. |
-| `offer()` | Adds an element to the queue, if possible. Returns true (success) or false (failure).	queueExample.offer(5678);	Adds 5678 to the top of queueExample. |
-| `element()` | Returns the element at the front of the queue or throws EmptyQueueException if the queue is empty.	queueExample.element();	Returns 5678. |
-| `peek()` | Returns the element at the front of the queue or returns null if the queue is empty.	queueExample.peek();	Returns 5678. |
-| `remove()` | Returns the element at the front of the queue or throws NoSuchElementException if the queue is empty.	queueExample.remove();	Removes 5678. Now, queueExample contains only 1234. |
-| `poll()` | Returns the element at the front of the queue or returns null if the queue is empty.	queueExample.poll();	Removes 1234. Now, queueExample is empty again. |
-| `isEmpty()` |	Returns true if the queue is empty, and false otherwise.	queueExample.isEmpty()	Returns true, since queueExample is currently empty. |
- 
+| `PriorityQueue()` | Creates a new (empty) priority queue. | `Queue<Integer> queueExample = new PriorityQueue();` | Creates a new priority queue of integers called `queueExample`. It is initialized to the empty queue. |
+| `add()` | Adds an element to the queue, if possible. Returns `true` or throws `IllegalStateException`. | `queueExample.add(1234);` | Adds `1234` to the top of `queueExample`. |
+| `offer()` | Adds an element to the queue, if possible. | Returns `true` (success) or `false` (failure). | `queueExample.offer(5678);` | Adds `5678` to the top of `queueExample`. |
+| `element()` | Returns the element at the front of the queue or throws `EmptyQueueException` if the queue is empty. | `queueExample.element();` | Returns `5678`. |
+| `peek()` | Returns the element at the front of the queue or returns `null` if the queue is empty.| `queueExample.peek();` | Returns `5678`. |
+| `remove()` | Returns the element at the front of the queue or throws `NoSuchElementException` if the queue is empty. | 	`queueExample.remove();` | Removes `5678`. Now, `queueExample` contains only `1234`. |
+| `poll()` | Returns the element at the front of the queue or returns `null` if the queue is empty. | `queueExample.poll();` | 	`Removes 1234`. Now, queueExample is empty again. |
+| `isEmpty()` |	Returns `true` if the queue is empty, and `false` otherwise. | `queueExample.isEmpty()` | Returns `true`, since `queueExample` is currently empty. |
 
 Just like an array list, a queue can contain only one data type, and it cannot be a primitive data type. Each primitive data type has a corresponding class that you can use instead. The main difference between the primitive data type and the class is that a value of the class can be `null`, whereas the value of a primitive data type cannot be `null`.
 
@@ -89,6 +91,7 @@ Just like an array list, a queue can contain only one data type, and it cannot b
 | `char` | `Character` |
 
 N.B.: The null character (the one that has ASCII value 0) is different than a value of a character being `null`. If a character is `null`, it's likely because it has not been initialized yet.
+
 
 
 ### Deque ADT
@@ -149,7 +152,7 @@ N.B.: In some other programming languages, such as Python, the keys in dictionar
 
 ### Set ADT
 
-The set ADT is similar to a mathematical set (or a dictionary with no values) in which every element is unique. It is simply a collection of items. Unlike an unsorted array or an unsorted array list, retrieving an element doesn't require a linear search; it can be retrieved in O(1) time. This is due to the way that sets are stored.
+The **set** ADT is similar to a mathematical set (or a dictionary with no values) in which every element is unique. It is simply a collection of items. Unlike an unsorted array or an unsorted array list, retrieving an element doesn't require a linear search; it can be retrieved in O(1) time. This is due to the way that sets are stored.
 
 These are some the typical operations of a set ADT. You don't need to know the symbols, although many of you have seen most of them before from a math course, so I've included them for reference.
 
@@ -237,7 +240,7 @@ isEmpty()	Returns true is the set is empty, and false otherwise.	hashSetExample
 
 ### Hash
 
-The word "hash" has shown up several times in this lesson. Data can be compressed and stored using a hash function. This is sometimes called hashing. Hash maps, hash tables, and hash sets use hashing to efficiently store and retrieve data.
+The word "hash" has shown up several times in this lesson. Data can be compressed and stored using a **hash function**. This is sometimes called **hashing**. Hash maps, hash tables, and hash sets use hashing to efficiently store and retrieve data.
 
 The number sign # (a.k.a pound sign/key, if you're referring to a telephone) is also sometimes called a hash, but for unrelated reasons. The word "hashtag" from Twitter is related to the name of the symbol #, and unrelated to hashing. 
 
