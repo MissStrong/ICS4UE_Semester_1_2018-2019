@@ -166,8 +166,7 @@ These are some the typical operations of a set ADT. You don't need to know the s
 | create a new set that is the combination of all the elements of two sets | "union" | ∪  |{1, 2, 3} ∪ {2, 3, 4} = {1, 2, 3, 4} |
 | create a new set that is the combination of all the elements that are common between two sets | "intersection" | ∩ | {1, 2, 3} ∩ {2, 3, 4} = {2, 3} |
 | create a new set that contains all the elements of a particular set, excluding the elements that are common between another particular set | "difference", "relative component" | – | {1, 2, 3} – {2, 3, 4} = {1} |
-| check whether all the elements of a set are contained in another set | "subset", "proper subset" | ⊂ (subset)</br>⊆ (proper subset)</br>⊄ (not a subset)</br>⊈ or ⊊ (not a proper subset) |
-| {1, 2, 3} ⊂ {1, 2, 3, 4}</br>{1, 2, 3} ⊆ {1, 2, 3, 4}</br>{1, 2, 3} ⊄ {3, 4, 5}</br>{1, 2, 3} ⊈ {1, 2, 3}</br>{1, 2, 3} ⊊ {1, 2, 3} |
+| check whether all the elements of a set are contained in another set | "subset", "proper subset" | ⊂ (subset)</br>⊆ (proper subset)</br>⊄ (not a subset)</br>⊈ or ⊊ (not a proper subset) | {1, 2, 3} ⊂ {1, 2, 3, 4}</br>{1, 2, 3} ⊆ {1, 2, 3, 4}</br>{1, 2, 3} ⊄ {3, 4, 5}</br>{1, 2, 3} ⊈ {1, 2, 3}</br>{1, 2, 3} ⊊ {1, 2, 3} |
 | check whether all the elements of another set are contained in a set | "superset", "proper superset" | ⊃ (superset)</br>⊇ (proper superset)</br>⊅ (not a superset)</br>⊉ or ⊋ (not a proper superset) | {1, 2, 3, 4} ⊃ {1, 2, 3}</br>{1, 2, 3, 4} ⊇ {1, 2, 3}</br>{1, 2, 3} ⊅ {3, 4, 5}</br>{1, 2, 3} ⊉ {1, 2, 3}</br>{1, 2, 3} ⊋ {1, 2, 3} |
 | return the number of elements in the set | "cardinality", "size" | \| set \| | \|{1, 2, 3}\| = 3 |
 
