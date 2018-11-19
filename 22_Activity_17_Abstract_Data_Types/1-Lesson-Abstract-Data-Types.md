@@ -141,7 +141,7 @@ Java has two dictionary ADTs: the `hashMap` class and the `hashtable` class.
 | Method | Explanation | Example | Explanation |
 | --- | --- | --- | --- |
 | `HashMap()` |	Creates a new (empty) dictionary.	| `HashMap<String, Integer> hashMapExample = new HashMap();` | Creates a new dictionaries called `hashMapExample` in which the keys are strings and the values are integers. |
-| `put()` | Adds a new key-value pair into the dictionary. | `hashMapExample.put("a", 1);</br>hashMapExample.put("b", 2);` | Adds the key-value pairs `"a"=1` and `"b"=2` to `hashMapExample`. |
+| `put()` | Adds a new key-value pair into the dictionary. | `hashMapExample.put("a", 1);`</br>`hashMapExample.put("b", 2);` | Adds the key-value pairs `"a"=1` and `"b"=2` to `hashMapExample`. |
 | `get()` | Returns the value corresponding to the key, or `null` if the key is not in the dictionary. | `hashMapExample.get("a");` | Returns `1`, which is the value that corresponds to the key `"a"`. |
 | `remove()` | Removes the key-value pair from the dictionary. | `hashMapExample.remove("a");` | Removes the key-value pair `"a"=1` from `hashMapExample`. |
 | `clear()` | Removes all key-value pairs from the dictionary. | `hashMapExample.clear();` | Removes all the key-value pairs from `hashMapExample`. Now, it is an empty dictionary. |
@@ -177,7 +177,7 @@ Java has an interface called `Set`. The `HashSet` class, among others, implemen
 | Method | Explanation | Example | Explanation |
 | --- | --- | --- | --- |
 | `HashSet()` | Creates a new (empty) set.| `HashSet<Double> hashSetExample = new HashSet();` | Creates a new set called `hashMapExample` that will contain `Double` values. |
-| `add()` | Adds a element into the set. | `hashSetExample.add(92.1);</br>hashSetExample.add(86.4);` | Adds the elements `92.1` and `86.4` to `hashMapExample`. |
+| `add()` | Adds a element into the set. | `hashSetExample.add(92.1);`</br>`hashSetExample.add(86.4);` | Adds the elements `92.1` and `86.4` to `hashMapExample`. |
 | `contains()` | Returns `true` if the set contains the element, and `false` otherwise. | `hashSetExample.contains(71.9);` | Returns `false`. |
 | `remove()` | Removes the element from the set. | `hashSetExample.remove(92.1);` | Removes the element `92.1` from `hashMapExample`. |
 | `clear()` | Removes all of the elements from the set. | `hashSetExample.clear();` | Removes all the elements from `hashMapExample`. Now, it is an empty set. |
