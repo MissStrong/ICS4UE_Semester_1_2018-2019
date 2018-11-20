@@ -161,7 +161,7 @@ These are some the typical operations of a set ADT. You don't need to know the s
 
 | Operation | Name in Set Theory | Symbols in Set Theory | Example |
 | --- | --- | --- | --- |
-| check whether an element is in the set | "element of", "belongs to", "contained in" |	∈ (an element of)</br>∉ (not an element of) |1 ∈ {1, 2, 3}</br>0 ∉ {1, 2, 3} |
+| check whether an element is in the set<img width=200/> | "element of", "belongs to", "contained in"<img width=200/> |	∈ (an element of)</br>∉ (not an element of)<img width=200/> |1 ∈ {1, 2, 3}</br>0 ∉ {1, 2, 3}<img width=200/> |
 | insert an element into a set | | | |
 | the combination of all the elements of the two sets | "union" | ∪  |{1, 2, 3} ∪ {2, 3, 4} = {1, 2, 3, 4} |
 | the combination of all the common elements between two sets | "intersection" | ∩ | {1, 2, 3} ∩ {2, 3, 4} = {2, 3} |
