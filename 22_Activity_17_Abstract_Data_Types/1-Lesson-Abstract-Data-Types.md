@@ -115,8 +115,8 @@ You need to import `java.util.Deque` in order to use these classes. Here are so
 | --- | --- | --- |
 | `addFirst()` | | |
 | `addLast()` | `add()` | `push()`|
-| `offerFirst()` | `offer()` | |
-| `offerLast()` |  | |
+| `offerFirst()` | | |
+| `offerLast()` | `offer()` | |
 | `removeFirst()` | `remove()` | |	
 | `removeLast()` | | `pop()` |
 | `pollFirst()` | `poll()` | |
