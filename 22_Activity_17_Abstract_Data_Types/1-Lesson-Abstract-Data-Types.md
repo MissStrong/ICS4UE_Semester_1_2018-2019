@@ -196,3 +196,9 @@ The number sign # (a.k.a pound sign/key, if you're referring to a telephone) is 
 > Exercise 17-1
 > 
 > Download and run the [Abstract Data Types Example](../Java_Programs/AbstractDataTypesExamples.zip) project to see how `Stack`, `PriorityQueue`, `ArrayDeque`, `HashMap`, and `HashSet` work.
+
+
+
+> Exercise 17-2
+> 
+> Download and run the [Stack Problem](../Java_Programs/StackProblem.zip) project to see an implementation of a problem that a stack is suitable for. There are two methods that do the same thing: one uses `Stack` and the other does not. The one that uses `Stack` is easier to read and was easier to write.
