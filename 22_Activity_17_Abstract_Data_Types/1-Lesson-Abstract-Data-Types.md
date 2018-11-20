@@ -46,8 +46,22 @@ Java has a class called `Stack`. You need to import `java.util.Stack` in order 
 | `peek()` | Returns the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.peek()` | Returns  `1234`. |
 | `pop()` | Removes the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.pop()` | Removes the top element. Now `stackExample` is empty again. |
 
-The `Stack` class is integrated using the `Vector` class, so you can also use any methods from `Vector` on a `Stack` object. Also, the elements of a stack can belong to different data types, just like a vector. For example, your stack could be `[1234, "potato", true, {99}]`. You can print a stack using `System.out.println(stackExample);`.
+The `Stack` class is integrated using the `Vector` class, so you can also use any methods from `Vector` on a `Stack` object. 
 
+Just like an array list, a queue can contain only one data type, and it cannot be a primitive data type. Each primitive data type has a corresponding class that you can use instead. The main difference between the primitive data type and the class is that a value of the class can be `null`, whereas the value of a primitive data type cannot be `null`.
+
+| Primitive Data Type | Class |
+| --- | --- |
+| `int` | `Integer`|
+| `byte` | `Byte` |
+| `short` | `Short`|
+| `long` | `Long` |
+| `float` | `Float` |
+| `double` | `Double` |
+| `boolean` | `Boolean` |
+| `char` | `Character` |
+
+N.B.: The null character (the one that has ASCII value 0) is different than a value of a character being `null`. If a character is `null`, it's likely because it has not been initialized yet.
 
 
 ### Queue ADT
@@ -76,21 +90,6 @@ You need to import `java.util.Queue` in order to use these classes. Here are so
 | `remove()` | Returns the element at the front of the queue or throws `NoSuchElementException` if the queue is empty. | 	`queueExample.remove();` | Removes `5678`. Now, `queueExample` contains only `1234`. |
 | `poll()` | Returns the element at the front of the queue or returns `null` if the queue is empty. | `queueExample.poll();` | 	`Removes 1234`. Now, queueExample is empty again. |
 | `isEmpty()` |	Returns `true` if the queue is empty, and `false` otherwise. | `queueExample.isEmpty()` | Returns `true`, since `queueExample` is currently empty. |
-
-Just like an array list, a queue can contain only one data type, and it cannot be a primitive data type. Each primitive data type has a corresponding class that you can use instead. The main difference between the primitive data type and the class is that a value of the class can be `null`, whereas the value of a primitive data type cannot be `null`.
-
-| Primitive Data Type | Class |
-| --- | --- |
-| `int` | `Integer`|
-| `byte` | `Byte` |
-| `short` | `Short`|
-| `long` | `Long` |
-| `float` | `Float` |
-| `double` | `Double` |
-| `boolean` | `Boolean` |
-| `char` | `Character` |
-
-N.B.: The null character (the one that has ASCII value 0) is different than a value of a character being `null`. If a character is `null`, it's likely because it has not been initialized yet.
 
 
 
