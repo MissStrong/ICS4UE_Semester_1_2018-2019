@@ -113,6 +113,7 @@ You need to import `java.util.Deque` in order to use these classes. Here are so
 
 | Deque Method | Corresponding Queue Method | Corresponding Stack Method |
 | --- | --- | --- |
+| `addFirst()` | | |
 | `addLast()` | `add()` | `push()`|
 | `offerFirst()` | `offer()` | |
 | `removeFirst()` | `remove()` | |	
