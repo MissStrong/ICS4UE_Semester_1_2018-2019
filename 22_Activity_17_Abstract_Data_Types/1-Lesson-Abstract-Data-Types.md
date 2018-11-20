@@ -113,15 +113,14 @@ You need to import `java.util.Deque` in order to use these classes. Here are so
 
 | Deque Method | Corresponding Queue Method | Corresponding Stack Method |
 | --- | --- | --- |
-| `addLast()` | `add()` | |
-| `offerLast()` | `offer()` | |
+| `addLast()` | `add()` | `push()`|
+| `offerFirst()` | `offer()` | |
 | `removeFirst()` | `remove()` | |	
+| `removeLast()` | | `pop()` |
 | `pollFirst()` | `poll()` | |
-| `getFirst()` | `element()` | |	
 | `peekFirst()` | `peek()` | |
-| `addFirst()` | | `push()` |
-| `removeFirst()` | | `pop()` |
-| `peekFirst()` | | `peek()` |
+| `peekLast()` | | `peek()` |
+| `getFirst()` | `element()` | |	
 
 
 
@@ -193,4 +192,4 @@ The number sign # (a.k.a pound sign/key, if you're referring to a telephone) is 
 
 > Exercise 17-1
 > 
-> Download and run the [Abstract Data Types Example](../Java_Programs/AbstractDataTypesExamples.zip) project to see how `Stack`, `PriorityQueue`, `HashMap`, and `HashSet` work.
+> Download and run the [Abstract Data Types Example](../Java_Programs/AbstractDataTypesExamples.zip) project to see how `Stack`, `PriorityQueue`, `ArrayDeque`, `HashMap`, and `HashSet` work.
