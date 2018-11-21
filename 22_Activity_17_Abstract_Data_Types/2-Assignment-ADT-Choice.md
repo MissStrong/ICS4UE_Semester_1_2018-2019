@@ -20,52 +20,52 @@ You will do ones of the four options. This will involve creating two versions of
 
 Create two versions of a method that takes a string and returns the reverse of the string with all numbers removed.
 
-The first method uses a stack of characters to reverse the characters, and the second method uses an array or array list to store the reversed characters. Call the first version reverseWithNoNumsV1(), and the second version reverseWithNoNumsV2().
+The first method uses a stack of characters to reverse the characters, and the second method uses an array or array list to store the reversed characters. Call the first version `reverseWithNoNumsV1()`, and the second version `reverseWithNoNumsV2()`.
 
 Examples:
 
-* reverseWithNoNumsV1("hello123") => "olleh"
+* `reverseWithNoNumsV1("hello123")` => `"olleh"`
 
-* reverseWithNoNumsV2("a1 b2 c3") => "c b a"
+* `reverseWithNoNumsV2("a1 b2 c3")` => `"c b a"`
 
 
 ### Option 2: Even Duplicates
 
 Create two versions of a method that takes a sorted array of integers and returns a boolean indicating whether every element in the array appears an even number of times.
 
-The first method uses a stack or queue, and the second method does not. Call the first version evenDupesV1(), and the second version evenDupesV2().
+The first method uses a stack or queue, and the second method does not. Call the first version `evenDupesV1()`, and the second version `evenDupesV2()`.
 
 Examples:
 
-* evenDupesV1({1, 1, 4, 4, 8, 8, 8, 8, 10, 10}) => true
+* `evenDupesV1({1, 1, 4, 4, 8, 8, 8, 8, 10, 10})` => `true`
 
-* evenDupesV2({2, 2, 5, 8, 8, 8, 8}) => false
+* `evenDupesV2({2, 2, 5, 8, 8, 8, 8})` => `false`
 
 
 ### Option 3: Palindrome
 
 Create two versions of a method that takes a string and returns a boolean indicating whether it is a non-case-seneitive palindrome, ignoring all non-alphanumeric characters.
 
-The first method uses a deque, and the second method does not. Call the first version palindromeV1(), and the second version palindromeV2().
+The first method uses a deque, and the second method does not. Call the first version `palindromeV1()`, and the second version `palindromeV2()`.
 
 Examples:
 
-* palindromeV1("No melon no lemon!") => true
+* `palindromeV1("No melon no lemon!")` => `true`
 
-* palindromeV2("Alabama") => false
+* `palindromeV2("Alabama")` => `false`
 
 
 ### Option 4: No Duplicates
 
 Create two versions of a method that takes an array of arrays of integers (i.e. a 2D array of integers) and returns a boolean indicating whether all of the integers are unique.
 
-The first method uses a set or a dictionary, and the second method does not. Call the first version noDuplicatesV1(), and the second version noDuplicatesV2().
+The first method uses a set or a dictionary, and the second method does not. Call the first version `noDupesV1()`, and the second version `noDupesV2()`.
 
 Examples:
 
-* noDupesV1({{1, 2, 3}, {4, 5, 6}}) => true
+* `noDupesV1({{1, 2, 3}, {4, 5, 6}})` => `true`
 
-* noDupesV2({{2, 4}, {4, 6}}) => false
+* `noDupesV2({{2, 4}, {4, 6}})` => `false`
 
 
 ### Rubric
