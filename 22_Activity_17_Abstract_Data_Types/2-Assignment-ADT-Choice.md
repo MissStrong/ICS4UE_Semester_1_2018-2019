@@ -9,7 +9,7 @@ You will do ones of the four options. This will involve creating two versions of
 
 1. Create a new project in NetBeans and call it "ADTChoice".
 
-2. Complete one of the four options. This will involve creating two methods. Place these two methods into the ADTChoice class.
+2. Complete one of the four options. This will involve creating two methods. Place these two methods into the `ADTChoice` class.
 
 3. Submit the following to the Dropbox:
 * A .zip file of your program (with the two methods).
