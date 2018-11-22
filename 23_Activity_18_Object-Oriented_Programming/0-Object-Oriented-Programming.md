@@ -2,8 +2,8 @@
 
 In this activity, you will:
 
-* Read about object-oriented programming.
-* Learn about UML.
+* Read about object-oriented programming (OOP).
+* Learn about unified modelling language (UML).
 * Incorporate at least one of the fundamental ideas of object-oriented programming in a program.
 * Participate in the Discussion Forum.   
 
