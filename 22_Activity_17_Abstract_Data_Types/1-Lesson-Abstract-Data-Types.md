@@ -20,7 +20,7 @@ These are some the typical operations of a sequence ADT.
 
 If these operations sound familiar, that is because one of the sequence ADTs used in Java is the `ArrayList` class.
 
-Another sequence ADT used in Java is the `Vector` class, which is similar to `ArrayList`, but has some key differences. One of the differences is that the elements of a vector don't have to all be the same data type, and they can include primitive data types. You don't need to use `Vector` in this course, but you may find it useful to know a bit about them, since other ADTs are implemented using `Vector`.
+Another sequence ADT used in Java is the `Vector` class, which is similar to `ArrayList`, but has some key differences. You don't need to use `Vector` in this course, but you may find it useful to know a bit about them, since other ADTs are implemented using `Vector`.
 
 
 
