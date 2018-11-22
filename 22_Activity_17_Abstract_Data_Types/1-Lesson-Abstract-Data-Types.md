@@ -34,7 +34,7 @@ These are some the typical operations of a stack ADT.
 * add an item to the top of the stack
 * check whether the stack is empty
 
-An example of a usage of the stack ADT is your browser history. Every time you visit a new webpage, it gets added to the top of your browser history. Every time you hit "back", it removes the webpage you were just at from the stack, and brings you back to the most previously visited webpage. Of course, you can jump pack more than one page at once, which a stack doesn't have to do, but the basic operations of web browsing follow a stack ADT.
+An example of a usage of the stack ADT is your browser history. Every time you visit a new webpage, it gets added to the top of your browser history. Every time you hit "back", it removes the webpage you were just at from the stack, and brings you back to the most previously visited webpage. Of course, you can jump back more than one page at once, which a stack doesn't have to do, but the basic operations of web browsing follow a stack ADT.
 
 Java has a class called `Stack`. You need to import `java.util.Stack` in order to use it. Here are some of its methods. 
 
