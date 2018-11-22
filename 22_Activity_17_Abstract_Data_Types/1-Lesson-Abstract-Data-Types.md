@@ -40,7 +40,7 @@ Java has a class called `Stack`. You need to import `java.util.Stack` in order 
 
 | Method | Explanation | Example | Explanation |
 | --- | --- | --- | --- |
-| `Stack()` | Creates a new (empty) stack. | `Stack stackExample = new Stack();` | Creates a new stack called `stackExample`. It is initialized to the empty stack. |
+| `Stack()` | Creates a new (empty) stack. | `Stack<Integer> stackExample = new Stack();` | Creates a new stack of integers called `stackExample`. It is initialized to the empty stack. |
 | `empty()` | Returns `true` if the stack is empty, and `false` otherwise. | `stackExample.empty()` | Returns `true`, since `stackExample` is currently empty. |
 | `push()` | Adds an elements to the top of the stack. Throws `EmptyStackException` if the stack is empty. | `stackExample.push(1234)` | Adds `1234` to the top of `stackExample`. |
 | `peek()` | Returns the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.peek()` | Returns  `1234`. |
