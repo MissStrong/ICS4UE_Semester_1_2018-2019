@@ -91,11 +91,11 @@ You could write a method to calculate the GCF of two numbers like this:
  * This method takes two positive integers and calculates their GCF
  *
  * @param n a positive integer
- * @param m a positive integer
+ * @param m a positive integer less than or equal to n
  * @return the greatest common factor of n and m
  */
 public static int gcf(int n, int m) {
-    if (m == 0) return -1;
+    if (m == 0) return n;
     else return gcf(m, n % m);
 }
 ```
