@@ -51,6 +51,6 @@ Avoid grabbing images outside of the package, so that you program will work on o
 
 > Exercise 13-3
 > 
-> Download and run the [Memory Game](../Java_Programs/MemoryGame.zip) project. Play the game read the code to learn about how it uses the `ImaceIcon` class.
+> Download and run the [Memory Game](../Java_Programs/MemoryGame.zip) project. Play the game and read the code to learn about how it uses the `ImaceIcon` class.
 > 
 > The images are originally from [here](https://cs.nyu.edu/courses/spring13/CSCI-UA.0061-001/newcards/pages/02%20of%20Clubs.html). 
