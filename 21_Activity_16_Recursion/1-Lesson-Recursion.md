@@ -72,8 +72,8 @@ You could write a method to calculate *n!* like this:
 /**
  * This method takes an integer n and returns the value of n!
  *
- * @param n a positive integer
- * @return n!; if n isn't a positive integer, it returns -1
+ * @param n a non-negative integer
+ * @return n!; if n is a negative integer, it returns -1
  */
 public static int factorial(int n) {
     if (n < 1) return -1;
