@@ -38,20 +38,20 @@ public static int fibonacci(int n) {
 How does this method work? Let's trace `fibonacci(4)` to see what happens.
 
 
-`fibonacci(4)`
-=> `fibonacci(3) + fibonacci(2)`
-=> `fibonacci(2) + fibonacci(1) + fibonacci(2)`
-=> `1 + 1 + 1`
+`fibonacci(4)`    
+=> `fibonacci(3) + fibonacci(2)`    
+=> `fibonacci(2) + fibonacci(1) + fibonacci(2)`    
+=> `1 + 1 + 1`    
 => `3`
 
 Let's try again with `fibonacci(6)`.
 
-`fibonacci(6)`
-=> `fibonacci(5) + fibonacci(4)`
-=> `fibonacci(4) + fibonacci(3) + fibonacci(3) + fibonacci(2)`
-=> `fibonacci(3) + fibonacci(2) + fibonacci(2) + fibonacci(1) + fibonacci(2) + fibonacci(1) + 1`
-=> `fibonacci(2) + fibonacci(1) + 1 + 1 + 1 + 1 + 1 + 1`
-=> `1 + 1 + 1 + 1 + 1 + 1 + 1 + 1`
+`fibonacci(6)`    
+=> `fibonacci(5) + fibonacci(4)`    
+=> `fibonacci(4) + fibonacci(3) + fibonacci(3) + fibonacci(2)`    
+=> `fibonacci(3) + fibonacci(2) + fibonacci(2) + fibonacci(1) + fibonacci(2) + fibonacci(1) + 1`    
+=> `fibonacci(2) + fibonacci(1) + 1 + 1 + 1 + 1 + 1 + 1`    
+=> `1 + 1 + 1 + 1 + 1 + 1 + 1 + 1`    
 => `8`
 
 > Exercise 16-2
@@ -82,7 +82,7 @@ public static int factorial(int n) {
 
 ### Euclidean Algorithm 
 
-Recursion can be used to calculate the greatest common factor between two integers, using the identities `gcf(a, b) == gcf(b, a % b)` and `gcf(a, 0) == a`. This process is called the Euclidean algorithm.
+Recursion can be used to calculate the greatest common factor (GCF) between two integers, using the identities `gcf(a, b) == gcf(b, a % b)` and `gcf(a, 0) == a`. This process is called the Euclidean algorithm.
 
 You could write a method to calculate the GCF of two numbers like this:
 
