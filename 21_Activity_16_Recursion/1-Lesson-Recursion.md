@@ -90,13 +90,14 @@ You could write a method to calculate the GCF of two numbers like this:
 
 ```java
 /**
- * This method takes two positive integers and calculates their GCF
+ * This method takes two non-negative integers and calculates their GCF
  *
- * @param n a positive integer
- * @param m a positive integer less than or equal to n
- * @return the greatest common factor of n and m
+ * @param n a non-negative integer
+ * @param m a non-negative integer less than or equal to n
+ * @return the greatest common factor of n and m; -1 if n or m is negative
  */
 public static int gcf(int n, int m) {
+    if ((n < 0) || (m < 0)) return -1;
     if (m == 0) return n;
     else return gcf(m, n % m);
 }
@@ -125,7 +126,7 @@ A fractal is a geometrical pattern that repeats indefinitely and in which every 
    
 ### Issues with Recursion
 
-Recursion can be used to create efficient programs, but it can also be used to create inefficient programs. In the case of Fibonacci numbers, the number of recursive calls grows exponentially as the number increases.
+Recursion can be used to create efficient programs, but it can also be used to create inefficient programs. In the case of Fibonacci numbers, the number of recursive calls grows exponentially as the Fibonacci number increases.
 
 There is also the issue of infinite recursion. Similar to infinite loops, an infinite recursion never terminates. This often occurs when the base cases do not cover all bases.
 
