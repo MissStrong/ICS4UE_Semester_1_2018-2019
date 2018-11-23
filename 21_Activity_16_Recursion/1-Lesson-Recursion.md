@@ -60,7 +60,7 @@ Let's try again with `fibonacci(6)`.
 >
 > Write a Java program for the tribonacci sequence. The tribonacci sequence is like the Fibonacci sequence, except the first three terms are 1, and all other terms are the sum of the three preceding terms.
 > 
-> Download solution here.
+> Download solution [here](../Exercise_Solutions/Exercise-16-2.md).
 
 
 ### Factorials!
