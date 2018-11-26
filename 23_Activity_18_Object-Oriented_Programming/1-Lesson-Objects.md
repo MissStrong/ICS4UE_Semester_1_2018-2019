@@ -62,14 +62,11 @@ public Person(String s) {
 
 In order to directly access a field (variable or constant) in an object from outside its class, it has to be `public`. However, declaring a variable as `public` allows the user to modify its value. There are two ways to allow a user to access a field in an object from outside of the class, without allowing them to modify its value.
 
- 1. **Declare the variable as `final`.**     
-This prevents the variable from being modified at all once it is initiated, making it a constant.
-
+1. **Declare the variable as `final`.**     
+This prevents the variable from being modified at all once it is initiated, making it a constant.</br>
 The `Arrays` class uses this strategy: the `length` field is `final`, which is why you can access it using `arrayName.length`.
 
- 2. **Create a method that obtains the value of the variable**.
-You can declare the variable to be `private`, then create a `public` method that returns the value of the variable.
-
-The `ArrayList` classes uses this strategy: the `size` field is `private`, but `size()` is a `public` method that returns the size.
-
+2. **Create a method that obtains the value of the variable**.
+You can declare the variable to be `private`, then create a `public` method that returns the value of the variable.</br>
+The `ArrayList` classes uses this strategy: the `size` field is `private`, but `size()` is a `public` method that returns the size.</br>
 This concept of data hiding is called **encapsulation**. The "capsule" in this case is the class.
