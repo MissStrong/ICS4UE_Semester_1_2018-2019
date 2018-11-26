@@ -4,7 +4,7 @@
 
 A **class** is the definition of a data type. For example, the `String` class provides all the methods that you can use on a string, such as the `replace` method.
 
-An ***object** is an instance (i.e. a concrete occurrence) of a class. For example, if you have the string `"Hello World!"` somewhere in your file, it would be a `String` object. 
+An **object** is an instance (i.e. a concrete occurrence) of a class. For example, if you have the string `"Hello World!"` somewhere in your file, it would be a `String` object. 
 
 A **variable** is value that can change over time. 
 
