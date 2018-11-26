@@ -15,7 +15,7 @@ Many GUIs do the following by default:
 
 In general, you should not trust that the user will follow the instructions. Be prepared for them to do something wrong. For example, if the user enters "February 47th, Year 2018.5", you don't want your program to proceed as if that were a valid date. Display an error message when they do something wrong, or use an more appropriate method of input, such as a spinner.
 
-
+ 
 ### Disabling Field
 
 To prevent users from editing a specific field, right-click on the field and go to **Customize Code**. Add `OutputField.setEditable(false);` (with `OutputField` being replaced with your name of the output field) to the bottom of the text box that appears. 
@@ -31,7 +31,7 @@ You can use `textBoxName.requestFocus();` (with `textBoxName` being the name 
 You can change the colour of a button by selecting it and changing the **background** field under **Properties**. You can look up the RGB or hex value of the colour you want. The blue colour used in the Jotto assignment has the RGB value (0, 122, 225).
 
   
-## Key Listening
+### Key Listening
 
 The action listeners you've been using for buttons "listen" for when the button is pressed or released. You can also make them "listen" for a specific key to be pressed or released.
 
