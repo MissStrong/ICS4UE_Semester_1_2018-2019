@@ -1,6 +1,6 @@
 ## Object-Oriented Programming
 
-There are three programming methodologie: **sequential programming**, **procedural programming**, and **object-oriented programming**. 
+There are three programming methodologies: **sequential programming**, **procedural programming**, and **object-oriented programming**. 
 
 * Sequential programming invovles executing a program line-by-line, in order.
 * Procedural programming involves calling functions (i.e. methods, in Java) that perform routines and can be called at any point in a program.
