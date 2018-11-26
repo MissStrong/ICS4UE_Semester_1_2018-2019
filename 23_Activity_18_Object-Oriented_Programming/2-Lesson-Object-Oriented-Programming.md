@@ -1,8 +1,12 @@
 ## Object-Oriented Programming
 
-**Object-oriented programming** (OOP) is a programming methodology that involves separating a program into separate modules.
+There are three programming methodologie: **sequential programming**, **procedural programming**, and **object-oriented programming**. 
 
-There are other programming methodologies besides OOP. **Sequential programming** invovles executing a program line-by-line, in order. **Procedural programming** involves creating functions (i.e. methods, in Java) that perform routines and can be called at any point in a program. You have been using all three methodologies in this course.
+* Sequential programming invovles executing a program line-by-line, in order.
+* Procedural programming involves calling functions (i.e. methods, in Java) that perform routines and can be called at any point in a program.
+* Object-oriented programming(OOP) is a programming methodology that involves separating a program into separate modules.
+
+You have been using all three methodologies in this course. OOP has the highest potential among them all when creating complex programs. 
 
 
 ### Class Hierarchy
