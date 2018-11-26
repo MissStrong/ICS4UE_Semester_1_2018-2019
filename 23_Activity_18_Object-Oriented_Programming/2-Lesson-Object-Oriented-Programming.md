@@ -21,7 +21,7 @@ Typically, in aggregation, the subclass can exist independly of the superclass. 
 
 
 ### Composition
-Composition can be referred to as a "owns-a" association, and is a strong association. It is similar to aggregation, except the subclasses typically cannot exist independely of the superclass.
+Composition can be referred to as a "owns-a" association, and is a strong association. It is similar to aggregation, except the subclass typically cannot exist independely of the superclass.
 
 Expanding on the previous example, the class called `CardGame` class may require an array of `CardGamePlayer` objects. Once the card game is done, there are no more players.  When the `CardGame` object is destroyed, the `CardGamePlayer` objects are mostly likely destroyed with it. (This isn't supposed to be morbid; it just means that the humans/computers who were playing the game are no longer labelled as "players".)
 
@@ -29,3 +29,35 @@ Whenever you're designing a program and are unsure whether two classes should us
 
 
 ### Inheritance
+Inheritance can be referred to as a "is-a" association, and is a very strong association. Unlike aggregation and composition, the subclass inherits all the fields and methods from the superclass. 
+
+There are two cases:
+1. The superclass is an interface, and the subclass `implements` it.
+2. The superclass is an class, and the subclass `extends` it.
+
+
+### Implementing an Interface
+Interfaces were briefly mentioned in the lesson *Abstract Data Types*. An interface is typically a category of classes. For example, `Queue` is an interface and the `PriorityQueue` class (among other types of queues) `implements` it. Objects cannot  be created from an interface, so there is no such thing as a plain `Queue` object.
+
+An Interface contains methods with empty bodies, and no fields. When a subclass `implements` an interface, it must include the definitions of all the methods from the interface. You can use the keyword `@Override` to document this. Both method overloading (from the previous lesson) and method overriding are types of **polymorphism**: methods that exist in many forms.
+
+
+### Extending a Class
+You've seen examples of the keyword `extends` this in your GUI assignments. In the `Change Exchange` assignment, the first line of the `Change` class is `public class Change extends javax.swing.JFrame {`. The `JFrame` class is what allows your program to display a GUI form using `JFrame` components.
+
+Similarly to a method in a subclass of an interface, a method in a subclass of a class can be overridden, too. Here is an example.
+
+```java
+TODO
+```
+You can also leave the body of a method in the superclass empty, by using the keyword `abstract` on the method and on the class.
+
+
+### Implementing an Interface Versus Extending an Abstract Class
+
+Interfaces behave similarly to abstract classes, but there are some key differences.
+
+| Similarities | Differences |
+| --- | --- |
+| * Neither can be instantiated.</br>* Both act as a template for its subclasses. | * Interfaces have no fields. Abstract classes may have fields.</br>* All methods in an interface are abstract. Not all methods in an abstract class need to be abstract. |
+
