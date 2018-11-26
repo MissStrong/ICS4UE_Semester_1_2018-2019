@@ -4,15 +4,11 @@ You learned how to create a GUI in Activity 3. There are many features you can u
 
 Many GUIs do the following by default:
 
-Don't allow users to submit invalid inputs.
-
-Don't allow users to type in the output fields.
-
-Automatically place the curser inside the first text box when the GUI is first constructed.
-
-Have the default button be different colour than the rest of the buttons.
-
-Allow users to press ENTER in place of pushing the default button.
+* Don't allow users to submit invalid inputs.
+* Don't allow users to type in the output fields.
+* Automatically place the curser inside the first text box when the GUI is first constructed.
+* Have the default button be different colour than the rest of the buttons.
+* Allow users to press ENTER in place of pushing the default button.
  
 
 ### Invalid Inputs
