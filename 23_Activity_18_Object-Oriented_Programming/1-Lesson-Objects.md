@@ -12,7 +12,7 @@ Some classes have simpler ways of creating objects, without directly calling the
 
 Since primitive data types don't belong to a class, you don't need to use the `new` keyword to create them.
 
-The reason that you cannot create a `Math` object is that the constructor in the `Math` class is `private`. When you create your own classes, you can prevent a user from creating an object belonging to you class by making the class's constructor `private`. By default, all classes you create have public constructors with a blank body. All classes have a constructor regardless of whether they are explicitely written.
+The reason that you cannot create a `Math` object is that the constructor in the `Math` class is `private`. When you create your own classes, you can prevent a user from creating an object belonging to you class by making the class's constructor `private`. By default, every classe you create has a `public` constructor with a blank body. Every classes have a constructor regardless of whether it is explicietly written in the body of the class.
 
 
 ### Method Overloading
