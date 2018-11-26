@@ -39,25 +39,25 @@ There are two cases:
 ### Implementing an Interface
 Interfaces were briefly mentioned in the lesson *Abstract Data Types*. An interface is typically a category of classes. For example, `Queue` is an interface and the `PriorityQueue` class (among other types of queues) `implements` it. Objects cannot  be created from an interface, so there is no such thing as a plain `Queue` object.
 
-An Interface contains methods with empty bodies, and no fields. When a subclass `implements` an interface, it must include the definitions of all the methods from the interface. You can use the keyword `@Override` to document this. Both method overloading (from the previous lesson) and method overriding are types of **polymorphism**: methods that exist in many forms.
+An Interface contains methods with empty bodies, and no fields. When a subclass `implements` an interface, it must include the definitions of all the methods from the interface. You can use the keyword `@Override` to document this. Both method overloading (from the previous lesson) and method overriding are types of **polymorphism**: methods existing in many forms.
 
 
 ### Extending a Class
 You've seen examples of the keyword `extends` this in your GUI assignments. In the `Change Exchange` assignment, the first line of the `Change` class is `public class Change extends javax.swing.JFrame {`. The `JFrame` class is what allows your program to display a GUI form using `JFrame` components.
 
-Similarly to a method in a subclass of an interface, a method in a subclass of a class can be overridden, too. Here is an example.
+Similarly to a method in a subclass of an interface, a method in a subclass of a class can be overridden, too. 
 
-```java
-TODO
-```
-You can also leave the body of a method in the superclass empty, by using the keyword `abstract` on the method and on the class.
+You can also leave the body of a method in the superclass empty by using the keyword `abstract` on the method and on the class.
 
 
-### Implementing an Interface Versus Extending an Abstract Class
+### Abstract Classes
 
-Interfaces behave similarly to abstract classes, but there are some key differences.
+Abstract classes are classes that contain one or more `abstract` methods.
 
-| Similarities | Differences |
-| --- | --- |
-| * Neither can be instantiated.</br>* Both act as a template for its subclasses. | * Interfaces have no fields. Abstract classes may have fields.</br>* All methods in an interface are abstract. Not all methods in an abstract class need to be abstract. |
+Interfaces have a few things in common with abstract classes. Neither can be instantiated and both act as a template for its subclasses. However, there are also some key differences between them. 
 
+* Interfaces have no fields. Abstract classes may have fields.
+* All methods in an interface are abstract. Not all methods in an abstract class need to be abstract.
+* A subclass can inherit multiple interfaces, but at most one class.
+
+When deciding between an abstract class and an interface in your program, consider the differences above.
