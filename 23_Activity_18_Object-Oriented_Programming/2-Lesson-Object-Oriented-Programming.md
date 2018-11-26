@@ -41,18 +41,28 @@ Interfaces were briefly mentioned in the lesson *Abstract Data Types*. An interf
 
 An Interface contains methods with empty bodies, and no fields. When a subclass `implements` an interface, it must include the definitions of all the methods from the interface. You can use the keyword `@Override` to document this. Both method overloading (from the previous lesson) and method overriding are types of **polymorphism**: methods existing in many forms.
 
+When you're creating an instance of a subclass, you can declare the type as the interface.
+
+For example, these two lines accomplish essentially the same thing.
+```java
+Queue q = new PriorityQueue();
+```
+
+```java
+PriorityQueue q = new PriorityQueue();
+```
+
 
 ### Extending a Class
 You've seen examples of the keyword `extends` this in your GUI assignments. In the `Change Exchange` assignment, the first line of the `Change` class is `public class Change extends javax.swing.JFrame {`. The `JFrame` class is what allows your program to display a GUI form using `JFrame` components.
 
 Similarly to a method in a subclass of an interface, a method in a subclass of a class can be overridden, too. 
 
-You can also leave the body of a method in the superclass empty by using the keyword `abstract` on the method and on the class.
+You can also leave the body of a method in the superclass empty by using the keyword `abstract` on the method and on the class. Abstract methods must be `public` and non-static.
 
 
 ### Abstract Classes
-
-Abstract classes are classes that contain one or more `abstract` methods.
+**Abstract classes** are classes that contain one or more `abstract` methods. A class that is not an abstract class is a **concrete class**.
 
 Interfaces have a few things in common with abstract classes. Neither can be instantiated and both act as a template for its subclasses. However, there are also some key differences between them. 
 
