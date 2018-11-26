@@ -41,7 +41,7 @@ Interfaces were briefly mentioned in the lesson *Abstract Data Types*. An interf
 
 An Interface contains methods with empty bodies, and no fields. When a subclass `implements` an interface, it must include the definitions of all the methods from the interface. You can use the keyword `@Override` to document this. Both method overloading (from the previous lesson) and method overriding are types of **polymorphism**: methods existing in many forms.
 
-When you're creating an instance of a subclass, you can declare the type as the interface.
+When you're creating an instance of a subclass, you can declare the type as the interface or the subclass.
 
 For example, these two lines accomplish essentially the same thing.
 ```java
