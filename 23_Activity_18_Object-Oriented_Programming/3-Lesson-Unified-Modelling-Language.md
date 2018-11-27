@@ -36,7 +36,7 @@ Here is an example of a UML diagram for a Quatris program, written in C++. Quatr
 ![](../Images/Quatris_UML.png)
 
 
-> Exercise 18.?
+> Exercise 18-7
 >
 > Old Maid is a card game that involves drawing cards from your opponents' hands, and removing pairs, until you run out of cards or are left with a Joker card. This [OldMaid](../Java_Programs/OldMaid.zip) program simulates this game, and has several classes: OldMaidGame, Deck, Card, JokerCard, RegularCard, Player, HumanPlayer, and ComputerPlayer.   
 > 
