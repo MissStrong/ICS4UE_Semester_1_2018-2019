@@ -20,18 +20,20 @@ Each class (or interface) is represented by a rectangular box divided into three
 * Abstract methods are in *italics*. If you are writing/drawing by hand, you can use cursive as an alternative.
 
 
-Here is an example of a UML diagram for a Quatris program, written in C++. Quatris is a variation of Tetris. 
-    
-![](../Images/Quatris_UML.png)
-
-
 ### Relations
 
-Aggregation is denoted by a line that has a white/blank diamond on one end (the subclass) and an arrowhead on the other end (the superclass). Near the arrowhead, you can include how many the subclass objects are contained in the superclass, and what their names are. When writing how many of them there are, you can use ".." notation to denote a range (e.g. "1..5" means 1 to 5 inclusively and "2..*" means 2 or more).
+Aggregation is denoted by a line that has a white/blank diamond on one end (the subclass). Near the arrowhead, you can include how many the subclass objects are contained in the superclass, and what their names are. When writing how many of them there are, you can use ".." notation to denote a range (e.g. "1..5" means 1 to 5 inclusively and "2..*" means 2 or more).
 
 Composition is denoted simialr as aggregation, except the diamond is entirely black.
 
 Inheritance is denoted using a line with one arrow on one end (the superclass). The line can be accompanied with the word "extends" or "implements".
+
+When two classes have a loose connection to each other (e.g. one of them has a method that has an object of the other class as a parameter), you can use a dotted line to connect them, with arrows on the appropriate end(s).
+
+Here is an example of a UML diagram for a Quatris program, written in C++. Quatris is a variation of Tetris. 
+    
+![](../Images/Quatris_UML.png)
+
 
 > Exercise 18.?
 >
