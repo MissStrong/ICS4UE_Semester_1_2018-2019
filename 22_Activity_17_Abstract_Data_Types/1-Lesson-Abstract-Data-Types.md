@@ -136,7 +136,7 @@ These are some the typical operations of a dictionary ADT.
 * insert a new key-value pair into the dictionary
 * remove a key-value pair from the dictionary
 
-Dictionaries have many applications. As its name implies, they can be used as dictionary of words and their definitions. They can also be used to store values that correspond to different traits of an item. For example, your dictionary can contain the key-value pairs `"Name"="Alice"`, `"Gender"="F"`, and `"Age"="40"`, which all correspond to a particular human.
+Dictionaries have many applications. As the name "dictionary" implies, they can be used as dictionary of words and their definitions. They can also be used to store values that correspond to different traits of an item. For example, your dictionary can contain the key-value pairs `"Name"="Alice"`, `"Gender"="F"`, and `"Age"="40"`, which all correspond to a particular human.
 
 Java has two dictionary ADTs: the `hashMap` class and the `hashtable` class. This example will be using `hashMap`. You need to import `java.util.HashMap` in order to use this class. Here are some of its methods you can use. 
 
