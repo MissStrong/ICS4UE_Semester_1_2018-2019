@@ -5,9 +5,9 @@ Create several possible constructors for the `Person` class in Exercise 18-1.
 ```java
 public class Person {
 
-    String name;
-    String gender;
-    int age;
+    public String name;
+    public String gender;
+    public int age;
     
     public Person () {
         this.name = "unknown"
