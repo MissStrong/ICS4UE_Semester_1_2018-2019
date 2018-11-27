@@ -20,7 +20,7 @@ Each class (or interface) is represented by a rectangular box divided into three
 * Abstract methods are in *italics*. If you are writing/drawing by hand, you can use cursive as an alternative.
 
 
-Here is an example of a UML diagram for a Quatris program. Quatris is a variation of Tetris.
+Here is an example of a UML diagram for a Quatris program. Quatris is a variation of Tetris.  
 ![](../Images/Quatris_UML.png)
 
 ### Relations
@@ -33,6 +33,8 @@ Inheritance is denoted using a line with one arrow on one end (the superclass). 
 
 > Exercise 18.?
 >
-> This [OldMaid](../Java_Programs/OldMaid.zip) program has several classes: OldMaidGame, Deck, Card, JokerCard, RegularCard, Player, HumanPlayer, and ComputerPlayer. Draw a UML diagram that shows the relationship among all the classes. For simplicity, omit the fields and methods for the OldMaidGame class (there are a lot of them).
+> This [OldMaid](../Java_Programs/OldMaid.zip) program has several classes: OldMaidGame, Deck, Card, JokerCard, RegularCard, Player, HumanPlayer, and ComputerPlayer.   
+> Draw a UML diagram that shows the relationship among all the classes. For simplicity, omit the fields and methods for the OldMaidGame class (there are a lot of them).
+> 
 > See solution [here](../Images/OldMaid_UMLpng).
 
