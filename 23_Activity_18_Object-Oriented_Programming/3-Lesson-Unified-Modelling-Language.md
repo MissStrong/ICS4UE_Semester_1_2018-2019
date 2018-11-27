@@ -6,7 +6,7 @@ Unified Modelling Langauge (UML) is a popular standard for modelling relations i
 
 Each class (or interface) is represented by a rectangular box divided into three sections. The top section contains the name of the class, the middle section contains the names of the fields and the bottom section contains the names and parameters of the methods.
 
-If it is an interface, <<Interface>> is written directly above the interface name.
+If it is an interface, \<<Interface\>> is written directly above the interface name.
 
 If it is an abstract class or an interface, it is written in italics (or cursive if it's drawn by hand).
 
@@ -15,6 +15,10 @@ To the left of each field and method is one of the following signs: +, -, and #.
 If a field or method is underlined, this indicates that it is `static`.
 
 If a method is in italics, this indicates that it is an abstract method.
+
+Methods are followed by a colon and the return type. Parameter names are included, followed by a colon and their type.
+
+Constructors are not followed by a colon and return type (since there isn't one, not evern `void`). 
 
 Here is an example.
 
