@@ -70,3 +70,7 @@ The `Arrays` class uses this strategy: the `length` field is `final`, which is w
 You can declare the variable to be `private`, then create a `public` method that returns the value of the variable.</br></br>
 The `ArrayList` classes uses this strategy: the `size` field is `private`, but `size()` is a `public` method that returns the size.</br></br>
 This concept of data hiding is called **encapsulation**. The "capsule" in this case is the class.
+
+
+### Static Methods
+A `static` method is a method that belongs to a class, not an object. A non-static method cannot be called in the body of a `static` method cannot.
