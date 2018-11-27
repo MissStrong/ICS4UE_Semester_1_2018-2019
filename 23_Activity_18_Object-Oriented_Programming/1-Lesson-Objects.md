@@ -2,7 +2,8 @@
 
 An **object** is an instance (i.e. a concrete occurrence) of a class. For example, if you have the string `"Hello World!"` somewhere in your file, it would be a `String` object. 
 
-In Java, all objects are instantiated using the class's **contructor method**. The constructor method has the same name as the class and does not have any return type (not even `void`).
+### Constructors
+In Java, all objects are instantiated using the class's **contructor method**. The constructor method has the same name as the class (including the initial capital letter) and does not have any return type (not even `void`).
 
 You've seen constructors used in GUI files. For example, in the *Change Exchange* assignent, the `Change` class has a `public` method called `Change()`. The body of this constructor method is `initComponents();`, which initializes all the components of the GUI.
 
