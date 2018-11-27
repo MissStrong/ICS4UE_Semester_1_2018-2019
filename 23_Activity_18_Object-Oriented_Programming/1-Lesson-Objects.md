@@ -15,6 +15,8 @@ Since primitive data types don't belong to a class, you don't need to use the `n
 
 The reason that you cannot create a `Math` object is that the constructor in the `Math` class is `private`. When you create your own classes, you can prevent a user from creating an object belonging to you class by making the class's constructor `private`. By default, every class you create has a `public` constructor with a blank body. Every class has a constructor regardless of whether it is explicietly written in the body of the class.
 
+To refer to an object of class in a method body, you can use the `this` keyword. For example, in a GUI program, you can use `this.hide()` to refer to the GUI form.
+
 > Exercise 18-1
 >
 > Create a class called Person using the following information:
