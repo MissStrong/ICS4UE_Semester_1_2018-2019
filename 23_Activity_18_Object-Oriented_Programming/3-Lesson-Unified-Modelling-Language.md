@@ -12,6 +12,7 @@ Each class (or interface) is represented by a rectangular box divided into three
 
 
 **Middle and Bottom Section**
+* The middle section may be ommited if there are no fields.
 * To the left of each field and method is one of the following signs: +, -, and #. The + sign stands for `public`, - stands for `private`, and # stands for `protected` (or package-protected).
 * Method names are followed by a set of parenthesis. If there are parameters, their names are written in the set of parentheses.
 * To the right of each field, parameter, and method is a colon followed by the type (for a field) or the return type (for a method).
