@@ -33,7 +33,7 @@ Inheritance is denoted using a line with one arrow on one end (the superclass). 
 
 > Exercise 18.?
 >
-> This [OldMaid](../Java_Programs/OldMaid.zip) program has several classes: OldMaidGame, Deck, Card, JokerCard, RegularCard, Player, HumanPlayer, and ComputerPlayer.   
+> Old Maid is a card game that involves drawing cards from your opponents' hands, and removing pairs, until you run out of cards or are left with a Joker card. This [OldMaid](../Java_Programs/OldMaid.zip) program simulates this game, and has several classes: OldMaidGame, Deck, Card, JokerCard, RegularCard, Player, HumanPlayer, and ComputerPlayer.   
 > 
 > Draw a UML diagram that shows the relationship among all the classes. For simplicity, omit the fields and methods for the OldMaidGame class (there are a lot of them).
 > 
