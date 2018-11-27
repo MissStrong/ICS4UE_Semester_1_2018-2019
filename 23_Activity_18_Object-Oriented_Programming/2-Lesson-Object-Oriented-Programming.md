@@ -19,6 +19,9 @@ Aggregation can be referred to as a "has-a" association, and is a weak associati
 
 Typically, in aggregation, the subclass can exist independly of the superclass. For example, once a card game is finished, the deck of cards still exists. Thus, when the `CardGame` object is destroyed, the `Deck` object isn't necessarily destroyed with it.
 
+> Exercise 18-4
+>
+> TODO
 
 ### Composition
 Composition can be referred to as a "owns-a" association, and is a strong association. It is similar to aggregation, except the subclass typically cannot exist independely of the superclass.
@@ -27,6 +30,9 @@ Expanding on the previous example, the class called `CardGame` class may require
 
 Whenever you're designing a program and are unsure whether two classes should use aggregation or composition, ask yourself whether one class "has" the other, or whether it "owns" the other.
 
+> Exercise 18-5
+>
+> TODO
 
 ### Inheritance
 Inheritance can be referred to as a "is-a" association, and is a very strong association. Unlike aggregation and composition, the subclass inherits all the fields and methods from the superclass. 
@@ -52,6 +58,9 @@ Queue q = new PriorityQueue();
 PriorityQueue q = new PriorityQueue();
 ```
 
+> Exercise 18-5
+>
+> TODO
 
 ### Extending a Class
 You've seen examples of the keyword `extends` this in your GUI assignments. In the `Change Exchange` assignment, the first line of the `Change` class is `public class Change extends javax.swing.JFrame {`. The `JFrame` class is what allows your program to display a GUI form using `JFrame` components.
@@ -60,6 +69,9 @@ Similarly to a method in a subclass of an interface, a method in a subclass of a
 
 You can also leave the body of a method in the superclass empty by using the keyword `abstract` on the method and on the class. Abstract methods must be `public` and non-static.
 
+> Exercise 18-6
+>
+> TODO
 
 ### Abstract Classes
 **Abstract classes** are classes that contain one or more `abstract` methods. A class that is not an abstract class is a **concrete class**.
