@@ -39,5 +39,5 @@ Inheritance is denoted using a line with one arrow on one end (the superclass). 
 > 
 > Draw a UML diagram that shows the relationship among all the classes. For simplicity, omit the fields and methods for the OldMaidGame class (there are a lot of them).
 > 
-> See solution [here](../Images/OldMaid_UMLpng).
+> See solution [here](../Images/OldMaid_UML.png).
 
