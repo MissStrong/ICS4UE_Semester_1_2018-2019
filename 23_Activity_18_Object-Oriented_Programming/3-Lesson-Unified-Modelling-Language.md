@@ -8,7 +8,8 @@ Each class (or interface) is represented by a rectangular box divided into three
 
 **Top Section**
 * If it is an interface, \<<Interface\>> is written directly above the interface name.
-* If it is an abstract class or an interface, it is written in italics (or cursive if it's drawn by hand).
+* If it is an abstract class or an interface, it is written in *italics*. If you are writing/drawing by hand, you can use cursive as an alternative.
+
 
 **Middle and Bottom Section**
 * To the left of each field and method is one of the following signs: +, -, and #. The + sign stands for `public`, - stands for `private`, and # stands for `protected` (or package-protected).
