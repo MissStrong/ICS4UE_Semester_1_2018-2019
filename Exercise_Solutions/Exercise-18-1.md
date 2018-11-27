@@ -9,9 +9,9 @@ A `Person` object can be instantiated by providing its `name`, `gender`, and `ag
 ```java
 public class Person {
 
-    String name;
-    String gender;
-    int age;
+    public String name;
+    public String gender;
+    public int age;
     
     public Person (String name, String gender, int age) {
         this.name = name;
