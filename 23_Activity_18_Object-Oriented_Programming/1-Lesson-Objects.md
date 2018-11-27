@@ -48,14 +48,17 @@ public void example(double d) {
 
 Even constructors can be overloaded. Here is an example.
 ```java
-String name;
+public class Person {
 
-public Person() {
-    name = "unknown";
-}
+    String name;
 
-public Person(String s) {
-    name = s;
+    public Person() {
+        name = "unknown";
+    }
+
+    public Person(String s) {
+        name = s;
+    }
 }
 ```
 
