@@ -73,4 +73,4 @@ This concept of data hiding is called **encapsulation**. The "capsule" in this c
 
 
 ### Static Methods
-A `static` method is a method that belongs to a class, not an object. A non-static method cannot be called in the body of a `static` method cannot.
+A `static` method is a method that belongs to a class, not an object. A `static` method typically takes parameters and performs a routine using the arguments. A non-static method cannot be called in the body of a `static` method.
