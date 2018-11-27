@@ -20,8 +20,10 @@ Each class (or interface) is represented by a rectangular box divided into three
 * Abstract methods are in *italics*. If you are writing/drawing by hand, you can use cursive as an alternative.
 
 
-Here is an example of a UML diagram for a Quatris program. Quatris is a variation of Tetris.  
+Here is an example of a UML diagram for a Quatris program, written in C++. Quatris is a variation of Tetris. 
+    
 ![](../Images/Quatris_UML.png)
+
 
 ### Relations
 
