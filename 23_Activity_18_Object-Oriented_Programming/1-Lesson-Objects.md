@@ -13,7 +13,16 @@ Some classes have simpler ways of creating objects, without directly calling the
 
 Since primitive data types don't belong to a class, you don't need to use the `new` keyword to create them.
 
-The reason that you cannot create a `Math` object is that the constructor in the `Math` class is `private`. When you create your own classes, you can prevent a user from creating an object belonging to you class by making the class's constructor `private`. By default, every classe you create has a `public` constructor with a blank body. Every classes have a constructor regardless of whether it is explicietly written in the body of the class.
+The reason that you cannot create a `Math` object is that the constructor in the `Math` class is `private`. When you create your own classes, you can prevent a user from creating an object belonging to you class by making the class's constructor `private`. By default, every class you create has a `public` constructor with a blank body. Every class has a constructor regardless of whether it is explicietly written in the body of the class.
+
+> Exercise 18-1
+>
+> Create a class called Person using the following information:
+> * A Person object can be created from the Person class.
+> * A Person object contains three fields: a name (String), a gender (String), and an age (int).
+> * A Person object can be instantiated by providing its name, gender, and age
+>
+> See solution [here](../Exercise_Solutions/Exercise-18-1.md).
 
 
 ### Method Overloading
@@ -62,6 +71,14 @@ public class Person {
 }
 ```
 
+> Exercise 18-2
+>
+> Create several possible constructors for the Person class in Exercise 18-1.
+>
+> See solution [here](../Exercise_Solutions/Exercise-18-2.md).
+
+
+
 ### Encapsulation
 
 In order to directly access a **field** (variable or constant) in an object from outside its class, it has to be `public`. However, declaring a variable as `public` allows the user to modify its value. There are two ways to allow a user to access a field in an object from outside of the class, without allowing them to modify its value.
@@ -74,6 +91,13 @@ The `Arrays` class uses this strategy: the `length` field is `final`, which is w
 You can declare the variable to be `private`, then create a `public` method that returns the value of the variable.</br></br>
 The `ArrayList` classes uses this strategy: the `size` field is `private`, but `size()` is a `public` method that returns the size.</br></br>
 This concept of data hiding is called **encapsulation**. The "capsule" in this case is the class.
+
+
+> Exercise 18-3
+>
+> Create methods that retrieve the fields for the Person class in Exercise 18-1 and 18-2.
+>
+> See solution [here](../Exercise_Solutions/Exercise-18-3.md).
 
 
 ### Static Methods
