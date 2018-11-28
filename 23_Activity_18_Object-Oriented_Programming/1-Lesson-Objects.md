@@ -91,7 +91,7 @@ The `Arrays` class uses this strategy: the `length` field is `final`, which is w
 
 2. **Create a method that obtains the value of the variable**.  
 You can declare the variable to be `private`, then create a `public` method that returns the value of the variable.</br></br>
-The `ArrayList` classes uses this strategy: it has a private field called `size`, but a `public` method called `size()`that returns the value of the `size` field.</br></br>
+The `ArrayList` classes uses this strategy: it has a `private` field called `size`, but a `public` method called `size()`that returns the value of the `size` field.</br></br>
 This concept of data hiding is called **encapsulation**. The "capsule" in this case would be the class.
 
 
