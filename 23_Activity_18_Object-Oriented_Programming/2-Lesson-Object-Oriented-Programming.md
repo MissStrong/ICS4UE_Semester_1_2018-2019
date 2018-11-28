@@ -15,7 +15,7 @@ In order to use OOP to its highest potential, it is important to understand the 
 
 
 ### Aggregation
-Aggregation can be referred to as a "has-a" association, and is a weak association. This occurs when an class (called the **superclass** or **parent class**) has a field that is an object belonging to another class (called the **subclass** or the **parent class**). For example, if you have a class called `BoardGame` which represents a board game, you may have a field that represents a the dice that are used in the game, from a `Die` class. In other words, a `BoardGame` has-a `Die`. 
+Aggregation can be referred to as a "has-a" association, and is a weak association. This occurs when a class (called the **superclass** or **parent class**) has a field that is an object belonging to another class (called the **subclass** or the **child class**). For example, if you have a class called `BoardGame` which represents a board game, you may have a field that represents a the dice that are used in the game, from a `Die` class. In other words, a `BoardGame` has-a `Die`. 
 
 Typically, in aggregation, the subclass can exist independly of the superclass. For example, once a board game is finished, the dice could still be used in the program for other purposes. Thus, when the `BoardGame` object is destroyed, the `Die` object isn't necessarily destroyed with it. The two classes may look something like this.
 
@@ -86,7 +86,7 @@ Inheritance can be referred to as a "is-a" association, and is a very strong ass
 
 There are two cases:
 1. The "superclass" is an interface, and the subclass `implements` it.
-2. The superclass is an class, and the subclass `extends` it.
+2. The superclass is a class, and the subclass `extends` it.
 
 
 ### Implementing an Interface
