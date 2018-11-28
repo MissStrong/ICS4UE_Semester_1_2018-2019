@@ -194,7 +194,7 @@ public class Rectangle extends Shape {
 Interfaces have a few things in common with abstract classes. Neither can be instantiated and both act as a template for its subclasses. However, there are also some key differences between them. 
 
 * Interfaces have no fields. Abstract classes may have fields.
-* All methods in an interface are abstract. Not all methods in an abstract class need to be abstract.
+* All methods in an interface are abstract by default (you don't need the `abstract` keyword). Not all methods in an abstract class need to be `abstract`.
 * A subclass can inherit multiple interfaces, but at most one class.
 
 When deciding between an abstract class and an interface in your program, consider the differences above.
