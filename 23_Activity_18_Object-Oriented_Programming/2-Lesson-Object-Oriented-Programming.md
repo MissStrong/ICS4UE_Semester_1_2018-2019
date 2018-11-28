@@ -143,7 +143,7 @@ PriorityQueue q = new PriorityQueue();
 ```
 
 ### Extending a Class
-You've seen examples of the keyword `extends` this in your GUI assignments. In the `Change Exchange` assignment, the first line of the `Change` class is `public class Change extends javax.swing.JFrame {`. The `JFrame` class is what allows your program to display a GUI form using `JFrame` components.
+You've seen examples of the keyword `extends` this in your GUI assignments. In the *Change Exchange* assignment, the first line of the `Change` class is `public class Change extends javax.swing.JFrame {`. The `JFrame` class is what allows your program to display a GUI form using `JFrame` components.
 
 Similarly to a method in a subclass of an interface, a method in a subclass of a class can be overridden, too. 
 
