@@ -85,7 +85,7 @@ Whenever you're designing a program and are unsure whether two classes should us
 Inheritance can be referred to as a "is-a" association, and is a very strong association. Unlike aggregation and composition, the subclass inherits all the fields and methods from the superclass. 
 
 There are two cases:
-1. The superclass is an interface, and the subclass `implements` it.
+1. The "superclass" is an interface, and the subclass `implements` it.
 2. The superclass is an class, and the subclass `extends` it.
 
 
@@ -94,8 +94,41 @@ Interfaces were briefly mentioned in the lesson *Abstract Data Types*. An interf
 
 An Interface contains methods with empty bodies, and no fields. When a subclass `implements` an interface, it must include the definitions of all the methods from the interface. You can use the keyword `@Override` to document this. Both method overloading (from the previous lesson) and method overriding are types of **polymorphism**: methods existing in many forms.
 
+This is what the `Shapes` and `Rectangle` files from the *Shapes* assignment can look like (minus some of the documentation) if the program is restructured by making `Shape` an interface.
+
 ```java
-TODO
+public interface Shape {
+        
+    public double perimeter();
+    
+    public double area();
+    
+}
+```
+```java
+public class Rectangle implements Shape {
+    
+    public final int numSides = 4;
+    public final double length;
+    public final double width;
+    
+    public Rectangle(double s1, double s2) {
+        length = Math.max(s1, s2);
+        width = Math.min(s1, s2);
+    }
+    
+    @Override
+    public double perimeter() {
+        return 2 * (length + width);
+    }
+    
+    @Override
+    public double area() {
+        return length * width;
+    }
+    
+}
+
 ```
 
 When you're creating an instance of a subclass, you can declare the type as the interface or the subclass.
@@ -116,8 +149,43 @@ Similarly to a method in a subclass of an interface, a method in a subclass of a
 
 You can also leave the body of a method in the superclass empty by using the keyword `abstract` on the method and on the class. Abstract methods must be `public` and non-static.
 
+This is what the `Shapes` and `Rectangle` files from the *Shapes* assignment can look like (minus some of the documentation) if the program is restructured by making `Shape` an abstract class.
+
 ```java
-TODO
+public abstract class Shape {
+
+    public final int numSides;
+        
+    public abstract double perimeter();
+    
+    public abstract double area();
+    
+}
+```
+```java
+public class Rectangle extends Shape {
+
+    public final double length;
+    public final double width;
+    
+    public Rectangle(double s1, double s2) {
+        numSides = 4;
+        length = Math.max(s1, s2);
+        width = Math.min(s1, s2);
+    }
+    
+    @Override
+    public double perimeter() {
+        return 2 * (length + width);
+    }
+    
+    @Override
+    public double area() {
+        return length * width;
+    }
+    
+}
+
 ```
 
 ### Abstract Classes
