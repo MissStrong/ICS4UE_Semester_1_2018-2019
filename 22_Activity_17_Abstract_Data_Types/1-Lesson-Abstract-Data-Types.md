@@ -170,7 +170,7 @@ These are some the typical operations of a set ADT. You don't need to know the s
 | all the elements of a set,</br>excluding the common</br>elements between it and</br>another set | "difference", "relative</br>component" | – | {1, 2, 3} – {2, 3, 4} = {1} |
 | check whether all the</br>elements of a set are</br>contained in another set | "subset", "proper subset" | ⊂ (subset)</br>⊆ (proper subset)</br>⊄ (not a subset)</br>⊈ or ⊊ (not a proper subset) | {1, 2, 3} ⊂ {1, 2, 3, 4}</br>{1, 2, 3} ⊆ {1, 2, 3, 4}</br>{1, 2, 3} ⊄ {3, 4, 5}</br>{1, 2, 3} ⊈ {1, 2, 3}</br>{1, 2, 3} ⊊ {1, 2, 3} |
 | check whether all the</br>elements of another set are</br>contained in a set | "superset", "proper superset" | ⊃ (superset)</br>⊇ (proper superset)</br>⊅ (not a superset)</br>⊉ or ⊋ (not a proper superset) | {1, 2, 3, 4} ⊃ {1, 2, 3}</br>{1, 2, 3, 4} ⊇ {1, 2, 3}</br>{1, 2, 3} ⊅ {3, 4, 5}</br>{1, 2, 3} ⊉ {1, 2, 3}</br>{1, 2, 3} ⊋ {1, 2, 3} |
-| return the number of</br>elements in the set | "cardinality", "size" | \| set \| | \|{1, 2, 3}\| = 3 |
+| return the number of</br>elements in the set | "cardinality", "size" | \| set \| | \|{1, 2, 3}\| = 3</br>\|{1, 2, 2, 3, 3}\| = 3 |
 
 Java has an interface called `Set`. The `HashSet` class, among others, implements `Set`. You need to import `java.util.Set` in order to use these classes. Here are some of the methods you can use. 
 
