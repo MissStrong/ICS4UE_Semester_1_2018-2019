@@ -4,7 +4,7 @@ An **abstract data type** (ADT) is a composite data type that is used to store 
 
 
 ### Choosing an ADT
-Choosing the right ADT is an important part of program design. Choosing the right ADT allows your code to be easy to read and efficient; choosing the wrong ADT can be frustrating. Depending on your program, you may not need an ADT at all, or you may want to combine various ADTs.
+Choosing the right ADT is an important part of program design. Choosing the right ADT allows your code to be easy to read and efficient; choosing the wrong ADT can be frustrating. Depending on your program, you may not need an ADT at all, or you may want to use more than one ADT.
 
 
 
