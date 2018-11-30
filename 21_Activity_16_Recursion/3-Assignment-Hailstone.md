@@ -9,7 +9,7 @@ Watch [this video](https://www.youtube.com/watch?v=5mFpVDpKX70) about Collatz' C
 
 1. Create a flowchart demonstrating the Hailstone Algorithm.
 2. Create a new project in NetBeans and call it "Hailstone".
-    1. Create a method, called `hailstone()`, that takes one integer as a parameter, and calculates how many steps it takes for a positive integer to reach 1 using the algorithm provided in the video. If the number of steps can't be computed due to overflow, return -1. If the number is less than 1, return 0. 
+    1. Create a method, called `hailstone()`, that takes one integer as a parameter, and calculates how many steps it takes for a positive integer to reach 1 using the algorithm provided in the video. If the number of steps can't be computed due to overflow, return -1. If the number is less than 1, return 0. **Incorporate recursion in your program**.
     2. When the program works, zip the file and name it **Assignment 12 - \<insert your name here>.zip**.
 3. Submit the following to the Dropbox:
     * Your flowchart as an .pdf file or any reasonable image filetype (e.g. .png and .jpeg).
