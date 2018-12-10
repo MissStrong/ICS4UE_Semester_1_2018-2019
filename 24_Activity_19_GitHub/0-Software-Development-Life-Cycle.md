@@ -1,4 +1,4 @@
-## Software Development Life Cycle
+## GitHub
 
 In this activity, you will:
 
