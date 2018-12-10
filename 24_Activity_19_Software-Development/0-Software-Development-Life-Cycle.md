@@ -1,4 +1,4 @@
-## GitHub
+## Software Development
 
 In this activity, you will:
 
