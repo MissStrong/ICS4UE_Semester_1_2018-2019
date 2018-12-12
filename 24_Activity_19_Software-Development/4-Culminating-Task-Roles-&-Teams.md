@@ -10,9 +10,9 @@
 
 | | Start | End |
 | --- | --- | --- |
-| Week 1</br>Analysis</br>Design and Development | Monday, January 7 | Saturday, January 12 - Monday, January 14 |
-| Week 2</br>Implementation</br>Testing | Saturday, January 12- Monday, January 14 | Saturday, January 19 - Monday, January 21 |
-| Week 3</br>Maintenance | Saturday, January 19 - Monday, January 21 | Thursday, January 24 |
+| **Week 1**</br>*Analysis*</br>*Design and Development* | Monday, January 7 | Saturday, January 12 - Monday, January 14 |
+| **Week 2**</br>*Implementation*</br>*Testing* | Saturday, January 12- Monday, January 14 | Saturday, January 19 - Monday, January 21 |
+| **Week 3**</br>*Maintenance* | Saturday, January 19 - Monday, January 21 | Thursday, January 24 |
 
 ### Teams
 
