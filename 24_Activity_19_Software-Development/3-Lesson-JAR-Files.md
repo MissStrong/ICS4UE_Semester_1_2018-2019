@@ -17,4 +17,4 @@ If you used an image and you create an ImageIcon object using code such as `new
 
 ### Sending JAR Files
 
-When sending a .jar file, it is customary to zip the folder that contains it, then send the zipped folder. If you are sharing your program with someone, you would instruct them to unzip the folder, open the .jar file (you might have to right click on it in order to open it), and not move the .jar file from its location. You can choose to include this information in the README.txt file, which should be in the folder.
+When sending a .jar file, it is customary to zip the folder that contains it, then send the zipped folder. If you are sharing your program with someone, you would instruct them to unzip the folder, open the .jar file (you might have to right click on it in order to open it), and not move the .jar file from its location. You can choose to include this information in the README.txt file, which should be included the folder.
