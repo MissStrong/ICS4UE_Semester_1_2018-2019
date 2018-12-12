@@ -14,7 +14,9 @@ You obviously won't be assessed on your knowledge of Pokemon, so don't be too co
 
   You are also given the following information to incorporate: 
 
-  * When `Pokemon` p1 attacks another `Pokemon` p2, p2's HP goes down by p1's CP, unless p1's type is p2's weakness, in which it goes down up 1.5 times p1's CP. For example, if p1's CP is 20 and p2's HP is 100, p2's HP would become either 80 or 70 (if p1's type is p2's weakness) after the attack.
+  * When `Pokemon` p1 attacks another `Pokemon` p2, p2's HP goes down by p1's CP, unless p1's type is p2's weakness, in which it goes down by 1.5 times p1's CP (rounding to the nearest integer).
+
+  For example, if p1's CP is 20 and p2's HP is 100, p2's HP would become either 80 or 70 (if p1's type is p2's weakness) after the attack.
 
   * `GrassPokemon`: default HP is 100, default CP is 25, weakness is fire.
 
