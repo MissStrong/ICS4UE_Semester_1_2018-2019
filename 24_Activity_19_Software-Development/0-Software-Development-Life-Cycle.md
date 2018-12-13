@@ -2,7 +2,7 @@
 
 In this activity, you will:
 
-1. Create a GitHub account, then pull & push from a remote repository and NetBeans.
+1. Create a GitHub account and become familiar with GitHub basics
 2. Read about:
    1. JavaDocs.
    2. How to share Java programs.
