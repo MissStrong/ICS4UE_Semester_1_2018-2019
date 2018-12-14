@@ -9,7 +9,7 @@ You can create a .jar file from NetBeans. Click into a project, then go to **Run
 
 From outside of NetBeans, you can click on the .jar file, and your program should open.
 
-If it doesn't open, it is likely because your program does not compile (i.e. something doesn't work). If your program reads from a textfile, or uses an image, you need to ensure that these files are appropriately located with respect to the .jar file; otherwise, it won't compile.
+If it doesn't open, it is likely because your program does not compile (i.e. something doesn't work). If your program reads from a non-Java file, or uses an image, you need to ensure that these files are appropriately located with respect to the .jar file; otherwise, it won't compile.
 
 For example, the Jotto Program relies on jottoWords.txt. This textfile needs to be in the same folder as the .jar file in order for the code `File jottoFile = new File("jottoWords.txt");` to work.
 
