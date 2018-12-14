@@ -22,9 +22,9 @@
 
  | Team Name | Team Members |
  | --- | --- |
- | Team Apricot | \<omitted for privacy\> |
- | Team Lemon |	\<omitted for privacy\> |
- | Team Lime |	\<omitted for privacy\> |
- | Team Pear |	\<omitted for privacy\> |
- | Team Plum |	\<omitted for privacy\> |
- | Team Raspberry | \<omitted for privacy\> |
+ | Team Apricot | BC, KG, AH |
+ | Team Lemon |	JA, AL, FT, ST |
+ | Team Lime |	GK, JP, BV |
+ | Team Pear |	CF, RH, MH |
+ | Team Plum |	BM, JS, CQ |
+ | Team Raspberry | MG, HH, SS |
