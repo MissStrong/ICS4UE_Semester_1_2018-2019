@@ -2,7 +2,7 @@
 
 So far, you've been running your Java apps through NetBeans. You can share your Java apps with people who don't have a Java IDE such as NetBeans installed by converting your program to the .jar filetype. JAR stands for **J**ava **Ar**chive, and the filetype is executable on both PCs and Macs. 
 
-You can create a .jar file from NetBeans. Click into a project, then go to **Run > Clean and Build Project**. This will update the files in the build folder, and create a dist folder in your project, where the .jar file is located. 
+You can create a .jar file from NetBeans. Click into a project, then go to **Run > Clean and Build Project**. This will update the files in the *build* folder and place the .jar file into the *dist* folder.
 
 ![](../Images/Build.png)
 ![](../Images/Dist.png)
