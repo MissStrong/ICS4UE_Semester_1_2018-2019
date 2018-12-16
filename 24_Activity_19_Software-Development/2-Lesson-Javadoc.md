@@ -6,7 +6,7 @@ To build a Javadoc of a Java program in Netbeans, go to **Run > Build Javadoc**.
 
 ![](../Images/Javadoc.png)
 
-This will create a dist folder in your project and generate HTML files corresponding to your classes. 
+This will generate HTML files corresponding to your classes and place them into the dist folder in your project. 
 
 The index.html file lists all of the classes in your program, with hyperlinks to their respective HTML files. This file might automatically open in your browser when you generate the Javadoc.  
 
@@ -18,4 +18,4 @@ Further down the page, you can see more documentation on the methods.
 
 ![](../Images/Pokemon_Javadoc_2.png)
 
-All comments beginning with `/**` are recognized as a part of the Javadoc . This is why it's important to document your methods using `/**` as opposed to `/*` or `//`.
+All comments beginning with `/**` are recognized as a part of the Javadoc . This is why it's important to document your methods using `/**` as opposed to `/*` or `//`, and to use tags such as `@param` and `@return`.
