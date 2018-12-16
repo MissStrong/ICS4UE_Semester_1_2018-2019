@@ -6,7 +6,7 @@ To build a Javadoc of a Java program in Netbeans, go to **Run > Build Javadoc**.
 
 ![](../Images/Javadoc.png)
 
-This will generate HTML files corresponding to your classes and place them into the dist folder in your project. 
+This will generate HTML files corresponding to your classes and place them into the *dist* folder in your project. 
 
 The index.html file lists all of the classes in your program, with hyperlinks to their respective HTML files. This file might automatically open in your browser when you generate the Javadoc.  
 
