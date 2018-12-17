@@ -64,9 +64,9 @@ A user guide is a manual explaining how to use the game. For the Culminating Ta
 
 ### Software Test Document
 
-A software test document serves as a way to track how the program has been tested. A software test plan is typically very detailed and contains a lot of components, but yours will not need to be as detailed as they usually are. 
+A software test document serves as a way to track how the program has been tested. A software test plan is typically very detailed and contains a lot of components, but yours will not need to be as detailed. 
 
-For the Culminating Task, you will include the following in your software test plan. You may use this template, or create your own.
+For the Culminating Task, you will include the following in your software test plan. You may use [this template](https://docs.google.com/spreadsheets/d/1jHs8G6D7O6tnEEVtMIYRVE5CS77fgDW2o-mhEr5ZUS4/edit?usp=sharing), or create your own.
 * Blackbox tests (i.e. tests that ignore the internal implementation).
 * Whitebox tests (i.e. tests that are specific to the internal implementation).
 * Bugs and issues encountered, and how and when they were fixed.
