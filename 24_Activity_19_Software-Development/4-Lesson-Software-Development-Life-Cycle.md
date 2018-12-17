@@ -42,7 +42,7 @@ A feasibility study looks at the entire project and determines what is possible,
 
 ### Gantt Chart 
 
-A **Gantt chart** is a tool that helps visualize, schedule, and track the progress of a project. For the Culminating Task, your Gantt chart will includes the following information:
+A Gantt chart is a tool that helps visualize, schedule, and track the progress of a project. For the Culminating Task, your Gantt chart will includes the following information:
 
 * A list of all the subtasks and who is/are assigned to each one.
 * An estimate of the time (in days) each subtask is expected to take.
