@@ -53,3 +53,18 @@ Here is an example of what a Gantt Chart for the Culminating Task could look lik
 
 ![](../Images/Gantt_Chart.png)
 
+### User Guide
+
+A user guide is a manual explaining how to use the game. For the Culminating Task, you will include the following in your user guide.
+* A title page.
+* A description of what the game is.
+* A description of how to open the game.
+* A explanation of how to play the game.
+* Frequently asked questions (FAQs).
+
+### Software Test Document
+
+A software test document serves as a way to track how the program has been tested. A software test plan is typically very detailed and contains a lot of components, but yours will not need to be as detailed as they usually are. For the Culminating Task, you will include the following in your software test plan. You may use this template, or create your own.
+* Blackbox tests (i.e. tests that ignore the internal implementation).
+* Whitebox tests (i.e. tests that are specific to the internal implementation).
+* Bugs and issues encountered, and how and when they were fixed.
