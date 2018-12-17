@@ -26,7 +26,6 @@ A software scope document is a brief document that describes what the piece of s
 | **Software Development Team**	| <ul><li>Names and roles of your team members</li></ul> |
 | **Problem Statement** | <ul><li>Project background</li><li>Stakeholders</li><li>Users</li><li>Risks</li></ul> |
 | **Vision of the Solution** | <ul><li>Vision statement</li><li>List of features</li><li>Features that will not be developed</li></ul> |
-    
 
 ### Feasibility Study
 
@@ -38,7 +37,6 @@ A feasibility study looks at the entire project and determines what is possible,
 | **Problem Analysis** | <ul><li>A description of any constraints or problems that you expect to encounter, and how you intend to deal with them. Examples:</li><ul><li>Application creation:</li><ul><li>is 3 weeks enough time to complete it?</li><li>what to do if you can't figure out how to code something</li><li>what to do if an issue is too difficult to debug</li><li>what to do if you feel you can't finish by the deadline</li></ul><li>User constraints:</li><ul><li>software and hardware required to run the application</li><li>knowledge the user needs in order to open and run the application and play the game</li><li>time the user will need to learn how to play the game</li></ul></ul></ul> |
 | **End User Requirements**	| <ul><li>A summary of the information received from the client. If any clarification or extra information is needed, contact the client and ask for it.</li></ul> |
 | **Statement of Work**	| <ul><li>An extension of the software scope document. It consists of the following: <ul><li>a resource list that contains a list of all required resources (e.g. person, hardware, space) and their availability</li><li>a work breakdown and a set of time estimates related to how long it will take to develop each of the features of the application</li><li>a project schedule</li><li>a risk plan that identifies any potential risks, and indicates how these would be handled should they occur</li></ul> |
-    
 
 ### Gantt Chart 
 
