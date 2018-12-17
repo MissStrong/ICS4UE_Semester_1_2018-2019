@@ -10,7 +10,7 @@ There are several versions of the SDLC. For the Cumulative Task, you will be fol
 | Stage 2:<br></br>**Design and Development** | <ul><li>Prepare a **feasibility study**.</li><li>Create a project schedule with deadlines for subtasks.</li><li>Create flowcharts for complex algorithms.</li><li>Create a UML diagram with all the custom classes.</li></ul>|
 | Stage 3:<br></br>**Implementation** | <ul><li>Produce code for the application.</li><li>Maintain a project log using a **Gantt chart**.</li><li>Produce a **user guide**.</li></ul> |
 | Stage 4:<br></br>**Testing** | <ul><li>Individual program testing.</li><li>Produce a **software test document**.</li></ul> |
-| Stage 5:<br></br>**Maintenance** | <ul><li>Review the project log.</li><li>Prepare a report documenting the success and challenges while creating your application.</li><li>Complete a reflection report documenting the successes, challenges, and limitations of your work.</li></ul> |
+| Stage 5:<br></br>**Maintenance** | <ul><li>Review the project log.</li><li>Write a reflection on the successes, challenges, and limitations of your work.</li></ul> |
 
 There are various SDLC models that indicate how many times and in what order these steps are executed.
 
