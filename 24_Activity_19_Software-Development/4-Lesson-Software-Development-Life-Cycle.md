@@ -29,7 +29,7 @@ A software scope document is a brief document that describes what the piece of s
 
 ### Feasibility Study
 
-A feasibility study looks at the entire project and determines what is possible, valid, and worthwhile. Creating a feasibility study allows the developers to not waste time during the development phase. For the Culminating Task, you will include the following as a part of your feasibility study.
+A feasibility study looks at the entire project and determines what is possible, valid, and worthwhile. Creating a feasibility study allows the developers to not waste time during the implementation phase. For the Culminating Task, you will include the following as a part of your feasibility study.
 
 | | |
 | --- | --- |
