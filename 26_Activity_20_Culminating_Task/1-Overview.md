@@ -3,7 +3,7 @@
 The final project for this course will be a game developed using Java with NetBeans. You will be working in a team of three or four to create an original game of your choice. You will be evaluated individually, based on your contribution to the success of the project and your contribution as a team member.
 
   
-##Scenario
+## Scenario
 
 A client wants to have a computer game created for their teenage child. They don't care what the game is about, as long as it is fun and age-appropriate. They need the game done by January 24, 2019; no exceptions!
 
