@@ -24,6 +24,7 @@ You have individual subtasks based on your roles.
 ### Task 3: Plan the program
 
 You have individual subtasks based on your roles.
+
 | | |
 | --- | --- |
 | Project Manager | TODO |
@@ -36,6 +37,7 @@ You have individual subtasks based on your roles.
 Information about the software scope document can be found in the Software Development Life Cycle lesson from Activity 19.
 
 You have individual subtasks based on your roles.
+
 | | |
 | --- | --- |
 | Project Manager | TODO |
@@ -48,6 +50,7 @@ You have individual subtasks based on your roles.
 Information about the feasibility study can be found in the Software Development Life Cycle lesson from Activity 19.
 
 You have individual subtasks based on your roles.
+
 | | |
 | --- | --- |
 | Project Manager | TODO |
