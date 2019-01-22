@@ -11,7 +11,7 @@ If you have not already completed the GitHub activity from Activity 19, you must
 
 | | |
 | -- | -- |
-| Project Manager	| <ul><li>Create a repository on GitHub for this project.<br /><ul><li>Name the repo based on the name of your game.</li><li>Fill in the README.md file with a brief description of the game.</li><li>Add your group members as collaborators ([Settings > Collaborators](../Images/collaborators.png)) to allow them push access.</li><li>Post the link to the repo in the Week 2 Discussion Forum.</li></ul> |
+| Project Manager	| <ul><li>Create a repository on GitHub for this project.<br /><ul><li>Name the repo based on the name of your game.</li><li>Fill in the README.md file with a brief description of the game.</li><li>Add your group members as collaborators ([Settings > Collaborators](../Images/GitHub_Collaborators.png)) to allow them push access.</li><li>Post the link to the repo in the Week 2 Discussion Forum.</li></ul> |
 | Head Programmer	| <ul><li>Once the Project Manager has posted the link:<ul><li>Check your email (the one you used to sign up for GitHub) to accept the collaboration invitation.</li><li>Pull the project from GitHub and create a new branch using NetBeans for your work.</li></ul></li></ul> |
 | Graphic Designer | <ul><li>Once the Project Manager has posted the link:<ul><li>Check your email (the one you used to sign up for GitHub) to accept the collaboration invitation.</li><li>Pull the project from GitHub and create a new branch using NetBeans for your work.</li></ul></li></ul> |
 
