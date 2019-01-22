@@ -18,7 +18,7 @@ You have individual subtasks based on your roles.
 | --- | --- |
 | Project Manager | <ul> <li>Create and format a Google Spreadsheet for the Gantt chart and share the link in the Week 1 Discussion Forum. Ensure that your teammates can edit the document.<br /><br /></li><li>Fill in the work completed for Task 1.<br /><br /></li><li>At the <strong>end of the week</strong>, export the Gantt chart and submit it to the Week 1 Dropbox.</li></ul> |
 | Head Programmer | <ul><li>Assign due dates to the Head Programmer subtasks in Task 3-5.</li></ul> |
-| Graphic Designer | <ul><li>Assign due dates to the Graphic Artist subtasks in Task 3-5.</li></ul> |
+| Graphic Designer | <ul><li>Assign due dates to the Graphic Designer subtasks in Task 3-5.</li></ul> |
 
 
 ### Task 3: Plan the program
@@ -27,7 +27,7 @@ You have individual subtasks based on your roles.
 
 | | |
 | --- | --- |
-| Project Manager | <ul><li>Assist and support the Head Programmer and Graphic Artist as needed.<br /><br /></li><li>Update the Gantt chart.</li></ul> |
+| Project Manager | <ul><li>Assist and support the Head Programmer and Graphic Designer as needed.<br /><br /></li><li>Update the Gantt chart.</li></ul> |
 | Head Programmer | <ul><li>Determine what custom classes and objects should be used in the game.<br /><br /></li><li>Create a UML diagram of the classes. Submit it to the Week 1 Dropbox.<br /><br /></li><li>Create a flowchart demonstrating the game. Submit it to the Week 1 Dropbox.<br /><br /></li><li>Update the Gantt chart.</li></ul> |
 | Graphic Designer | <ul><li>Determine which JSwing components to use for the GUI.<br /><br /></li><li>Create a sketch of the GUI. Submit it to the Week 1 Dropbox.<br /><br /></li><li>Create and/or find images that will be used in the game (if applicable). Submit them as a zipped file to the Week 1 Dropbox.<br /><br /></li><li>Update the Gantt chart.</li></ul> |
 
@@ -92,7 +92,7 @@ To earn a perfect mark in Participation, simply complete all of the tasks that a
 | Task 5: Feasibility Study	| 3 |
 | Task 6: Submitted files to Dropbox	| 1 |
 | Task 7: Assessment Form	| 1 |
-| Total: | 15 |
+| | Total: 15 |
 
 Quality of work: 15 marks
 
@@ -103,6 +103,6 @@ To earn a perfect mark in the three tasks below, demonstrate that you meet all o
 | Task 3: Game Plan	| 5 |
 | Task 4: Software Scope Development	| 5 |
 | Task 5: Feasibility Study	| 5 |
-| Total: | 15 |
+| | Total: 15 |
 
 Week 1 Total: 30 marks
