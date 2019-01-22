@@ -19,7 +19,7 @@ Do this only if your program works perfectly and you have enough time to improve
 
 | | |
 | -- | -- |
-| Everyone | Open Issues on GitHub that describe parts of the program that could be enhanced. |
+| Everyone | Open [Issues](../Images/issues.png) on GitHub that describe parts of the program that could be enhanced. |
 
 ### Task 2: Implement program fixes
 
@@ -27,9 +27,9 @@ If your program works perfectly, complete Bonus Task 2 instead.
 
 | | |
 | -- | -- |
-| Project Manager | |
-| Head Programmer | |
-| Graphic Designer | |
+| Project Manager | <ul><li>Review pull requests from your team members and comment on their code using the commenting feature on GitHub.&nbsp;<br /><br /></li><li>Approve pull requests that do not have issues.<br /><br /></li><li>Update the Gantt chart.</li></ul> |
+| Head Programmer | <ul><li>For each non-GUI-based Issue you decide to try to fix:<ul><li>Pull from the master branch on GitHub to obtain the current program. Create a new branch on NetBeans. Using that branch<br /><ul><li>Locate and fix the bug, or reduce the impact the bug has on the program.</li><li>When/if the bug is fixed/reduced, commit your progress, push to GitHub, and submit a pull request for your Project Manager to review. If the pull request is denied, fix the issue(s) and repeat until your pull request is approved.<br /><br /></li><li>Update the software scope document.</li><li>Respond to the Issue on GitHub with an update.<br /><br /></li></ul></li></ul></li><li>Update the Gantt chart.</li></ul> |
+| Graphic Designer | <ul><li>For each GUI-based Issue you decide to try to fix:<ul><li>Pull from the master branch on GitHub to obtain the current program. Create a new branch on NetBeans. Using that branch<br /><ul><li>Locate and fix the bug, or reduce the impact the bug has on the program.<br /><br /></li><li>When/if the bug is fixed/reduced, commit your progress, push to GitHub, and submit a pull request for your Project Manager to review. If the pull request is denied, fix the issue(s) and repeat until your pull request is approved.<br /><br /></li><li>Update the software scope document.<br /><br /></li><li>Respond to the Issue on GitHub with an update.<br /><br /></li></ul></li></ul></li><li>Update the Gantt chart.</li></ul> |
 
 ### Bonus Task 2: Implement enhancements
 
@@ -37,9 +37,9 @@ Do this only if your program works perfectly and you have enough time to improve
 
 | | |
 | -- | -- |
-| Project Manager | |
-| Head Programmer | |
-| Graphic Designer | |
+| Project Manager | <ul><li>For each non-GUI-based Issue you decide to try to incorporate: <ul><li>Pull from the master branch on GitHub to obtain the current program. Create a new branch on NetBeans. Using that branch<br /><ul><li>Implement the enhancement. Try to not introduce any new bugs into the program while doing this.<br /><br /></li><li>When you are satisfied with the enhancement, commit your progress, push to GitHub, and submit a pull request for your Project Manager to review. If the pull request is denied, fix the issue(s) and repeat until your pull request is approved.<br /><br /></li><li>Update the user guide, if necessary.<br /><br /></li><li>Respond to the Issue on GitHub with an update.<br /><br /></li></ul></li></ul></li><li>Update the Gantt chart.</li></ul> |
+| Head Programmer | <ul><li>For each non-GUI-based Issue you decide to try to incorporate:<br /><ul><li>Pull from the master branch on GitHub to obtain the current program. Create a new branch on NetBeans. Using that branch:<br /><ul><li>Implement the enhancement. Try to not introduce any new bugs into the program while doing this.<br /><br /></li><li>When you are satisfied with the enhancement, commit your progress, push to GitHub, and submit a pull request for your Project Manager to review. If the pull request is denied, fix the issue(s) and repeat until your pull request is approved.<br /><br /></li><li>Update the user guide, if necessary.<br /><br /></li><li>Respond to the Issue on GitHub with an update.<br /><br /></li></ul></li></ul></li><li>Update the Gantt chart.</li></ul> |
+| Graphic Designer | <ul><li>For each GUI-based Issue you decide to try to incorporate:<br /><ul><li>Pull from the master branch on GitHub to obtain the current program. Create a new branch on NetBeans. Using that branch:<br /><ul><li>Implement the enhancement. Try to not introduce any new bugs into the program while doing this.<br /><br /></li><li>When you are satisfied with the enhancement, commit your progress, push to GitHub, and submit a pull request for your Project Manager to review. If the pull request is denied, fix the issue(s) and repeat until your pull request is approved.<br /><br /></li><li>Update the user guide, if necessary.<br /><br /></li><li>Respond to the Issue on GitHub with an update.<br /><br /></li></ul></li></ul></li><li>Update the Gantt chart.</li></ul> |
 
 ### Task 3: Ensure that the program compiles and JAR file opens
 
@@ -47,9 +47,12 @@ If your program doesn't do everything it is supposed to, ensure that it at least
 
 | | |
 | -- | -- |
-| Project Manager | |
-| Head Programmer | |
-| Graphic Designer | |
+| Project Manager | <ul>
+<li>Generate the Javadoc and the JAR file.<br /><br /></li>
+<li>After the JAR file works the same way as the program (you may have to move some files into the <em>dist</em> folder): zip the project and submit it to the Dropbox.<br /><br /></li>
+</ul>|
+| Head Programmer | <ul><li>Inform the Project Manager when you've finished coding. Ensure that the program compiles.</li></ul> |
+| Graphic Designer | <ul><li>Inform the Project Manager when you've finished coding. Ensure that the program compiles.</li></ul> |
 
 ### Task 4: Assemble the final product for the client
 
