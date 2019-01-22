@@ -21,7 +21,7 @@ You have individual subtasks based on your roles.
 
 | | |
 | -- | -- |
-| Project Manager	| <ul> <li>Review pull requests from your team members and comment on their code using the commenting feature on GitHub. <br / <br /></li><li>Approve pull requests that do not have issues.<br /><br /></li><li>Update the Gantt chart.</li></ul> |
+| Project Manager	| <ul> <li>Review pull requests from your team members and comment on their code using the commenting feature on GitHub. <br / ><br /></li><li>Approve pull requests that do not have issues.<br /><br /></li><li>Update the Gantt chart.</li></ul> |
 | Head Programmer	| <ul><li>Using the new branch:<ul><li>Create the classes according to the UML diagram from Week 1, but leave the method bodies blank (for now).<br /><br /></li><li>Put Javadoc documentation above every method.<br /><br /></li><li>Generate and check the Javadoc to ensure that the documentation appears properly.<br /><br /></li><li>Commit your progress, push to GitHub, and submit a pull request for your Project Manager to review. If the pull request is denied, fix the issue(s) and repeat until your pull request is approved.<br /><br /></li></ul></li><li>Update the Gantt chart.</li></ul> |
 | Graphic Artist | <ul><li>Using the new branch:<ul><li>Build the GUI design according to the sketch from Week 1.<br /><br /></li><li>Rename all components (e.g. textboxes, buttons, scrollers, etc.) to descriptive names.<br /><br /></li><li>Set up the action listeners, but leave the method bodies blank (for now).<br /><br /></li><li>Put Javadoc documentation above every method.<br /><br /></li><li>Generate the Javadoc to ensure that the documentation appears properly.<br /><br /></li><li>Commit your progress, push to GitHub, and submit a pull request for your Project Manager to review. If the pull request is denied, fix the issue(s) and repeat until your pull request is approved.<br /><br /></li></ul></li><li>Update the Gantt chart.</li></ul> |
 
@@ -40,8 +40,8 @@ Information about the software test document can be found in the Software Devel
 | | |
 | -- | -- |
 | Project Manager	| <ul><li>After the project is error-free: generate the Javadoc and the JAR file.<br /><br /></li><li>After the JAR file works: zip the project and submit it to the Dropbox.</li></ul> |
-| Head Programmer	| <ul><li>When you believe the project is error-free, generate the JAR file and open it to ensure that it works. <br /><br /</li><li>Inform the Project Manager when you've finished coding.</li></ul> |
-| Graphic Artist | <ul><li>When you believe the project is error-free, generate the JAR file and open it to ensure that it works. <br /><br /</li><li>Inform the Project Manager when you've finished coding.</li></ul> |
+| Head Programmer	| <ul><li>When you believe the project is error-free, generate the JAR file and open it to ensure that it works. <br /><br /></li><li>Inform the Project Manager when you've finished coding.</li></ul> |
+| Graphic Artist | <ul><li>When you believe the project is error-free, generate the JAR file and open it to ensure that it works. <br /><br /></li><li>Inform the Project Manager when you've finished coding.</li></ul> |
 
 ### Task 5: Prepare the user guide
 
