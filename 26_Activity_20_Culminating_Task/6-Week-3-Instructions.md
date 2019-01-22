@@ -11,7 +11,7 @@ If your program works perfectly, complete Bonus Task 1 instead.
 
 | | |
 | -- | -- |
-| Everyone | Open [Issues](../Images/issues.png) on GitHub that describe parts of the program that still need to be fixed. Create one Issue per bug. |
+| Everyone | Open [Issues](../Images/GitHub_Issues.png) on GitHub that describe parts of the program that still need to be fixed. Create one Issue per bug. |
 
 ### Bonus Task 1: Discuss enhancements
 
@@ -19,7 +19,7 @@ Do this only if your program works perfectly and you have enough time to improve
 
 | | |
 | -- | -- |
-| Everyone | Open [Issues](../Images/issues.png) on GitHub that describe parts of the program that could be enhanced. |
+| Everyone | Open [Issues](../Images/GitHub_Issues.png) on GitHub that describe parts of the program that could be enhanced. |
 
 ### Task 2: Implement program fixes
 
