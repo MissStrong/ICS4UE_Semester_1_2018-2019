@@ -47,10 +47,7 @@ If your program doesn't do everything it is supposed to, ensure that it at least
 
 | | |
 | -- | -- |
-| Project Manager | <ul>
-<li>Generate the Javadoc and the JAR file.<br /><br /></li>
-<li>After the JAR file works the same way as the program (you may have to move some files into the <em>dist</em> folder): zip the project and submit it to the Dropbox.<br /><br /></li>
-</ul>|
+| Project Manager | <ul><li>Generate the Javadoc and the JAR file.<br /><br /></li><li>After the JAR file works the same way as the program (you may have to move some files into the <em>dist</em> folder): zip the project and submit it to the Dropbox.<br /><br /></li></ul>|
 | Head Programmer | <ul><li>Inform the Project Manager when you've finished coding. Ensure that the program compiles.</li></ul> |
 | Graphic Designer | <ul><li>Inform the Project Manager when you've finished coding. Ensure that the program compiles.</li></ul> |
 
