@@ -11,9 +11,8 @@ If your program works perfectly, complete Bonus Task 1 instead.
 
 | | |
 | -- | -- |
-| Everyone | Open Issues on GitHub that describe parts of the program that still need to be fixed. Create one Issue per bug. |
-  
-  
+| Everyone | Open [Issues](../Images/issues.png) on GitHub that describe parts of the program that still need to be fixed. Create one Issue per bug. |
+
 ### Bonus Task 1: Discuss enhancements
 
 Do this only if your program works perfectly and you have enough time to improve or add more features.
@@ -21,7 +20,6 @@ Do this only if your program works perfectly and you have enough time to improve
 | | |
 | -- | -- |
 | Everyone | Open Issues on GitHub that describe parts of the program that could be enhanced. |
-
 
 ### Task 2: Implement program fixes
 
@@ -32,7 +30,6 @@ If your program works perfectly, complete Bonus Task 2 instead.
 | Project Manager | |
 | Head Programmer | |
 | Graphic Designer | |
- 
 
 ### Bonus Task 2: Implement enhancements
 
@@ -43,7 +40,6 @@ Do this only if your program works perfectly and you have enough time to improve
 | Project Manager | |
 | Head Programmer | |
 | Graphic Designer | |
-  
 
 ### Task 3: Ensure that the program compiles and JAR file opens
 
@@ -54,14 +50,12 @@ If your program doesn't do everything it is supposed to, ensure that it at least
 | Project Manager | |
 | Head Programmer | |
 | Graphic Designer | |
- 
 
 ### Task 4: Assemble the final product for the client
 
 | | |
 | -- | -- |
 | Anyone | Make a copy of the folder with the JAR file in it and place it outside of the project folder. Rename the folder to be the name of the game. Create a plaintext file called README and edit it to include a the game description from the user guide. Place the user guide into the folder, too. Zip the project and submit it to the Dropbox. |
- 
 
 ### Task 5: Ensure that all the work has been submitted to the Dropbox.
 
