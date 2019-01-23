@@ -11,7 +11,7 @@ Use all of the following shapes at least once in your flowchart.
 When you're done, embed the image of your flowchart in your post by:
 
 Clicking on the camera icon in the top-left corner.
-![](../Images/D2L_Embeded_Image.png)
+![](../Images/D2L_Embed_Image.png)
 
 1. Click My Computer.
 2. Upload the image, then click Add.
