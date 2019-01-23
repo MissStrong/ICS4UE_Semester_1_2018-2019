@@ -1,4 +1,4 @@
-## Culminating Task - Week 1
+## Culminating Task -- Week 1
 
 This is a group topic, meaning only members of your team can view your posts.
 
