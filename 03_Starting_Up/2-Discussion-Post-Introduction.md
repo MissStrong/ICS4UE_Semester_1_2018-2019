@@ -1,4 +1,4 @@
-## Introductions
+## Introduction
 
 Introduce yourself to the class. Write your name or nickname (whichever you want to be called) in the subject line. 
 
