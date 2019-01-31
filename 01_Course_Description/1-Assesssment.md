@@ -25,7 +25,7 @@ The following Learning Skills descriptions will be used to help assess Learning 
 
 _Responsibility_
 
-* Fulfills responsibilities and commitments within the e- learning environment.
+* Fulfills responsibilities and commitments within the eLearning environment.
 * Completes and submits class work, homework and assignments according to agreed-upon timelines.
 * Takes responsibility for and manages own behaviour.
 
