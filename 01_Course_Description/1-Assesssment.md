@@ -15,7 +15,7 @@ As required by the Ministry of Education, you will be assessed in the four areas
 Your final grade will be determined as follows (in accordance with Ministry of Education standards).
 
 * 70% Term Work – Based on evaluations conducted throughout the course.
-* 30% Summative Evaluation – A final evaluation in the form of assignments.
+* 30% Summative Evaluation – A final evaluation in the form of a group project.
 
 Unless otherwise indicated, all assignments will be submitted using the dropbox for that assignment.
 
