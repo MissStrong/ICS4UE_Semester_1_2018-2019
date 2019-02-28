@@ -10,7 +10,7 @@ Here is a comparison of some of the ways to use arrays and array lists in Java.
 | Initializing (multi-step) | `String[] arr = new String[3];` | `ArrayList<String> arrList = new ArrayList();` |
 | Getting the number of elements | `arr.length;` | `arrList.size();` |
 | Getting the element at index 0 |`arr[0];` | `arrList.get(0);` |
-| Checking whether `"Seven"` is one of the elements | `arr.contains("Seven");` | `arrList.contains("Seven");` |
+| Checking whether `"Seven"` is one of the elements | No built-in method. | `arrList.contains("Seven");` |
 | Adding the element `"Five"` to the end | N/A | `arrList.add("Five");` |
 | Adding the element `"Four"` to index 3, and shifting elements behind it forwards one index | N/A | `arrList.add(3, "Four");` |
 | Getting the index of the first occurrence of `"Three"` | No built-in method. | `arrList.indexOf("Three");` |
