@@ -44,7 +44,7 @@ Many institutions (schools and employers) publish Acceptable Use Policies whic
 * do not share passwords or access another user's account
 * do not add, delete, or modify installed software.
 
-### Computer Monitorint
+### Computer Monitoring
 
 Did you know that it is legal for employers to install software programs to monitor employee computer use?
 
