@@ -154,8 +154,8 @@ Java has the following built-in mathematical operators. You can use them to man
 | `+=` | `score += 7;` | Adds 7 to the value of `score`.<br><br/>Essentially equivalent to `score = score + 7;`. |
 | `-=` | `score -= 2;` | Subtracts 2 from the value of `score`.<br><br/>Essentially equivalent to `score = score - 2;`. |
 | `*=` | `score *= 2;` |	Multiplies the value of `score` by 2<br><br/> Essentially equivalent to `score = score * 2;`. |
-| `/=` |	`score /= 2;` |	Divides the value of `score` by 2 then takes the dividend.<br><br/>Essentially equivalent to `score = score / 2`;. |
-| `/%` |	`score %= 2;` |	Divides the value of `score` by 2 then takes the remainder.<br><br/>Essentially equivalent to `score = score % 2;.` |
+| `/=` |	`score /= 2;` |	Divides the value of `score` by 2 then takes the dividend.<br><br/>Essentially equivalent to `score = score / 2;`. |
+| `/%` |	`score %= 2;` |	Divides the value of `score` by 2 then takes the remainder.<br><br/>Essentially equivalent to `score = score % 2;`. |
 | `++` |	`score++;` |	Adds 1 to the value of `score`.<br><br/>Essentially equivalent to `score = score + 1;` and `score += 1;`. |
 | `--` | 	`score--;` | 	Subtracts 1 from the value of `score`.<br><br/>Essentially equivalent to `score = score - 1;` and `score -= 1;`. |
 
