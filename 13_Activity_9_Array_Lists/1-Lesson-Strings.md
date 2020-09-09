@@ -205,8 +205,8 @@ You won't need to know any regular expressions other than `"\\s+"` for the assi
 | `$` | Matches the end of a line. | end$	| Matches "end" at the end of any line.
 | `.` | Matches any character. | .at | Matches occurrences of "at" that have a preceding character.
 | `\[...]` | Matches any character in the square brackets.<br></br>(A\|B\|C) behaves the same way as [ABC] | [bchm]at<br></br>(b|c|h|m)at | Matches "bat", "cat", "hat", and "mat".
-[ `\[^...]` | Matches any character not in the square brackets. | [^p]at | Matches occurrences of "at" except the ones that have a "p" before it.
-[ `\\` | Escape character. Used for characters that belong to syntax. | `\.` | Matches `.`. |
+| `[^...]` | Matches any character not in the square brackets. | [^p]at | Matches occurrences of "at" except the ones that have a "p" before it.
+| `\` | Escape character. Used for characters that belong to syntax. | `\.` | Matches `.`. |
 
 Tip: The regular expression `.*` matches any sequence of characters.
 
