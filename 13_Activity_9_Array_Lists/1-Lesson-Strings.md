@@ -196,7 +196,7 @@ You won't need to know any regular expressions other than `"\\s+"` for the assi
 | Syntax | Description | Example | Explanation |
 | --- | --- | --- | --- |
 | `()`	| Used as standard brackets in expressions.	| | |	
-| `|`	| Used for choices.<br></br>Think of it as an OR operator. | (T\|t)hou | Matches "Thou" or "thou". |
+| `\|`	| Used for choices.<br></br>Think of it as an OR operator. | (T\|t)hou | Matches "Thou" or "thou". |
 | `+` | Matches the preceding expression one or more times.	| The+	Matches "The", "Thee", "Theee", etc.
 | `*` | Matches the preceding expression zero or more times. | Hey*	Matches "He", "Hey", "Heyy", "Heyyy", etc.
 | `?` | Matches the preceding expression zero or one time. | Thou(gh)?	Matches "Thou" and "Though".
